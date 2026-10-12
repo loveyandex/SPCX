@@ -18,6 +18,21 @@ const robotoSlab = localFont({ src: "../../../node_modules/geist/dist/fonts/geis
 const merriweather = localFont({ src: "../../../node_modules/geist/dist/fonts/geist-sans/Geist-Variable.woff2", variable: "--font-merriweather" });
 const lora = localFont({ src: "../../../node_modules/geist/dist/fonts/geist-sans/Geist-Variable.woff2", variable: "--font-lora" });
 const playfairDisplay = localFont({ src: "../../../node_modules/geist/dist/fonts/geist-sans/Geist-Variable.woff2", variable: "--font-playfair-display" });
+export const vazirmatn = localFont({
+  src: [
+    { path: "../../../node_modules/@fontsource/vazirmatn/files/vazirmatn-arabic-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "../../../node_modules/@fontsource/vazirmatn/files/vazirmatn-arabic-500-normal.woff2", weight: "500", style: "normal" },
+    { path: "../../../node_modules/@fontsource/vazirmatn/files/vazirmatn-arabic-600-normal.woff2", weight: "600", style: "normal" },
+    { path: "../../../node_modules/@fontsource/vazirmatn/files/vazirmatn-arabic-700-normal.woff2", weight: "700", style: "normal" },
+    { path: "../../../node_modules/@fontsource/vazirmatn/files/vazirmatn-latin-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "../../../node_modules/@fontsource/vazirmatn/files/vazirmatn-latin-500-normal.woff2", weight: "500", style: "normal" },
+    { path: "../../../node_modules/@fontsource/vazirmatn/files/vazirmatn-latin-600-normal.woff2", weight: "600", style: "normal" },
+    { path: "../../../node_modules/@fontsource/vazirmatn/files/vazirmatn-latin-700-normal.woff2", weight: "700", style: "normal" },
+  ],
+  variable: "--font-vazirmatn",
+  display: "swap",
+});
+
 const geistMono = localFont({ src: "../../../node_modules/geist/dist/fonts/geist-mono/GeistMono-Variable.woff2", variable: "--font-geist-mono" });
 const jetBrainsMono = localFont({ src: "../../../node_modules/geist/dist/fonts/geist-mono/GeistMono-Variable.woff2", variable: "--font-jetbrains-mono" });
 

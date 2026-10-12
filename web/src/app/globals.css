@@ -228,6 +228,10 @@ These serve as the fallback; there is no separate default.css file. */
   html[data-font="playfairDisplay"] body {
     --font-sans: var(--font-playfair-display);
   }
+
+  html[lang="fa"] body {
+    --font-sans: var(--font-vazirmatn), Tahoma, "Segoe UI", sans-serif;
+  }
 }
 
 html {

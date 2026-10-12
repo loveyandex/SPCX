@@ -1,0 +1,1182 @@
+{
+  "取消": {
+    "en": "Cancel",
+    "fa": "لغو"
+  },
+  "加载中…": {
+    "en": "Loading…",
+    "fa": "در حال بارگذاری…"
+  },
+  "保存失败：": {
+    "en": "Save failed: ",
+    "fa": "ذخیره نشد: "
+  },
+  "模糊匹配": {
+    "en": "Fuzzy match",
+    "fa": "تطبیق تقریبی"
+  },
+  "排除": {
+    "en": "Exclude",
+    "fa": "مستثنی"
+  },
+  "精确匹配": {
+    "en": "Exact match",
+    "fa": "تطبیق دقیق"
+  },
+  "Acme 官网与后台外部渗透": {
+    "en": "External penetration of the Acme website and admin console",
+    "fa": "نفوذ خارجی وب‌سایت و پنل مدیریت Acme"
+  },
+  "保存": {
+    "en": "Save",
+    "fa": "ذخیره"
+  },
+  "保存中…": {
+    "en": "Saving…",
+    "fa": "در حال ذخیره…"
+  },
+  "删除": {
+    "en": "Delete",
+    "fa": "حذف"
+  },
+  "根域名": {
+    "en": "Root domain",
+    "fa": "دامنه ریشه"
+  },
+  "状态": {
+    "en": "Status",
+    "fa": "وضعیت"
+  },
+  "删除失败：": {
+    "en": "Delete failed: ",
+    "fa": "حذف نشد: "
+  },
+  "子域名": {
+    "en": "Subdomain",
+    "fa": "زیردامنه"
+  },
+  "操作": {
+    "en": "Actions",
+    "fa": "عملیات"
+  },
+  "未分类": {
+    "en": "Uncategorized",
+    "fa": "دسته‌بندی‌نشده"
+  },
+  "服务": {
+    "en": "Service",
+    "fa": "سرویس"
+  },
+  "允许": {
+    "en": "Allow",
+    "fa": "اجازه"
+  },
+  "域名": {
+    "en": "Domain",
+    "fa": "دامنه"
+  },
+  "来源": {
+    "en": "Source",
+    "fa": "منبع"
+  },
+  "任务不存在": {
+    "en": "Task not found",
+    "fa": "وظیفه یافت نشد"
+  },
+  "名称": {
+    "en": "Name",
+    "fa": "نام"
+  },
+  "已保存": {
+    "en": "Saved",
+    "fa": "ذخیره شد"
+  },
+  "时间": {
+    "en": "Time",
+    "fa": "زمان"
+  },
+  "应用": {
+    "en": "App",
+    "fa": "برنامه"
+  },
+  "拦截": {
+    "en": "Block",
+    "fa": "مسدود"
+  },
+  "描述": {
+    "en": "Description",
+    "fa": "توضیحات"
+  },
+  "操作失败：": {
+    "en": "Operation failed: ",
+    "fa": "عملیات ناموفق بود: "
+  },
+  "目标": {
+    "en": "Goal",
+    "fa": "هدف"
+  },
+  "（空）": {
+    "en": "(Empty)",
+    "fa": "(خالی)"
+  },
+  "任务": {
+    "en": "Tasks",
+    "fa": "وظایف"
+  },
+  "保存失败：${(e as Error).message}": {
+    "en": "Save failed: ${(e as Error).message}",
+    "fa": "ذخیره نشد: ${(e as Error).message}"
+  },
+  "全部状态": {
+    "en": "All statuses",
+    "fa": "همه وضعیت‌ها"
+  },
+  "删除中": {
+    "en": "Deleting",
+    "fa": "در حال حذف"
+  },
+  "加载失败": {
+    "en": "Failed to load",
+    "fa": "بارگذاری ناموفق بود"
+  },
+  "发送消息": {
+    "en": "Send message",
+    "fa": "ارسال پیام"
+  },
+  "已完成": {
+    "en": "Completed",
+    "fa": "تکمیل‌شده"
+  },
+  "已暂停": {
+    "en": "Paused",
+    "fa": "مکث‌شده"
+  },
+  "归档不存在": {
+    "en": "Archive not found",
+    "fa": "بایگانی یافت نشد"
+  },
+  "状态码": {
+    "en": "Status code",
+    "fa": "کد وضعیت"
+  },
+  "确认删除": {
+    "en": "Confirm deletion",
+    "fa": "تأیید حذف"
+  },
+  "任务分类不存在": {
+    "en": "Task category not found",
+    "fa": "دسته‌بندی وظیفه یافت نشد"
+  },
+  "企业": {
+    "en": "Company",
+    "fa": "شرکت"
+  },
+  "关键词": {
+    "en": "Keyword",
+    "fa": "کلیدواژه"
+  },
+  "发送旁路问题": {
+    "en": "Send side question",
+    "fa": "ارسال پرسش جانبی"
+  },
+  "启用": {
+    "en": "Enable",
+    "fa": "فعال‌سازی"
+  },
+  "失败": {
+    "en": "Failed",
+    "fa": "ناموفق"
+  },
+  "工具": {
+    "en": "Tools",
+    "fa": "ابزارها"
+  },
+  "已复制": {
+    "en": "Copied",
+    "fa": "کپی شد"
+  },
+  "已超时": {
+    "en": "Timed out",
+    "fa": "مهلت تمام شد"
+  },
+  "接口": {
+    "en": "Endpoint",
+    "fa": "نقطه پایانی"
+  },
+  "更新失败：": {
+    "en": "Update failed: ",
+    "fa": "به‌روزرسانی نشد: "
+  },
+  "漏洞": {
+    "en": "Vulnerability",
+    "fa": "آسیب‌پذیری"
+  },
+  "类型": {
+    "en": "Type",
+    "fa": "نوع"
+  },
+  "资产": {
+    "en": "Assets",
+    "fa": "دارایی‌ها"
+  },
+  "输出": {
+    "en": "Output",
+    "fa": "خروجی"
+  },
+  "Worker 状态已变化": {
+    "en": "Worker status changed",
+    "fa": "وضعیت Worker تغییر کرد"
+  },
+  "api.acme.com 越权与注入测试": {
+    "en": "api.acme.com broken access control and injection test",
+    "fa": "آزمون دسترسی غیرمجاز و تزریق api.acme.com"
+  },
+  "上传失败：": {
+    "en": "Upload failed: ",
+    "fa": "بارگذاری نشد: "
+  },
+  "不参与轮询": {
+    "en": "Excluded from rotation",
+    "fa": "خارج از چرخش"
+  },
+  "全等匹配": {
+    "en": "Exact equality",
+    "fa": "تطبیق کامل"
+  },
+  "创建失败：": {
+    "en": "Failed to create: ",
+    "fa": "ایجاد نشد: "
+  },
+  "删除中…": {
+    "en": "Deleting…",
+    "fa": "در حال حذف…"
+  },
+  "已停用": {
+    "en": "Disabled",
+    "fa": "غیرفعال"
+  },
+  "恢复失败：": {
+    "en": "Restore failed: ",
+    "fa": "بازیابی نشد: "
+  },
+  "方法": {
+    "en": "Method",
+    "fa": "متد"
+  },
+  "未记录": {
+    "en": "Not recorded",
+    "fa": "ثبت نشده"
+  },
+  "标题": {
+    "en": "Title",
+    "fa": "عنوان"
+  },
+  "禁止": {
+    "en": "Deny",
+    "fa": "ممنوع"
+  },
+  "等于": {
+    "en": "Equals",
+    "fa": "مساوی"
+  },
+  "缓存读": {
+    "en": "Cache read",
+    "fa": "خواندن کش"
+  },
+  "网段": {
+    "en": "Subnet",
+    "fa": "زیرشبکه"
+  },
+  "认证": {
+    "en": "Auth",
+    "fa": "احراز هویت"
+  },
+  "输入": {
+    "en": "Input",
+    "fa": "ورودی"
+  },
+  "配置 #${id}": {
+    "en": "Configuration #${id}",
+    "fa": "پیکربندی #${id}"
+  },
+  "默认": {
+    "en": "Default",
+    "fa": "پیش‌فرض"
+  },
+  " · 已关闭": {
+    "en": " · Off",
+    "fa": " · خاموش"
+  },
+  " · 已开启": {
+    "en": " · On",
+    "fa": " · روشن"
+  },
+  "API 专项": {
+    "en": "API testing",
+    "fa": "آزمون API"
+  },
+  "CIDR 网段": {
+    "en": "CIDR range",
+    "fa": "بازه CIDR"
+  },
+  "ICP 备案": {
+    "en": "ICP filing",
+    "fa": "ثبت ICP"
+  },
+  "Webhook 地址": {
+    "en": "Webhook URL",
+    "fa": "نشانی Webhook"
+  },
+  "上一页": {
+    "en": "Previous page",
+    "fa": "صفحه قبل"
+  },
+  "上传文件": {
+    "en": "Upload file",
+    "fa": "بارگذاری فایل"
+  },
+  "下一页": {
+    "en": "Next page",
+    "fa": "صفحه بعد"
+  },
+  "严重": {
+    "en": "Critical",
+    "fa": "بحرانی"
+  },
+  "中危": {
+    "en": "Medium",
+    "fa": "متوسط"
+  },
+  "任务分类": {
+    "en": "Task category",
+    "fa": "دسته‌بندی وظیفه"
+  },
+  "低危": {
+    "en": "Low",
+    "fa": "پایین"
+  },
+  "保存中": {
+    "en": "Saving",
+    "fa": "در حال ذخیره"
+  },
+  "保存修改": {
+    "en": "Save changes",
+    "fa": "ذخیره تغییرات"
+  },
+  "公司": {
+    "en": "Company",
+    "fa": "شرکت"
+  },
+  "分类": {
+    "en": "Category",
+    "fa": "دسته"
+  },
+  "创建": {
+    "en": "Create",
+    "fa": "ایجاد"
+  },
+  "压缩": {
+    "en": "Digest",
+    "fa": "چکیده"
+  },
+  "参数": {
+    "en": "Parameters",
+    "fa": "پارامترها"
+  },
+  "发现": {
+    "en": "Findings",
+    "fa": "یافته‌ها"
+  },
+  "响应 Response": {
+    "en": "Response",
+    "fa": "پاسخ"
+  },
+  "响应长度": {
+    "en": "Response length",
+    "fa": "طول پاسخ"
+  },
+  "处理状态": {
+    "en": "Handling status",
+    "fa": "وضعیت رسیدگی"
+  },
+  "备注(可选)": {
+    "en": "Note (optional)",
+    "fa": "یادداشت (اختیاری)"
+  },
+  "外发流量直接拒绝": {
+    "en": "Reject outbound traffic outright",
+    "fa": "رد مستقیم ترافیک خروجی"
+  },
+  "外部评估": {
+    "en": "External assessment",
+    "fa": "ارزیابی خارجی"
+  },
+  "已停止": {
+    "en": "Stopped",
+    "fa": "متوقف‌شده"
+  },
+  "已允许": {
+    "en": "Allowed",
+    "fa": "مجاز شد"
+  },
+  "已删除": {
+    "en": "Deleted",
+    "fa": "حذف‌شده"
+  },
+  "已拒绝": {
+    "en": "Denied",
+    "fa": "رد شد"
+  },
+  "已确认": {
+    "en": "Confirmed",
+    "fa": "تأییدشده"
+  },
+  "已配置": {
+    "en": "Configured",
+    "fa": "پیکربندی‌شده"
+  },
+  "当前": {
+    "en": "Current",
+    "fa": "فعلی"
+  },
+  "录制中": {
+    "en": "Recording",
+    "fa": "در حال ضبط"
+  },
+  "指纹": {
+    "en": "Fingerprint",
+    "fa": "اثرانگشت"
+  },
+  "排队中的任务必须先暂停": {
+    "en": "Queued tasks must be paused first",
+    "fa": "وظایف در صف را ابتدا مکث کنید"
+  },
+  "提示": {
+    "en": "Hint",
+    "fa": "راهنما"
+  },
+  "放行": {
+    "en": "Permit",
+    "fa": "عبور"
+  },
+  "新对话": {
+    "en": "New chat",
+    "fa": "گفتگوی جدید"
+  },
+  "新建文件夹": {
+    "en": "New folder",
+    "fa": "پوشه جدید"
+  },
+  "流量": {
+    "en": "Traffic",
+    "fa": "ترافیک"
+  },
+  "流量捕获": {
+    "en": "Traffic capture",
+    "fa": "ضبط ترافیک"
+  },
+  "添加失败": {
+    "en": "Failed to add",
+    "fa": "افزودن ناموفق بود"
+  },
+  "渠道": {
+    "en": "Channel",
+    "fa": "کانال"
+  },
+  "破坏性命令需审批": {
+    "en": "Destructive commands require approval",
+    "fa": "فرمان‌های مخرب به تأیید نیاز دارند"
+  },
+  "端口": {
+    "en": "Port",
+    "fa": "پورت"
+  },
+  "等待归档": {
+    "en": "Awaiting archive",
+    "fa": "در انتظار بایگانی"
+  },
+  "等待还原": {
+    "en": "Awaiting restore",
+    "fa": "در انتظار بازیابی"
+  },
+  "系统工具": {
+    "en": "System tools",
+    "fa": "ابزارهای سیستم"
+  },
+  "自定义工具": {
+    "en": "Custom tools",
+    "fa": "ابزارهای سفارشی"
+  },
+  "证据不存在": {
+    "en": "Evidence not found",
+    "fa": "مدرک یافت نشد"
+  },
+  "请修正无效的资产范围": {
+    "en": "Fix the invalid asset scope",
+    "fa": "محدوده دارایی نامعتبر را اصلاح کنید"
+  },
+  "请填写模板名称、描述和目标": {
+    "en": "Enter the template name, description, and goal",
+    "fa": "نام قالب، توضیحات و هدف را وارد کنید"
+  },
+  "请求 Request": {
+    "en": "Request",
+    "fa": "درخواست"
+  },
+  "起点": {
+    "en": "Start",
+    "fa": "مبدأ"
+  },
+  "重试次数": {
+    "en": "Retry count",
+    "fa": "تعداد تلاش مجدد"
+  },
+  "高危": {
+    "en": "High",
+    "fa": "بالا"
+  },
+  "（暂无 Agent）": {
+    "en": "(No Agents yet)",
+    "fa": "(هنوز Agent وجود ندارد)"
+  },
+  "#${item.id}（${item.error || \"状态已变化\"}）": {
+    "en": "#${item.id} (${item.error || \"状态已变化\"})",
+    "fa": "#${item.id} (${item.error || \"状态已变化\"})"
+  },
+  "${label}当前${direction === \"asc\" ? \"正序\" : \"倒序\"}，点击切换排序方向": {
+    "en": "${label} is currently ${direction === \"asc\" ? \"正序\" : \"倒序\"}. Click to toggle the sort direction.",
+    "fa": "${label} اکنون ${direction === \"asc\" ? \"正序\" : \"倒序\"} است. برای تغییر جهت مرتب‌سازی کلیک کنید."
+  },
+  "${on ? \"取消\" : \"授予\"}「${agentName}」可见": {
+    "en": "${on ? \"取消\" : \"授予\"} visibility for \"${agentName}\"",
+    "fa": "${on ? \"取消\" : \"授予\"} قابلیت مشاهده «${agentName}»"
+  },
+  "0.5s→1s→2s 指数（封顶 8s）": {
+    "en": "0.5s→1s→2s exponential (capped at 8s)",
+    "fa": "نمایی 0.5s→1s→2s (سقف 8s)"
+  },
+  "Agent 消息": {
+    "en": "Agent message",
+    "fa": "پیام Agent"
+  },
+  "C段": {
+    "en": "Class C",
+    "fa": "کلاس C"
+  },
+  "IP(全等)": {
+    "en": "IP (exact)",
+    "fa": "IP (دقیق)"
+  },
+  "IP(模糊)": {
+    "en": "IP (fuzzy)",
+    "fa": "IP (تقریبی)"
+  },
+  "LLM 录制": {
+    "en": "LLM recording",
+    "fa": "ضبط LLM"
+  },
+  "URL(全等)": {
+    "en": "URL (exact)",
+    "fa": "URL (دقیق)"
+  },
+  "URL(模糊)": {
+    "en": "URL (fuzzy)",
+    "fa": "URL (تقریبی)"
+  },
+  "[模型]": {
+    "en": "[Model]",
+    "fa": "[مدل]"
+  },
+  "[模型] 将已有检查结论写入本地报告，不修改业务数据。": {
+    "en": "[Model] Writes existing check conclusions to a local report without changing business data.",
+    "fa": "[مدل] نتیجه‌های بررسی موجود را در یک گزارش محلی می‌نویسد و داده‌های کسب‌وکار را تغییر نمی‌دهد."
+  },
+  "headers JSON 格式错误": {
+    "en": "Invalid headers JSON",
+    "fa": "قالب headers JSON نامعتبر است"
+  },
+  "shop.acme.com 支付与订单链路": {
+    "en": "shop.acme.com payment and order flow",
+    "fa": "مسیر پرداخت و سفارش shop.acme.com"
+  },
+  "下载失败": {
+    "en": "Download failed",
+    "fa": "دانلود ناموفق بود"
+  },
+  "不发送（默认）": {
+    "en": "Do not send (default)",
+    "fa": "ارسال نشود (پیش‌فرض)"
+  },
+  "不等于": {
+    "en": "Not equal",
+    "fa": "نامساوی"
+  },
+  "严重 / 高 / 中 / 低": {
+    "en": "Critical / High / Medium / Low",
+    "fa": "بحرانی / بالا / متوسط / پایین"
+  },
+  "严重等级": {
+    "en": "Severity",
+    "fa": "شدت"
+  },
+  "主 Agent": {
+    "en": "Primary Agent",
+    "fa": "Agent اصلی"
+  },
+  "事实": {
+    "en": "Fact",
+    "fa": "واقعیت"
+  },
+  "产出": {
+    "en": "Yields",
+    "fa": "حاصل"
+  },
+  "任务 #${task.id}": {
+    "en": "Task #${task.id}",
+    "fa": "وظیفه #${task.id}"
+  },
+  "任务被未归档任务 #${task.archive_blocked_by_task_id} 直接继承，请先归档依赖任务": {
+    "en": "This task is directly inherited by unarchived task #${task.archive_blocked_by_task_id}. Archive the dependent task first.",
+    "fa": "این وظیفه مستقیماً توسط وظیفه بایگانی‌نشده #${task.archive_blocked_by_task_id} به ارث رسیده است. ابتدا وظیفه وابسته را بایگانی کنید."
+  },
+  "企业 #${companyID}": {
+    "en": "Company #${companyID}",
+    "fa": "شرکت #${companyID}"
+  },
+  "企业不存在": {
+    "en": "Company not found",
+    "fa": "شرکت یافت نشد"
+  },
+  "优先级": {
+    "en": "Priority",
+    "fa": "اولویت"
+  },
+  "你是一个授权渗透测试系统的「执行者」…（省略）": {
+    "en": "You are the executor of an authorized penetration testing system… (truncated)",
+    "fa": "شما مجری یک سامانه آزمون نفوذ مجاز هستید… (خلاصه)"
+  },
+  "使用内置默认": {
+    "en": "Use built-in default",
+    "fa": "استفاده از پیش‌فرض داخلی"
+  },
+  "保存失败": {
+    "en": "Save failed",
+    "fa": "ذخیره ناموفق بود"
+  },
+  "保存失败: ": {
+    "en": "Save failed: ",
+    "fa": "ذخیره نشد: "
+  },
+  "保存失败：${(error as Error).message}": {
+    "en": "Save failed: ${(error as Error).message}",
+    "fa": "ذخیره نشد: ${(error as Error).message}"
+  },
+  "保存失败：${String((e as Error)?.message ?? e)}": {
+    "en": "Save failed: ${String((e as Error)?.message ?? e)}",
+    "fa": "ذخیره نشد: ${String((e as Error)?.message ?? e)}"
+  },
+  "假删除": {
+    "en": "Soft delete",
+    "fa": "حذف نرم"
+  },
+  "停止当前执行": {
+    "en": "Stop the current run",
+    "fa": "توقف اجرای جاری"
+  },
+  "全部": {
+    "en": "All",
+    "fa": "همه"
+  },
+  "全部 Agent": {
+    "en": "All Agents",
+    "fa": "همه Agentها"
+  },
+  "全部方法": {
+    "en": "All methods",
+    "fa": "همه متدها"
+  },
+  "全部渠道": {
+    "en": "All channels",
+    "fa": "همه کانال‌ها"
+  },
+  "关闭": {
+    "en": "Off",
+    "fa": "خاموش"
+  },
+  "关闭自动换行": {
+    "en": "Turn off word wrap",
+    "fa": "خاموش کردن پیچش متن"
+  },
+  "内置默认（只读，供参考）": {
+    "en": "Built-in default (read-only, for reference)",
+    "fa": "پیش‌فرض داخلی (فقط‌خواندنی، برای مراجعه)"
+  },
+  "决定时间": {
+    "en": "Decision time",
+    "fa": "زمان تصمیم"
+  },
+  "分类名称不能为空": {
+    "en": "Category name cannot be empty",
+    "fa": "نام دسته‌بندی نمی‌تواند خالی باشد"
+  },
+  "分类名称已存在": {
+    "en": "Category name already exists",
+    "fa": "این نام دسته‌بندی وجود دارد"
+  },
+  "删除失败": {
+    "en": "Delete failed",
+    "fa": "حذف ناموفق بود"
+  },
+  "删除失败：${(e as Error).message}": {
+    "en": "Delete failed: ${(e as Error).message}",
+    "fa": "حذف نشد: ${(e as Error).message}"
+  },
+  "删除该意图（需填写原因，可选假删除/真删除）": {
+    "en": "Delete this intent (a reason is required; soft delete or hard delete)",
+    "fa": "حذف این نیت (ذکر دلیل لازم است؛ حذف نرم یا حذف قطعی)"
+  },
+  "删除资产 ${a.domain || a.id}": {
+    "en": "Delete asset ${a.domain || a.id}",
+    "fa": "حذف دارایی ${a.domain || a.id}"
+  },
+  "删除资产 ${a.url || a.id}": {
+    "en": "Delete asset ${a.url || a.id}",
+    "fa": "حذف دارایی ${a.url || a.id}"
+  },
+  "刷新": {
+    "en": "Refresh",
+    "fa": "تازه‌سازی"
+  },
+  "刷新资产树": {
+    "en": "Refresh asset tree",
+    "fa": "تازه‌سازی درخت دارایی"
+  },
+  "匹配内容": {
+    "en": "Match value",
+    "fa": "مقدار تطبیق"
+  },
+  "匹配类型": {
+    "en": "Match type",
+    "fa": "نوع تطبیق"
+  },
+  "原始数据": {
+    "en": "Raw data",
+    "fa": "داده خام"
+  },
+  "发现时间": {
+    "en": "Discovered at",
+    "fa": "زمان کشف"
+  },
+  "发送失败：": {
+    "en": "Send failed: ",
+    "fa": "ارسال نشد: "
+  },
+  "取消置顶": {
+    "en": "Unpin",
+    "fa": "برداشتن سنجاق"
+  },
+  "可见性（按 Agent 授权）": {
+    "en": "Visibility (granted per Agent)",
+    "fa": "قابلیت مشاهده (مجوز هر Agent)"
+  },
+  "可还原": {
+    "en": "Restorable",
+    "fa": "قابل بازیابی"
+  },
+  "命令": {
+    "en": "Command",
+    "fa": "فرمان"
+  },
+  "域名(全等)": {
+    "en": "Domain (exact)",
+    "fa": "دامنه (دقیق)"
+  },
+  "域名(模糊)": {
+    "en": "Domain (fuzzy)",
+    "fa": "دامنه (تقریبی)"
+  },
+  "复制": {
+    "en": "Copy",
+    "fa": "کپی"
+  },
+  "复制失败，请手动选择文本复制": {
+    "en": "Copy failed. Select the text and copy it manually.",
+    "fa": "کپی نشد. متن را انتخاب کنید و آن را دستی کپی کنید."
+  },
+  "复制报文": {
+    "en": "Copy message",
+    "fa": "کپی پیام"
+  },
+  "大于": {
+    "en": "Greater than",
+    "fa": "بزرگ‌تر از"
+  },
+  "大于等于": {
+    "en": "Greater than or equal",
+    "fa": "بزرگ‌تر یا مساوی"
+  },
+  "如 证书 / whois / ASN 佐证": {
+    "en": "e.g. certificate / whois / ASN evidence",
+    "fa": "مثلاً گواهی / whois / ASN"
+  },
+  "完整地址": {
+    "en": "Full address",
+    "fa": "نشانی کامل"
+  },
+  "审批记录": {
+    "en": "Approval history",
+    "fa": "سابقه تأیید"
+  },
+  "小于": {
+    "en": "Less than",
+    "fa": "کوچک‌تر از"
+  },
+  "小于等于": {
+    "en": "Less than or equal",
+    "fa": "کوچک‌تر یا مساوی"
+  },
+  "尚未执行": {
+    "en": "Not run yet",
+    "fa": "هنوز اجرا نشده"
+  },
+  "展开审批详情": {
+    "en": "Show approval details",
+    "fa": "نمایش جزئیات تأیید"
+  },
+  "属性": {
+    "en": "Properties",
+    "fa": "ویژگی‌ها"
+  },
+  "工作空间": {
+    "en": "Workspace",
+    "fa": "فضای کار"
+  },
+  "工具执行": {
+    "en": "Tool run",
+    "fa": "اجرای ابزار"
+  },
+  "已保存；${errCount} 行无效": {
+    "en": "Saved; ${errCount} invalid rows",
+    "fa": "ذخیره شد؛ ${errCount} سطر نامعتبر"
+  },
+  "已修复": {
+    "en": "Fixed",
+    "fa": "رفع‌شده"
+  },
+  "已允许执行": {
+    "en": "Execution allowed",
+    "fa": "اجرا مجاز شد"
+  },
+  "已创建": {
+    "en": "Created",
+    "fa": "ایجاد شد"
+  },
+  "已复制详细报告": {
+    "en": "Detailed report copied",
+    "fa": "گزارش تفصیلی کپی شد"
+  },
+  "已恢复为内置默认": {
+    "en": "Restored to the built-in default",
+    "fa": "به پیش‌فرض داخلی بازگردانده شد"
+  },
+  "已拒绝执行": {
+    "en": "Execution denied",
+    "fa": "اجرا رد شد"
+  },
+  "已标记为「${statusMeta(\"finding\", next).label}」": {
+    "en": "Marked as \"${statusMeta(\"finding\", next).label}\"",
+    "fa": "به‌عنوان «${statusMeta(\"finding\", next).label}» علامت‌گذاری شد"
+  },
+  "已置顶": {
+    "en": "Pinned",
+    "fa": "سنجاق‌شده"
+  },
+  "已配置（留空则不变）": {
+    "en": "Configured (leave blank to keep unchanged)",
+    "fa": "پیکربندی‌شده (خالی بگذارید تا تغییر نکند)"
+  },
+  "开启": {
+    "en": "On",
+    "fa": "روشن"
+  },
+  "开启自动换行": {
+    "en": "Turn on word wrap",
+    "fa": "روشن کردن پیچش متن"
+  },
+  "开始执行 system 提示里的这条意图：只做它、只产生事实、做完即停。": {
+    "en": "Start this intent from the system prompt: do only this, produce only facts, and stop when finished.",
+    "fa": "اجرای این نیت را از درخواست system شروع کنید: فقط همین کار را انجام دهید، فقط واقعیت تولید کنید و با پایان کار متوقف شوید."
+  },
+  "开放端口": {
+    "en": "Open ports",
+    "fa": "پورت‌های باز"
+  },
+  "归属依据（可选）": {
+    "en": "Attribution basis (optional)",
+    "fa": "مبنای انتساب (اختیاری)"
+  },
+  "归档中": {
+    "en": "Archiving",
+    "fa": "در حال بایگانی"
+  },
+  "归档任务": {
+    "en": "Archive task",
+    "fa": "بایگانی وظیفه"
+  },
+  "归档失败": {
+    "en": "Archive failed",
+    "fa": "بایگانی ناموفق بود"
+  },
+  "归档失败：${(error as Error).message}": {
+    "en": "Archive failed: ${(error as Error).message}",
+    "fa": "بایگانی نشد: ${(error as Error).message}"
+  },
+  "待发送": {
+    "en": "Pending send",
+    "fa": "در انتظار ارسال"
+  },
+  "待处理": {
+    "en": "Pending",
+    "fa": "در انتظار رسیدگی"
+  },
+  "待审批": {
+    "en": "Pending approval",
+    "fa": "در انتظار تأیید"
+  },
+  "总览": {
+    "en": "Overview",
+    "fa": "نمای کلی"
+  },
+  "恢复默认": {
+    "en": "Restore defaults",
+    "fa": "بازگردانی پیش‌فرض"
+  },
+  "意图": {
+    "en": "Intent",
+    "fa": "نیت"
+  },
+  "意图不存在": {
+    "en": "Intent not found",
+    "fa": "نیت یافت نشد"
+  },
+  "意图链": {
+    "en": "Intent chain",
+    "fa": "زنجیره نیت"
+  },
+  "所属任务": {
+    "en": "Owning task",
+    "fa": "وظیفه مربوط"
+  },
+  "执行中": {
+    "en": "Running",
+    "fa": "در حال اجرا"
+  },
+  "拦截审批": {
+    "en": "Block approval",
+    "fa": "تأیید مسدودسازی"
+  },
+  "拦截范围": {
+    "en": "Block scope",
+    "fa": "محدوده مسدودسازی"
+  },
+  "拦截规则": {
+    "en": "Block rules",
+    "fa": "قواعد مسدودسازی"
+  },
+  "拿下域控 DC01（Domain Admin）—— 内部靶标达成": {
+    "en": "Domain controller DC01 compromised (Domain Admin) — internal objective achieved",
+    "fa": "کنترل‌کننده دامنه DC01 تصرف شد (Domain Admin) — هدف داخلی محقق شد"
+  },
+  "按${label}倒序排序": {
+    "en": "Sort by ${label} descending",
+    "fa": "مرتب‌سازی نزولی بر اساس ${label}"
+  },
+  "排队中": {
+    "en": "Queued",
+    "fa": "در صف"
+  },
+  "搜索测试失败：": {
+    "en": "Search test failed: ",
+    "fa": "آزمایش جستجو ناموفق بود: "
+  },
+  "收起审批详情": {
+    "en": "Hide approval details",
+    "fa": "پنهان کردن جزئیات تأیید"
+  },
+  "新密码": {
+    "en": "New password",
+    "fa": "رمز عبور جدید"
+  },
+  "新建文件": {
+    "en": "New file",
+    "fa": "فایل جدید"
+  },
+  "无法连接到后端服务": {
+    "en": "Cannot connect to the backend service",
+    "fa": "اتصال به سرویس پشتیبان برقرار نشد"
+  },
+  "暂停": {
+    "en": "Pause",
+    "fa": "مکث"
+  },
+  "暂停当前 Worker": {
+    "en": "Pause the current Worker",
+    "fa": "مکث Worker جاری"
+  },
+  "暂无 MCP，可在「MCP」页添加。": {
+    "en": "No MCP yet. Add one on the MCP page.",
+    "fa": "هنوز MCP وجود ندارد. می‌توانید در صفحه MCP اضافه کنید."
+  },
+  "暂无发现": {
+    "en": "No findings",
+    "fa": "یافته‌ای نیست"
+  },
+  "暂无详细报告。": {
+    "en": "No detailed report.",
+    "fa": "گزارش تفصیلی موجود نیست."
+  },
+  "最多 ${MAX_COMPANY_SCOPE_VALUE_LENGTH} 个字符": {
+    "en": "At most ${MAX_COMPANY_SCOPE_VALUE_LENGTH} characters",
+    "fa": "حداکثر ${MAX_COMPANY_SCOPE_VALUE_LENGTH} نویسه"
+  },
+  "最近活动": {
+    "en": "Recent activity",
+    "fa": "فعالیت‌های اخیر"
+  },
+  "最近调用": {
+    "en": "Recent calls",
+    "fa": "فراخوانی‌های اخیر"
+  },
+  "未关联 / 任务已删除": {
+    "en": "Unlinked / task deleted",
+    "fa": "بدون پیوند / وظیفه حذف شده"
+  },
+  "未启用": {
+    "en": "Not enabled",
+    "fa": "فعال نشده"
+  },
+  "未配置": {
+    "en": "Not configured",
+    "fa": "پیکربندی نشده"
+  },
+  "本项目 · 进程级，全局一份": {
+    "en": "This project · process-level, one global copy",
+    "fa": "این پروژه · سطح فرایند، یک نسخه سراسری"
+  },
+  "查看任务详情": {
+    "en": "View task details",
+    "fa": "مشاهده جزئیات وظیفه"
+  },
+  "查看正在进行的复测会话": {
+    "en": "View the retest session in progress",
+    "fa": "مشاهده نشست بازآزمون در جریان"
+  },
+  "根任务": {
+    "en": "Root task",
+    "fa": "وظیفه ریشه"
+  },
+  "检查更新失败：": {
+    "en": "Update check failed: ",
+    "fa": "بررسی به‌روزرسانی ناموفق بود: "
+  },
+  "检索漏洞内容": {
+    "en": "Search vulnerability content",
+    "fa": "جستجوی محتوای آسیب‌پذیری"
+  },
+  "模型": {
+    "en": "Model",
+    "fa": "مدل"
+  },
+  "模型不可用": {
+    "en": "Model unavailable",
+    "fa": "مدل در دسترس نیست"
+  },
+  "模型审查上下文": {
+    "en": "Model review context",
+    "fa": "زمینه بازبینی مدل"
+  },
+  "模型配置": {
+    "en": "Model configuration",
+    "fa": "پیکربندی مدل"
+  },
+  "模式": {
+    "en": "Mode",
+    "fa": "حالت"
+  },
+  "模板名称已存在": {
+    "en": "Template name already exists",
+    "fa": "این نام قالب وجود دارد"
+  },
+  "此操作不可撤销。": {
+    "en": "This action cannot be undone.",
+    "fa": "این عملیات قابل بازگشت نیست."
+  },
+  "派生": {
+    "en": "Spawns",
+    "fa": "انشعاب"
+  },
+  "测试中…": {
+    "en": "Testing…",
+    "fa": "در حال آزمایش…"
+  },
+  "测试资产": {
+    "en": "Test assets",
+    "fa": "دارایی‌های آزمون"
+  },
+  "漏洞不存在": {
+    "en": "Vulnerability not found",
+    "fa": "آسیب‌پذیری یافت نشد"
+  },
+  "漏洞名称": {
+    "en": "Vulnerability name",
+    "fa": "نام آسیب‌پذیری"
+  },
+  "漏洞复测": {
+    "en": "Vulnerability retest",
+    "fa": "بازآزمون آسیب‌پذیری"
+  },
+  "漏洞类(可选)": {
+    "en": "Vulnerability class (optional)",
+    "fa": "رده آسیب‌پذیری (اختیاری)"
+  },
+  "漏洞类型": {
+    "en": "Vulnerability type",
+    "fa": "نوع آسیب‌پذیری"
+  },
+  "演示复测进行中（未向目标发送请求）": {
+    "en": "Demo retest in progress (no request sent to the target)",
+    "fa": "بازآزمون نمایشی در جریان است (درخواستی به هدف ارسال نشد)"
+  },
+  "独立问答 · 无工具执行": {
+    "en": "Standalone Q&A · no tool execution",
+    "fa": "پرسش و پاسخ مستقل · بدون اجرای ابزار"
+  },
+  "用户在测试资产页手工新增": {
+    "en": "Added manually on the test assets page",
+    "fa": "به‌صورت دستی در صفحه دارایی‌های آزمون اضافه شد"
+  },
+  "申请时间": {
+    "en": "Requested at",
+    "fa": "زمان درخواست"
+  },
+  "登录": {
+    "en": "Sign in",
+    "fa": "ورود"
+  },
+  "目标进度": {
+    "en": "Goal progress",
+    "fa": "پیشرفت هدف"
+  },
+  "真删除": {
+    "en": "Hard delete",
+    "fa": "حذف قطعی"
+  },
+  "移除": {
+    "en": "Remove",
+    "fa": "برداشتن"
+  },
+  "端点": {
+    "en": "Endpoint",
+    "fa": "نقطه پایانی"
+  }
+}

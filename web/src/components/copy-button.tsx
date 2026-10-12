@@ -1,5 +1,6 @@
 "use client";
 
+import { t as tr } from "@/i18n/t";
 import * as React from "react";
 
 import { CheckIcon, CopyIcon } from "lucide-react";
@@ -23,8 +24,8 @@ type CopyButtonProps = {
 // 下自动降级(见 copyText)。
 export function CopyButton({
   text,
-  successMessage = "已复制",
-  label = "复制",
+  successMessage = tr("Copied"),
+  label = tr("Copy"),
   size = "sm",
   variant = "outline",
   className,
@@ -47,7 +48,7 @@ export function CopyButton({
       if (timer.current) clearTimeout(timer.current);
       timer.current = setTimeout(() => setCopied(false), 1500);
     } else {
-      toast.error("复制失败，请手动选择文本复制");
+      toast.error(tr("Copy failed. Select the text and copy it manually."));
     }
   }
 

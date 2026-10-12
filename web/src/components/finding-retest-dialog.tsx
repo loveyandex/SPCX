@@ -1,5 +1,6 @@
 "use client";
 
+import { t as tr } from "@/i18n/t";
 import * as React from "react";
 
 import { RotateCcwIcon } from "lucide-react";
@@ -42,9 +43,9 @@ export function FindingRetestDialog({ findingId, findingName, onClose, onStarted
       const result = await api.startFindingRetest(findingId, notes.trim());
       onStarted?.(result.retest);
       onClose();
-      toast.success(result.created ? "复测已启动，可点击「复测中」查看会话" : "该漏洞正在复测，可查看已有会话");
+      toast.success(result.created ? tr("Retest started. Click \"Retesting\" to view the session.") : tr("This finding is being retested. You can view the existing session."));
     } catch (e) {
-      toast.error(`发起复测失败：${(e as Error).message}`);
+      toast.error(tr("Failed to start the retest: {0}", { "0": (e as Error).message }));
     } finally {
       submitLock.current = false;
       setSubmitting(false);
@@ -55,16 +56,16 @@ export function FindingRetestDialog({ findingId, findingName, onClose, onStarted
     <Dialog open onOpenChange={(open) => !open && !submitLock.current && onClose()}>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>复测漏洞 #{findingId}</DialogTitle>
+          <DialogTitle>{tr("Retest vulnerability #")}{findingId}</DialogTitle>
           <DialogDescription className="break-words">
             {findingName ? <span className="mb-2 block">{findingName}</span> : null}
-            复测 Agent
-            将读取原证据和测试约束，在独立会话中执行针对性验证。复测成功完成且确认修复后，漏洞状态自动改为「已修复」，其他结论保留原状态。
+            
+            {tr("The retest Agent reads the original evidence and the test constraints, then runs a focused check in its own session. If the retest finishes and the fix is confirmed, the vulnerability status changes to \"Fixed\". Any other result keeps the original status.")}
           </DialogDescription>
         </DialogHeader>
         <FieldGroup>
           <Field data-disabled={submitting}>
-            <FieldLabel htmlFor={notesId}>补充说明（可选）</FieldLabel>
+            <FieldLabel htmlFor={notesId}>{tr("Additional notes (optional)")}</FieldLabel>
             <Textarea
               id={notesId}
               value={notes}
@@ -72,18 +73,19 @@ export function FindingRetestDialog({ findingId, findingName, onClose, onStarted
               rows={4}
               disabled={submitting}
               onChange={(e) => setNotes(e.target.value)}
-              placeholder="例如：使用原测试账号验证原接口；修复版本为 v2。"
+              placeholder={tr("For example: verify the original endpoint with the original test account; the fixed version is v2.")}
             />
-            <FieldDescription>可补充修复版本、测试条件或本次限制。</FieldDescription>
+            <FieldDescription>{tr("You can add the fixed version, test conditions, or limits of this run.")}</FieldDescription>
           </Field>
         </FieldGroup>
         <DialogFooter>
           <Button variant="outline" disabled={submitting} onClick={onClose}>
-            取消
+            
+            {tr("Cancel")}
           </Button>
           <Button disabled={submitting} onClick={() => void start()}>
             {submitting ? <Spinner data-icon="inline-start" /> : <RotateCcwIcon data-icon="inline-start" />}
-            {submitting ? "正在创建…" : "开始复测"}
+            {submitting ? tr("Creating…") : tr("Start retest")}
           </Button>
         </DialogFooter>
       </DialogContent>

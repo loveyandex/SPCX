@@ -1,5 +1,6 @@
 "use client";
 
+import { t as tr } from "@/i18n/t";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import { toast } from "sonner";
@@ -138,7 +139,7 @@ export function useSideQuestions(parent: string | null) {
         restoreFailedDraft([item]);
         if (item.status !== "running") stream.close();
       } catch {
-        setError("旁路数据解析失败，请重新打开面板");
+        setError(tr("Failed to parse the side-question data. Reopen the panel."));
       }
     });
     stream.addEventListener("cleared", () => {

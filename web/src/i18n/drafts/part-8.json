@@ -1,0 +1,1186 @@
+{
+  "正在检查登录状态…": {
+    "en": "Checking sign-in status…",
+    "fa": "در حال بررسی وضعیت ورود…"
+  },
+  "我已阅读并同意": {
+    "en": "I have read and agree to",
+    "fa": "خوانده‌ام و می‌پذیرم"
+  },
+  "《使用须知》": {
+    "en": "Usage Notice",
+    "fa": "اطلاعیه استفاده"
+  },
+  "版本 v1.0 · 生效日期 2026-09-18 · 请在登录前完整阅读以下全部条款": {
+    "en": "Version v1.0 · Effective 2026-09-18 · Read every term below before you sign in",
+    "fa": "نسخه v1.0 · تاریخ اجرا 2026-09-18 · پیش از ورود، همه بندهای زیر را کامل بخوانید"
+  },
+  "本《使用须知与免责声明》（以下简称\"本声明\"）是您与 ARTEX\n              项目作者及贡献者之间就使用本软件所达成的约定。请您在使用前审慎阅读、充分理解各条款内容，特别是以粗体或色块标注的免责、责任限制及禁止性条款。": {
+    "en": "This Usage Notice and Disclaimer (the “Statement”) is the agreement between you and the authors and contributors of the ARTEX project about your use of this software. Read it carefully and make sure you understand every term before you use the software, especially the disclaimer, limitation of liability, and prohibited-conduct terms marked in bold or in a highlight.",
+    "fa": "این «اطلاعیه استفاده و سلب مسئولیت» (که از این پس «این بیانیه» نامیده می‌شود) توافق میان شما و نویسندگان و مشارکت‌کنندگان پروژه ARTEX درباره استفاده از این نرم‌افزار است. پیش از استفاده، هر بند را با دقت بخوانید و کاملاً بفهمید، به‌ویژه بندهای سلب مسئولیت، محدودیت مسئولیت و رفتارهای ممنوع که با حروف ضخیم یا زمینه رنگی مشخص شده‌اند."
+  },
+  "一旦您下载、安装、访问或以任何方式使用本软件，即视为您已阅读、理解并同意接受本声明的全部约束。": {
+    "en": "Downloading, installing, accessing, or otherwise using this software means you have read, understood, and agreed to be fully bound by this Statement.",
+    "fa": "با دانلود، نصب، دسترسی یا هرگونه استفاده از این نرم‌افزار، پذیرفته می‌شود که این بیانیه را خوانده، فهمیده و با همه الزام‌های آن موافقت کرده‌اید."
+  },
+  "第一条 · 定义与开源许可": {
+    "en": "Article 1 · Definitions and open-source license",
+    "fa": "ماده ۱ · تعاریف و مجوز متن‌باز"
+  },
+  "本软件（ARTEX）是一款基于 GNU Affero General Public License\n                v3.0（AGPL-3.0）发布的开源程序。您可依据该协议自由使用、复制、修改和分发本软件；但任何衍生作品（包括通过网络向第三方提供的在线服务）均须同样以\n                AGPL-3.0 协议开源并向使用者公开对应的完整源代码。AGPL-3.0 完整条款以随附的 LICENSE 文件为准。": {
+    "en": "This software (ARTEX) is an open-source program released under the GNU Affero General Public License v3.0 (AGPL-3.0). You may use, copy, modify, and distribute it under that license. Any derivative work, including an online service offered to third parties over a network, must also be released under AGPL-3.0, and the corresponding complete source code must be made available to its users. The full AGPL-3.0 terms are those in the accompanying LICENSE file.",
+    "fa": "این نرم‌افزار (ARTEX) برنامه‌ای متن‌باز است که تحت GNU Affero General Public License v3.0 (AGPL-3.0) منتشر شده است. می‌توانید طبق همان مجوز از آن استفاده کنید، آن را کپی، تغییر و توزیع کنید. هر اثر مشتق، از جمله خدمت آنلاینی که از راه شبکه به اشخاص ثالث داده می‌شود، نیز باید تحت AGPL-3.0 منتشر شود و کد منبع کامل متناظر در اختیار کاربرانش قرار گیرد. متن کامل شرایط AGPL-3.0 همان فایل LICENSE همراه است."
+  },
+  "第二条 · 授权使用范围": {
+    "en": "Article 2 · Permitted use",
+    "fa": "ماده ۲ · محدوده استفاده مجاز"
+  },
+  "本软件仅供个人学习、代码研究、安全技术原理探讨，以及在您自行搭建的本地隔离环境中进行技术验证之用，适用于学习、学术研究、代码审阅等非攻击性、非破坏性用途。除本条明确许可的情形外，您不得将本软件用于任何其他目的。": {
+    "en": "This software is only for personal learning, code research, discussion of security principles, and technical verification inside a locally isolated environment that you set up yourself. It is meant for non-offensive, non-destructive uses such as learning, academic research, and code review. Except where this article expressly allows it, you may not use this software for any other purpose.",
+    "fa": "این نرم‌افزار فقط برای یادگیری شخصی، پژوهش کد، بحث درباره اصول امنیت، و راستی‌آزمایی فنی در محیط محلی و جداگانه‌ای است که خودتان برپا می‌کنید. کاربرد آن یادگیری، پژوهش دانشگاهی، بازبینی کد و دیگر استفاده‌های غیرتهاجمی و غیرمخرب است. جز مواردی که این ماده صریحاً اجازه داده، نباید از این نرم‌افزار برای هیچ هدف دیگری استفاده کنید."
+  },
+  "第三条 · 禁止行为": {
+    "en": "Article 3 · Prohibited conduct",
+    "fa": "ماده ۳ · رفتارهای ممنوع"
+  },
+  "严禁对任何网站、线上服务、他人或第三方所有的联网系统发起扫描、探测、利用或攻击（无论是否已获得授权、是否为您自有资产）；": {
+    "en": "You must not scan, probe, exploit, or attack any website, online service, or networked system owned by another person or a third party (whether or not you have authorization, and whether or not you consider it your own asset);",
+    "fa": "اسکن، کاوش، بهره‌برداری یا حمله به هر وب‌سایت، خدمت آنلاین، یا سامانه شبکه‌ای که متعلق به شخص دیگر یا شخص ثالث است اکیداً ممنوع است (چه مجوز داشته باشید چه نه، و چه آن را دارایی خودتان بدانید چه نه)؛"
+  },
+  "第四条 · 知识产权": {
+    "en": "Article 4 · Intellectual property",
+    "fa": "ماده ۴ · مالکیت فکری"
+  },
+  "本软件的著作权及相关知识产权归项目作者及贡献者所有，并在 AGPL-3.0\n                协议约定的范围内向您授予相应权利。除该协议明确授予的权利外，本声明未以明示或默示方式授予您任何其他权利。": {
+    "en": "Copyright and related intellectual property in this software belong to the project authors and contributors. Rights are granted to you only within the AGPL-3.0 license. Apart from the rights that license expressly grants, this Statement grants you no other right, express or implied.",
+    "fa": "حق نشر و دیگر حقوق مالکیت فکری این نرم‌افزار از آن نویسندگان و مشارکت‌کنندگان پروژه است و حقوق شما فقط در محدوده مجوز AGPL-3.0 داده می‌شود. جز حقوقی که آن مجوز صریحاً داده، این بیانیه هیچ حق دیگری، صریح یا ضمنی، به شما نمی‌دهد."
+  },
+  "第五条 · 数据与隐私": {
+    "en": "Article 5 · Data and privacy",
+    "fa": "ماده ۵ · داده و حریم خصوصی"
+  },
+  "本软件为可自行部署的开源程序，作者不运营任何集中式服务、亦不会收集或上传您的使用数据。您在使用过程中产生、处理或接触的一切数据，均由您自行掌控并负责其合法性与安全性；因数据处理不当引发的任何后果由您自行承担。": {
+    "en": "This software is a self-hosted open-source program. The authors do not run a centralized service and do not collect or upload your usage data. You control every piece of data you create, process, or come into contact with while using it, and you are responsible for its legality and security. You bear any consequence of handling that data improperly.",
+    "fa": "این نرم‌افزار برنامه‌ای متن‌باز و خودمیزبان است. نویسندگان هیچ خدمت متمرکزی را اداره نمی‌کنند و داده‌های استفاده شما را جمع‌آوری یا بارگذاری نمی‌کنند. هر داده‌ای که هنگام استفاده تولید، پردازش یا با آن روبه‌رو می‌شوید در اختیار خودتان است و قانونی بودن و امنیت آن بر عهده شماست. هر پیامدی که از رسیدگی نادرست به داده پیش بیاید نیز بر عهده شماست."
+  },
+  "第六条 · 合规与法律责任": {
+    "en": "Article 6 · Compliance and legal responsibility",
+    "fa": "ماده ۶ · انطباق و مسئولیت قانونی"
+  },
+  "您应自行遵守所在国家或地区关于网络安全、数据安全与个人信息保护、计算机犯罪等方面的全部法律法规（在中国大陆包括但不限于《网络安全法》《数据安全法》《个人信息保护法》及相关司法解释）。": {
+    "en": "You must comply, on your own, with all laws and regulations of your country or region on cybersecurity, data security, personal-information protection, computer crime, and related matters (in mainland China this includes, without limitation, the Cybersecurity Law, the Data Security Law, the Personal Information Protection Law, and related judicial interpretations).",
+    "fa": "باید خودتان از همه قوانین و مقررات کشور یا منطقه خود درباره امنیت سایبری، امنیت داده، حفاظت از اطلاعات شخصی، جرائم رایانه‌ای و موضوع‌های مرتبط پیروی کنید (در سرزمین اصلی چین، از جمله و نه محدود به قانون امنیت سایبری، قانون امنیت داده، قانون حفاظت از اطلاعات شخصی و تفسیرهای قضایی مرتبط)."
+  },
+  "因您违反上述法律法规或本声明约定而产生的一切法律责任与后果，均由您本人独立承担，与本软件作者及贡献者无关。": {
+    "en": "You alone bear every legal liability and consequence that comes from violating those laws or this Statement. The authors and contributors of this software are not responsible.",
+    "fa": "همه مسئولیت‌های قانونی و پیامدهای ناشی از نقض آن قوانین یا این بیانیه فقط بر عهده خود شماست و ارتباطی با نویسندگان و مشارکت‌کنندگان این نرم‌افزار ندارد."
+  },
+  "第七条 · 免责声明与责任限制": {
+    "en": "Article 7 · Disclaimer and limitation of liability",
+    "fa": "ماده ۷ · سلب مسئولیت و محدودیت مسئولیت"
+  },
+  "本软件按\"现状（AS IS）\"与\"现有（AS\n                AVAILABLE）\"状态提供，不附带任何明示或默示的担保，包括但不限于对适销性、特定用途适用性、准确性及不侵权的担保。在适用法律允许的最大范围内，本软件作者及贡献者不对因使用或无法使用本软件（无论使用方式是否得当）而导致的任何直接、间接、偶然、特殊或后果性损失承担责任，包括但不限于数据丢失、系统损坏、业务中断、利润损失或法律纠纷。": {
+    "en": "This software is provided “AS IS” and “AS AVAILABLE,” without any warranty, express or implied, including warranties of merchantability, fitness for a particular purpose, accuracy, and non-infringement. To the fullest extent allowed by applicable law, the authors and contributors are not liable for any direct, indirect, incidental, special, or consequential damages arising from use of or inability to use this software (whether or not that use was proper), including data loss, system damage, business interruption, lost profits, or legal disputes.",
+    "fa": "این نرم‌افزار «به همان شکل موجود (AS IS)» و «در حد موجود (AS AVAILABLE)» ارائه می‌شود و هیچ ضمانت صریح یا ضمنی ندارد، از جمله ضمانت قابلیت فروش، تناسب برای هدف خاص، دقت و عدم نقض حقوق. در بیشترین حدی که قانون حاکم اجازه می‌دهد، نویسندگان و مشارکت‌کنندگان در برابر هیچ خسارت مستقیم، غیرمستقیم، اتفاقی، خاص یا تبعی ناشی از استفاده یا ناتوانی در استفاده از این نرم‌افزار (درست یا نادرست) مسئول نیستند، از جمله از دست رفتن داده، آسیب سامانه، وقفه کسب‌وکار، از دست رفتن سود یا اختلاف حقوقی."
+  },
+  "第八条 · 条款变更与最终解释": {
+    "en": "Article 8 · Changes and final interpretation",
+    "fa": "ماده ۸ · تغییر بندها و تفسیر نهایی"
+  },
+  "作者有权根据法律法规或项目发展需要不时更新本声明，更新后的版本将随项目发布并自公布之日起生效；您继续使用本软件即视为接受修订后的条款。在法律允许的范围内，本声明的最终解释权归项目作者所有。若本声明任一条款被认定为无效，不影响其余条款的效力。": {
+    "en": "The authors may update this Statement from time to time as required by law or by the project. An updated version is published with the project and takes effect on the day it is published. Continuing to use the software means you accept the revised terms. To the extent the law allows, the project authors have the final say on how this Statement is interpreted. If any term is held invalid, the rest remain in effect.",
+    "fa": "نویسندگان می‌توانند این بیانیه را هر از گاه، بنا به قانون یا نیاز پروژه، به‌روز کنند. نسخه تازه همراه پروژه منتشر می‌شود و از روز انتشار لازم‌الاجراست. ادامه استفاده یعنی بندهای اصلاح‌شده را پذیرفته‌اید. در حدودی که قانون اجازه می‌دهد، تفسیر نهایی این بیانیه با نویسندگان پروژه است. اگر بندی بی‌اعتبار دانسته شود، بقیه بندها به قوت خود می‌مانند."
+  },
+  "我已阅读并同意全部条款": {
+    "en": "I have read and agree to all terms",
+    "fa": "همه بندها را خوانده‌ام و می‌پذیرم"
+  },
+  "版本 ·": {
+    "en": "Version ·",
+    "fa": "نسخه ·"
+  },
+  "退出登录": {
+    "en": "Sign out",
+    "fa": "خروج"
+  },
+  "修改失败：": {
+    "en": "Couldn’t save the change: ",
+    "fa": "ذخیره تغییر ناموفق بود: "
+  },
+  "用户名固定为": {
+    "en": "The username is fixed as",
+    "fa": "نام کاربری ثابت است:"
+  },
+  "。需先输入当前密码验证；修改后已签发的登录 token 仍有效直至过期。": {
+    "en": ". Enter your current password to confirm. Sign-in tokens already issued stay valid until they expire.",
+    "fa": ". ابتدا رمز عبور فعلی را برای تأیید وارد کنید. توکن‌های ورود صادرشده پس از تغییر تا زمان انقضا معتبر می‌مانند."
+  },
+  "发现新版本 ": {
+    "en": "New version ",
+    "fa": "نسخه جدید "
+  },
+  "，点击前往更新": {
+    "en": ", click to update",
+    "fa": "، برای به‌روزرسانی کلیک کنید"
+  },
+  "更换": {
+    "en": "Change",
+    "fa": "تغییر"
+  },
+  "开始和「": {
+    "en": "Start a conversation with “",
+    "fa": "شروع گفتگو با «"
+  },
+  "」对话": {
+    "en": "”",
+    "fa": "»"
+  },
+  "轮": {
+    "en": "turns",
+    "fa": "نوبت"
+  },
+  "选择对话「": {
+    "en": "Select conversation 「",
+    "fa": "انتخاب گفتگو 「"
+  },
+  "管理对话「": {
+    "en": "Manage conversation 「",
+    "fa": "مدیریت گفتگو 「"
+  },
+  "删除对话「": {
+    "en": "Delete conversation 「",
+    "fa": "حذف گفتگو 「"
+  },
+  "展开「": {
+    "en": "Expand 「",
+    "fa": "گسترش 「"
+  },
+  "收起「": {
+    "en": "Collapse 「",
+    "fa": "جمع کردن 「"
+  },
+  " 个对话运行中": {
+    "en": " conversations running",
+    "fa": " گفتگو در حال اجرا"
+  },
+  "共 ": {
+    "en": "Total ",
+    "fa": "مجموع "
+  },
+  " 个": {
+    "en": " items",
+    "fa": " مورد"
+  },
+  " 个对话": {
+    "en": " conversations",
+    "fa": " گفتگو"
+  },
+  " 个对话删除失败：": {
+    "en": " conversations failed to delete: ",
+    "fa": " گفتگو حذف نشد: "
+  },
+  " 等": {
+    "en": " and others",
+    "fa": " و موارد دیگر"
+  },
+  "批量删除失败：": {
+    "en": "Bulk delete failed: ",
+    "fa": "حذف گروهی ناموفق بود: "
+  },
+  "失败：": {
+    "en": " failed: ",
+    "fa": " ناموفق بود: "
+  },
+  "新建对话": {
+    "en": "New conversation",
+    "fa": "گفتگوی جدید"
+  },
+  "已选 ": {
+    "en": "Selected ",
+    "fa": "انتخاب‌شده "
+  },
+  "完成": {
+    "en": "Done",
+    "fa": "تمام"
+  },
+  "多选": {
+    "en": "Multi-select",
+    "fa": "انتخاب چندتایی"
+  },
+  "加载更多": {
+    "en": "Load more",
+    "fa": "بارگذاری بیشتر"
+  },
+  "删除选中的": {
+    "en": "Delete selected",
+    "fa": "حذف"
+  },
+  "个对话？": {
+    "en": "conversations?",
+    "fa": "گفتگوی انتخاب‌شده؟"
+  },
+  "s 前": {
+    "en": "s ago",
+    "fa": " ثانیه پیش"
+  },
+  "m 前": {
+    "en": "m ago",
+    "fa": " دقیقه پیش"
+  },
+  "h 前": {
+    "en": "h ago",
+    "fa": " ساعت پیش"
+  },
+  "d 前": {
+    "en": "d ago",
+    "fa": " روز پیش"
+  },
+  "活跃任务": {
+    "en": "Active tasks",
+    "fa": "وظیفه‌های فعال"
+  },
+  "探索": {
+    "en": "Exploring",
+    "fa": "در کاوش"
+  },
+  "资产节点": {
+    "en": "Asset nodes",
+    "fa": "گره‌های دارایی"
+  },
+  "流量交互": {
+    "en": "Traffic",
+    "fa": "ترافیک"
+  },
+  "Token 用量": {
+    "en": "Token usage",
+    "fa": "مصرف Token"
+  },
+  "（含缓存": {
+    "en": "(incl. cache",
+    "fa": "(شامل کش"
+  },
+  "）· 出": {
+    "en": ") · out",
+    "fa": ") · خروجی"
+  },
+  "LLM Token 消耗": {
+    "en": "LLM Token consumption",
+    "fa": "مصرف LLM Token"
+  },
+  "个任务": {
+    "en": "tasks",
+    "fa": "وظیفه"
+  },
+  "暂无数据": {
+    "en": "No data yet",
+    "fa": "هنوز داده‌ای نیست"
+  },
+  "活动流": {
+    "en": "Activity",
+    "fa": "جریان فعالیت"
+  },
+  "条事件": {
+    "en": "events",
+    "fa": "رویداد"
+  },
+  "查看任务": {
+    "en": "View tasks",
+    "fa": "مشاهده وظیفه‌ها"
+  },
+  "资产分布": {
+    "en": "Asset distribution",
+    "fa": "توزیع دارایی"
+  },
+  "共": {
+    "en": "Total",
+    "fa": "مجموع"
+  },
+  "节点": {
+    "en": "nodes",
+    "fa": "گره"
+  },
+  " 次请求": {
+    "en": " requests",
+    "fa": " درخواست"
+  },
+  "流量状态码": {
+    "en": "Traffic status codes",
+    "fa": "کدهای وضعیت ترافیک"
+  },
+  "待审批 (": {
+    "en": "Awaiting approval (",
+    "fa": "در انتظار تأیید ("
+  },
+  "还有": {
+    "en": "And",
+    "fa": "و"
+  },
+  "条…": {
+    "en": "more…",
+    "fa": "مورد دیگر…"
+  },
+  "无待审批拦截": {
+    "en": "No intercepts awaiting approval",
+    "fa": "هیچ رهگیری در انتظار تأیید نیست"
+  },
+  " 条资产": {
+    "en": " assets",
+    "fa": " دارایی"
+  },
+  "已删除企业，同时删除 ": {
+    "en": "Company deleted, and also removed ",
+    "fa": "شرکت حذف شد و همچنین "
+  },
+  "项资产": {
+    "en": "assets",
+    "fa": "دارایی دارد"
+  },
+  "删除已选 (": {
+    "en": "Delete selected (",
+    "fa": "حذف انتخاب‌شده ("
+  },
+  "删除企业 ": {
+    "en": "Delete company ",
+    "fa": "حذف شرکت "
+  },
+  "还没有企业。点击右上角「新增企业」并填写资产范围，系统会自动认领命中的资产。": {
+    "en": "No companies yet. Use “Add company” in the top-right and enter an asset scope. Matching assets are claimed automatically.",
+    "fa": "هنوز شرکتی نیست. از «افزودن شرکت» در گوشه بالا-راست استفاده کنید و محدوده دارایی را وارد کنید. دارایی‌های منطبق خودکار به شرکت نسبت داده می‌شوند."
+  },
+  "删除资产 ": {
+    "en": "Delete asset ",
+    "fa": "حذف دارایی "
+  },
+  "将永久删除": {
+    "en": "Permanently delete",
+    "fa": "حذف دائمی"
+  },
+  "条资产记录，此操作不可撤销。": {
+    "en": "asset records. This cannot be undone.",
+    "fa": "رکورد دارایی. این عمل بازگشت‌ناپذیر است."
+  },
+  "删除企业 ·": {
+    "en": "Delete company ·",
+    "fa": "حذف شرکت ·"
+  },
+  "同时删除该企业下的所有资产": {
+    "en": "Also delete every asset under this company",
+    "fa": "همه دارایی‌های زیر این شرکت هم حذف شود"
+  },
+  "/ 页": {
+    "en": "/ page",
+    "fa": "/ صفحه"
+  },
+  "已创建企业，添加 ": {
+    "en": "Company created, added ",
+    "fa": "شرکت ساخته شد، افزوده شد "
+  },
+  " 条范围；": {
+    "en": " scope entries; ",
+    "fa": " محدوده؛ "
+  },
+  " 行无效": {
+    "en": " invalid rows",
+    "fa": " سطر نامعتبر"
+  },
+  " 条范围": {
+    "en": " scope entries",
+    "fa": " محدوده"
+  },
+  "已保存；": {
+    "en": "Saved; ",
+    "fa": "ذخیره شد؛ "
+  },
+  "范围已更新，共 ": {
+    "en": "Scope updated, ",
+    "fa": "محدوده به‌روز شد، "
+  },
+  " 条": {
+    "en": " items",
+    "fa": " مورد"
+  },
+  "编辑资产范围 ·": {
+    "en": "Edit asset scope ·",
+    "fa": "ویرایش محدوده دارایی ·"
+  },
+  "编辑后将替换全部现有范围。ICP 精确匹配资产，企业关键词仅作为 Agent 提示。": {
+    "en": "Saving replaces the entire current scope. ICP matches assets exactly. Company keywords are only a hint to the Agent.",
+    "fa": "پس از ویرایش، همه محدوده‌های فعلی جایگزین می‌شوند. ICP دارایی را دقیق تطبیق می‌دهد. کلیدواژه شرکت فقط راهنمایی برای Agent است."
+  },
+  "已追加 ": {
+    "en": "Appended ",
+    "fa": "افزوده شد "
+  },
+  "追加资产范围 ·": {
+    "en": "Append asset scope ·",
+    "fa": "افزودن محدوده دارایی ·"
+  },
+  "统计": {
+    "en": "Stats",
+    "fa": "آمار"
+  },
+  "暂无工具执行记录": {
+    "en": "No tool runs yet",
+    "fa": "هنوز اجرای ابزاری ثبت نشده"
+  },
+  "个工具 ·": {
+    "en": "tools ·",
+    "fa": "ابزار ·"
+  },
+  "次调用": {
+    "en": "calls",
+    "fa": "فراخوانی"
+  },
+  "资产过多，已隐藏": {
+    "en": "Too many assets; hid ",
+    "fa": "دارایی‌ها زیاد است؛ پنهان شد "
+  },
+  "层级（计数仍已计入上层）。用筛选或过滤框收窄可看到完整层级。": {
+    "en": "levels (their counts still roll up). Narrow the filters to see the full tree.",
+    "fa": "سطح (شمارش همچنان در سطح بالاتر حساب شده است). با فیلتر، محدوده را تنگ کنید تا سلسله‌مراتب کامل دیده شود."
+  },
+  " 条发现": {
+    "en": " findings",
+    "fa": " یافته"
+  },
+  "流量证据": {
+    "en": "Traffic evidence",
+    "fa": "مدرک ترافیک"
+  },
+  "条": {
+    "en": "items",
+    "fa": "مورد"
+  },
+  "深入": {
+    "en": "Deepen",
+    "fa": "تعمیق"
+  },
+  "」将被永久删除， 同时从发现列表、任务发现 Tab 与探索图中移除，此操作不可撤销。": {
+    "en": "」 will be permanently deleted and removed from the findings list, the task findings tab, and the explore graph. This cannot be undone.",
+    "fa": "」 برای همیشه حذف می‌شود و از فهرست یافته‌ها، زبانه یافته‌های وظیفه و نمودار کاوش برداشته می‌شود. این عمل بازگشت‌ناپذیر است."
+  },
+  "证据": {
+    "en": "Evidence",
+    "fa": "شواهد"
+  },
+  "· 类型：": {
+    "en": "· Type: ",
+    "fa": "· نوع: "
+  },
+  "· 资产：": {
+    "en": "· Assets: ",
+    "fa": "· دارایی‌ها: "
+  },
+  "无链路可展示（该漏洞未关联探索节点，或所属任务已删除）。": {
+    "en": "No chain to show (this vulnerability is not linked to an explore node, or its task was deleted).",
+    "fa": "زنجیره‌ای برای نمایش نیست (این آسیب‌پذیری به گره کاوش وصل نیست، یا وظیفه‌اش حذف شده است)."
+  },
+  "严重等级已改为「": {
+    "en": "Severity set to 「",
+    "fa": "شدت تغییر کرد به 「"
+  },
+  "处理状态已改为「": {
+    "en": "Status set to 「",
+    "fa": "وضعیت تغییر کرد به 「"
+  },
+  "未找到发现 ": {
+    "en": "Finding not found ",
+    "fa": "یافته پیدا نشد "
+  },
+  "返回发现列表": {
+    "en": "Back to findings",
+    "fa": "بازگشت به یافته‌ها"
+  },
+  "来源任务 #": {
+    "en": "Source task #",
+    "fa": "وظیفه مبدأ #"
+  },
+  "· 只读": {
+    "en": "· read-only",
+    "fa": "· فقط‌خواندنی"
+  },
+  "加载复测状态失败：": {
+    "en": "Couldn’t load retest status: ",
+    "fa": "بارگذاری وضعیت بازآزمون ناموفق بود: "
+  },
+  "导出失败：": {
+    "en": "Export failed: ",
+    "fa": "خروجی ناموفق بود: "
+  },
+  "资产树加载失败：": {
+    "en": "Couldn’t load the asset tree: ",
+    "fa": "بارگذاری درخت دارایی ناموفق بود: "
+  },
+  "已标记为「": {
+    "en": "Marked as 「",
+    "fa": "علامت خورد به‌عنوان 「"
+  },
+  "深入意图 #": {
+    "en": "Deepen intent #",
+    "fa": "قصد تعمیق #"
+  },
+  " 已进入任务队列": {
+    "en": " is now in the task queue",
+    "fa": " به صف وظیفه اضافه شد"
+  },
+  "已创建高优先级 Worker 意图 #": {
+    "en": "Created high-priority Worker intent #",
+    "fa": "قصد Worker با اولویت بالا ساخته شد #"
+  },
+  "提交失败：": {
+    "en": "Submit failed: ",
+    "fa": "ثبت ناموفق بود: "
+  },
+  "按": {
+    "en": "By ",
+    "fa": "بر اساس "
+  },
+  "等级筛选": {
+    "en": " severity",
+    "fa": " شدت"
+  },
+  "任务 #": {
+    "en": "Task #",
+    "fa": "وظیفه #"
+  },
+  "（已删除）": {
+    "en": " (deleted)",
+    "fa": " (حذف‌شده)"
+  },
+  "已选": {
+    "en": "Selected",
+    "fa": "انتخاب‌شده"
+  },
+  "（任务 #": {
+    "en": " (task #",
+    "fa": " (وظیفه #"
+  },
+  "查看任务 #": {
+    "en": "View task #",
+    "fa": "مشاهده وظیفه #"
+  },
+  "将在原任务 #": {
+    "en": "Original task #",
+    "fa": "وظیفه اصلی #"
+  },
+  "中创建优先级 10 的 Worker 意图，基于当前漏洞开展二次验证：": {
+    "en": "will get a priority-10 Worker intent to re-verify this vulnerability:",
+    "fa": "یک قصد Worker با اولویت 10 برای راستی‌آزمایی دوباره این آسیب‌پذیری می‌سازد:"
+  },
+  "创建深入意图": {
+    "en": "Create deepen intent",
+    "fa": "ساخت قصد تعمیق"
+  },
+  "导出当前筛选结果（共": {
+    "en": "Export current filtered results (",
+    "fa": "خروجی نتایج فیلترشده فعلی ("
+  },
+  "条）": {
+    "en": "items)",
+    "fa": "مورد)"
+  },
+  "导出全部": {
+    "en": "Export all",
+    "fa": "خروجی همه"
+  },
+  "导出勾选的": {
+    "en": "Export selected",
+    "fa": "خروجی انتخاب‌شده"
+  },
+  "Markdown 汇总报告（单个 .md 文件）": {
+    "en": "Markdown summary report (single .md file)",
+    "fa": "گزارش خلاصه Markdown (یک فایل .md)"
+  },
+  "Markdown 分文件（一漏洞一 .md,打包 .zip）": {
+    "en": "Separate Markdown files (one .md per vulnerability, packed as .zip)",
+    "fa": "فایل‌های جداگانه Markdown (هر آسیب‌پذیری یک .md، بسته‌شده در .zip)"
+  },
+  "CSV 表格（.csv）": {
+    "en": "CSV table (.csv)",
+    "fa": "جدول CSV (.csv)"
+  },
+  "暂无任务记录": {
+    "en": "No task records",
+    "fa": "رکورد وظیفه‌ای نیست"
+  },
+  "删除任务对话": {
+    "en": "Delete task conversations",
+    "fa": "حذف گفتگوهای وظیفه"
+  },
+  "暂无 LLM 调用记录": {
+    "en": "No LLM calls yet",
+    "fa": "هنوز فراخوانی LLM نیست"
+  },
+  "原文": {
+    "en": "Raw",
+    "fa": "متن خام"
+  },
+  "加载…": {
+    "en": "Loading…",
+    "fa": "در حال بارگذاری…"
+  },
+  "删除任务「": {
+    "en": "Delete all LLM conversations for task “",
+    "fa": "حذف همه گفتگوهای LLM برای وظیفه «"
+  },
+  "」的全部 LLM 对话？": {
+    "en": "”?",
+    "fa": "»؟"
+  },
+  "将永久删除该任务的所有 LLM 调用记录（含请求/响应原文），此操作不可撤销。": {
+    "en": "This permanently deletes every LLM call recorded for this task, including the raw request and response. It cannot be undone.",
+    "fa": "همه رکوردهای فراخوانی LLM این وظیفه، از جمله متن خام درخواست و پاسخ، برای همیشه حذف می‌شوند. این عمل بازگشت‌ناپذیر است."
+  },
+  "读取数据源状态失败：": {
+    "en": "Couldn’t read data source status: ",
+    "fa": "خواندن وضعیت منبع داده ناموفق بود: "
+  },
+  "数据源就绪后即可选择项目 / 任务进行同步。": {
+    "en": "When the data source is ready, you can pick a project or task to sync.",
+    "fa": "وقتی منبع داده آماده شد، می‌توانید پروژه یا وظیفه را برای همگام‌سازی انتخاب کنید."
+  },
+  "数据源状态": {
+    "en": "Data source status",
+    "fa": "وضعیت منبع داده"
+  },
+  "尚未创建 ScopeSentry 数据源。创建后会新增一个占位 MCP（地址/密钥为空、未启用）。": {
+    "en": "No ScopeSentry data source yet. Creating one adds a placeholder MCP (address and secret empty, not enabled).",
+    "fa": "هنوز منبع داده ScopeSentry ساخته نشده. با ساختن آن، یک MCP جاگذار افزوده می‌شود (نشانی و کلید خالی و غیرفعال)."
+  },
+  "创建数据源": {
+    "en": "Create data source",
+    "fa": "ساخت منبع داده"
+  },
+  "数据源已创建但未配置，请填写 MCP 地址与 API Key 后启用。": {
+    "en": "The data source exists but is not configured. Enter the MCP address and API Key, then enable it.",
+    "fa": "منبع داده ساخته شده ولی پیکربندی نشده. نشانی MCP و API Key را وارد کنید و سپس آن را فعال کنید."
+  },
+  "保存并启用": {
+    "en": "Save and enable",
+    "fa": "ذخیره و فعال‌سازی"
+  },
+  "已发现": {
+    "en": "Discovered",
+    "fa": "کشف شد"
+  },
+  "个工具": {
+    "en": "tools",
+    "fa": "ابزار"
+  },
+  "已连接": {
+    "en": "Connected",
+    "fa": "متصل"
+  },
+  "不可达": {
+    "en": "Unreachable",
+    "fa": "دردسترس نیست"
+  },
+  "加载列表失败：": {
+    "en": "Couldn’t load the list: ",
+    "fa": "بارگذاری فهرست ناموفق بود: "
+  },
+  "请至少选择一个": {
+    "en": "Select at least one ",
+    "fa": "حداقل یک "
+  },
+  "项目": {
+    "en": "project",
+    "fa": "پروژه"
+  },
+  "同步完成，共入库 ": {
+    "en": "Sync complete. Imported ",
+    "fa": "همگام‌سازی تمام شد. وارد شد "
+  },
+  "同步失败：": {
+    "en": "Sync failed: ",
+    "fa": "همگام‌سازی ناموفق بود: "
+  },
+  "无数据": {
+    "en": "No data",
+    "fa": "داده‌ای نیست"
+  },
+  "按项目建立企业并写入资产范围": {
+    "en": "Create a company per project and write its asset scope",
+    "fa": "برای هر پروژه یک شرکت بساز و محدوده دارایی را بنویس"
+  },
+  "同步选中": {
+    "en": "Sync selected",
+    "fa": "همگام‌سازی انتخاب‌شده‌ها"
+  },
+  "第": {
+    "en": "Page",
+    "fa": "صفحه"
+  },
+  "页": {
+    "en": " ",
+    "fa": " "
+  },
+  "新建/更新企业：": {
+    "en": "Companies created or updated: ",
+    "fa": "شرکت‌های ساخته یا به‌روزشده: "
+  },
+  "…共": {
+    "en": "…total ",
+    "fa": "…مجموع "
+  },
+  "条错误": {
+    "en": "errors",
+    "fa": "خطا"
+  },
+  "来源节点 #": {
+    "en": "Source node #",
+    "fa": "گره مبدأ #"
+  },
+  "当前分类暂无测试资产": {
+    "en": "No test assets in this category",
+    "fa": "در این دسته دارایی آزمونی نیست"
+  },
+  "已登记 ": {
+    "en": "Registered ",
+    "fa": "ثبت شد "
+  },
+  " 条范围，关联 ": {
+    "en": " scope entries, linking ",
+    "fa": " محدوده، مرتبط با "
+  },
+  " 项域名/IP 资产": {
+    "en": " domain/IP assets",
+    "fa": " دارایی دامنه/IP"
+  },
+  "新增失败：": {
+    "en": "Couldn’t add: ",
+    "fa": "افزودن ناموفق بود: "
+  },
+  "直接填写测试范围。域名和 IP 会创建或复用全局资产；CIDR、ICP 和关键词作为 Agent 范围上下文。": {
+    "en": "Enter the test scope directly. Domains and IP addresses create or reuse global assets. CIDR, ICP, and keywords are scope context for the Agent.",
+    "fa": "محدوده آزمون را مستقیم وارد کنید. دامنه و IP دارایی سراسری می‌سازند یا از دارایی موجود استفاده می‌کنند. CIDR، ICP و کلیدواژه زمینه محدوده برای Agent هستند."
+  },
+  "登记": {
+    "en": "Register",
+    "fa": "ثبت"
+  },
+  "加载任务资产失败：": {
+    "en": "Couldn’t load task assets: ",
+    "fa": "بارگذاری دارایی‌های وظیفه ناموفق بود: "
+  },
+  "已将 ": {
+    "en": "Removed ",
+    "fa": "برداشته شد "
+  },
+  " 移出当前任务": {
+    "en": " from this task",
+    "fa": " از این وظیفه"
+  },
+  "移出失败：": {
+    "en": "Couldn’t remove it: ",
+    "fa": "برداشتن ناموفق بود: "
+  },
+  "将资产 ": {
+    "en": "Remove asset ",
+    "fa": "برداشتن دارایی "
+  },
+  "当前任务共关联": {
+    "en": "This task has",
+    "fa": "این وظیفه"
+  },
+  "将“": {
+    "en": "Remove “",
+    "fa": "برداشتن «"
+  },
+  "”从当前任务的测试资产中移出。": {
+    "en": "” from this task’s test assets.",
+    "fa": "» از دارایی‌های آزمون این وظیفه."
+  },
+  "全局资产、关联流量和历史黑板锚点会继续保留。": {
+    "en": "Global assets, linked traffic, and historical blackboard anchors are kept.",
+    "fa": "دارایی‌های سراسری، ترافیک مرتبط و لنگرهای تخته‌سیاه تاریخی باقی می‌مانند."
+  },
+  " 分钟前": {
+    "en": " minutes ago",
+    "fa": " دقیقه پیش"
+  },
+  " 小时前": {
+    "en": " hours ago",
+    "fa": " ساعت پیش"
+  },
+  " 天前": {
+    "en": " days ago",
+    "fa": " روز پیش"
+  },
+  "涉及资产 ·": {
+    "en": "Related assets ·",
+    "fa": "دارایی‌های مرتبط ·"
+  },
+  "节点 #": {
+    "en": "Node #",
+    "fa": "گره #"
+  },
+  "新": {
+    "en": "New",
+    "fa": "جدید"
+  },
+  "清除": {
+    "en": "Clear",
+    "fa": "پاک کردن"
+  },
+  "条新播报 · 回到最新": {
+    "en": "new broadcasts · back to latest",
+    "fa": "پخش جدید · بازگشت به آخرین"
+  },
+  "还有 ": {
+    "en": "And ",
+    "fa": "و "
+  },
+  "来源 #": {
+    "en": "Source #",
+    "fa": "مبدأ #"
+  },
+  "未展示的": {
+    "en": "Hidden ",
+    "fa": "پنهان "
+  },
+  "展示更多（+": {
+    "en": "Show more (+",
+    "fa": "نمایش بیشتر (+"
+  },
+  "范围内": {
+    "en": "In scope",
+    "fa": "در محدوده"
+  },
+  "· 已测": {
+    "en": "· tested",
+    "fa": "· آزمون‌شده"
+  },
+  "已测（高亮）": {
+    "en": "Tested (highlighted)",
+    "fa": "آزمون‌شده (برجسته)"
+  },
+  "未测": {
+    "en": "Untested",
+    "fa": "آزمون‌نشده"
+  },
+  "范围外": {
+    "en": "Out of scope",
+    "fa": "خارج از محدوده"
+  },
+  "力导向布局，可拖拽节点、滚轮缩放；灰色「⋯」是折叠节点，点开可展开更多。": {
+    "en": "Force-directed layout. Drag nodes and scroll to zoom. A gray “⋯” is a collapsed node; click it to expand.",
+    "fa": "چیدمان نیرو-محور. گره‌ها را بکشید و با چرخ ماوس بزرگ‌نمایی کنید. «⋯» خاکستری گره جمع‌شده است؛ برای گسترش کلیک کنید."
+  },
+  "详情": {
+    "en": "Details",
+    "fa": "جزئیات"
+  },
+  "发现时间当前": {
+    "en": "Discovery time is currently ",
+    "fa": "زمان کشف اکنون "
+  },
+  "，点击切换排序方向": {
+    "en": ", click to reverse the sort",
+    "fa": "، برای برعکس کردن مرتب‌سازی کلیک کنید"
+  },
+  "企业 #": {
+    "en": "Company #",
+    "fa": "شرکت #"
+  },
+  "任务描述与目标": {
+    "en": "Task description and goals",
+    "fa": "شرح و هدف‌های وظیفه"
+  },
+  "目标管理": {
+    "en": "Goals",
+    "fa": "هدف‌ها"
+  },
+  "（最终可核验的目标，共": {
+    "en": "(Verifiable goals,",
+    "fa": "(هدف‌های قابل راستی‌آزمایی،"
+  },
+  "条；新增/修改会通知规划者并复活任务）": {
+    "en": "items; adding or editing notifies the planner and resumes the task)",
+    "fa": "مورد؛ افزودن یا ویرایش به برنامه‌ریز خبر می‌دهد و وظیفه را دوباره فعال می‌کند)"
+  },
+  "（框定 planner/worker 的探索边界，共": {
+    "en": "(Bounds where planner/worker may explore,",
+    "fa": "(مرز کاوش planner/worker،"
+  },
+  "条；改动下一轮规划生效）": {
+    "en": "items; changes apply on the next planning round)",
+    "fa": "مورد؛ تغییر از دور بعدی برنامه‌ریزی اعمال می‌شود)"
+  },
+  "暂无操作约束。建任务时会自动从描述/目标抽取；也可在此手动增删改，用来框定「允许/禁止做哪些操作」。": {
+    "en": "No operation constraints yet. They are extracted from the description and goals when the task is created. You can also add, edit, or remove them here to define what is allowed and what is forbidden.",
+    "fa": "هنوز محدودیت عملیاتی نیست. هنگام ساخت وظیفه از شرح و هدف‌ها استخراج می‌شوند. اینجا هم می‌توانید آن‌ها را اضافه، ویرایش یا حذف کنید تا مشخص شود چه کاری مجاز است و چه کاری ممنوع."
+  },
+  "资产测试覆盖度": {
+    "en": "Asset test coverage",
+    "fa": "پوشش آزمون دارایی"
+  },
+  "已测": {
+    "en": "Tested",
+    "fa": "آزمون‌شده"
+  },
+  "/ 范围内": {
+    "en": "/ in scope",
+    "fa": "/ در محدوده"
+  },
+  "LLM Token 用量": {
+    "en": "LLM Token usage",
+    "fa": "مصرف LLM Token"
+  },
+  "（按模型统计": {
+    "en": "（By model",
+    "fa": "（بر اساس مدل"
+  },
+  "，共 ": {
+    "en": ", ",
+    "fa": "، "
+  },
+  " 次调用": {
+    "en": " calls",
+    "fa": " فراخوانی"
+  },
+  "测试范围": {
+    "en": "Test scope",
+    "fa": "محدوده آزمون"
+  },
+  "（覆盖度分母 + 授权边界，共": {
+    "en": "(Coverage denominator + authorization boundary,",
+    "fa": "(مخرج پوشش + مرز مجوز،"
+  },
+  "心跳": {
+    "en": "Heartbeat",
+    "fa": "ضربان"
+  },
+  "进行中意图": {
+    "en": "Intents in progress",
+    "fa": "قصدهای در جریان"
+  },
+  "需要关注": {
+    "en": "Needs attention",
+    "fa": "نیاز به توجه"
+  },
+  "最近发现": {
+    "en": "Recent findings",
+    "fa": "یافته‌های اخیر"
+  },
+  "被拦/出错意图": {
+    "en": "Blocked or failed intents",
+    "fa": "قصدهای مسدود یا ناموفق"
+  },
+  "（共": {
+    "en": "(total",
+    "fa": "(مجموع"
+  },
+  "条，可重跑）": {
+    "en": " items, can rerun)",
+    "fa": " مورد، قابل اجرای دوباره)"
+  },
+  "全部重跑": {
+    "en": "Rerun all",
+    "fa": "اجرای دوباره همه"
+  },
+  "重跑": {
+    "en": "Rerun",
+    "fa": "اجرای دوباره"
+  },
+  "仅显示前 20 条，点「全部重跑」处理剩余": {
+    "en": "Only the first 20 are shown. Use “Rerun all” for the remaining",
+    "fa": "فقط ۲۰ مورد اول دیده می‌شود. باقی‌مانده"
+  },
+  "条。": {
+    "en": " items.",
+    "fa": " مورد."
+  },
+  "任务级资产拦截 / 允许": {
+    "en": "Task-level asset block / allow",
+    "fa": "مسدود / مجاز دارایی در سطح وظیفه"
+  },
+  "（仅本任务生效，不进全局；先拦截后允许，共": {
+    "en": "(This task only, not global; block rules before allow rules,",
+    "fa": "(فقط همین وظیفه، نه سراسری؛ اول مسدود بعد مجاز،"
+  },
+  "暂无任务级规则。「拦截」命中即禁止测试；「允许」为白名单——配置后本任务只允许命中允许规则的资产（未配置则不启用白名单）。": {
+    "en": "No task-level rules yet. A “block” match forbids testing. “Allow” is a whitelist: once set, this task may test only assets that match an allow rule. With no allow rules, the whitelist stays off.",
+    "fa": "هنوز قاعده سطح وظیفه نیست. برخورد با «مسدود» یعنی آزمون ممنوع است. «مجاز» فهرست سفید است: پس از تنظیم، این وظیفه فقط دارایی‌هایی را می‌آزماید که با قاعده مجاز جور باشند. اگر قاعده مجازی نباشد، فهرست سفید خاموش می‌ماند."
+  },
+  "暂无报告": {
+    "en": "No report yet",
+    "fa": "هنوز گزارشی نیست"
+  },
+  "渗透测试报告（Markdown）": {
+    "en": "Penetration test report (Markdown)",
+    "fa": "گزارش آزمون نفوذ (Markdown)"
+  },
+  "加载任务漏洞失败：": {
+    "en": "Couldn’t load task vulnerabilities: ",
+    "fa": "بارگذاری آسیب‌پذیری‌های وظیفه ناموفق بود: "
+  },
+  "选择漏洞": {
+    "en": "Select a vulnerability",
+    "fa": "انتخاب آسیب‌پذیری"
+  },
+  "选择漏洞：": {
+    "en": "Select vulnerability: ",
+    "fa": "انتخاب آسیب‌پذیری: "
+  },
+  "漏洞详情": {
+    "en": "Vulnerability details",
+    "fa": "جزئیات آسیب‌پذیری"
+  },
+  "主 Agent · 会话 #": {
+    "en": "Main Agent · session #",
+    "fa": "Agent اصلی · نشست #"
+  },
+  "当前资产：": {
+    "en": "Current assets: ",
+    "fa": "دارایی‌های فعلی: "
+  },
+  " · 来源任务 #": {
+    "en": " · source task #",
+    "fa": " · وظیفه مبدأ #"
+  },
+  "新建会话失败：": {
+    "en": "Couldn’t create the session: ",
+    "fa": "ساخت نشست ناموفق بود: "
+  },
+  " 已恢复，等待重新领取": {
+    "en": " resumed and is waiting to be claimed again",
+    "fa": " از سر گرفته شد و منتظر دریافت دوباره است"
+  },
+  "（含 ": {
+    "en": "(incl. ",
+    "fa": "(شامل "
+  },
+  " 意图 / ": {
+    "en": " intents / ",
+    "fa": " قصد / "
+  },
+  " 事实 / ": {
+    "en": " facts / ",
+    "fa": " واقعیت / "
+  },
+  " 漏洞）": {
+    "en": " vulnerabilities)",
+    "fa": " آسیب‌پذیری)"
+  },
+  " 及其独占下游已彻底删除": {
+    "en": " and its exclusive downstream were permanently deleted",
+    "fa": " و پایین‌دست انحصاری آن برای همیشه حذف شد"
+  },
+  " 已删除（原因已记录，规划者将据此重新规划）": {
+    "en": " was deleted (reason recorded; the planner will replan from it)",
+    "fa": " حذف شد (دلیل ثبت شد؛ برنامه‌ریز بر این اساس دوباره برنامه‌ریزی می‌کند)"
+  },
+  "Worker 操作失败：": {
+    "en": "Worker action failed: ",
+    "fa": "عمل Worker ناموفق بود: "
+  },
+  "请稍后重试": {
+    "en": "Try again in a moment",
+    "fa": "کمی بعد دوباره تلاش کنید"
+  },
+  "消息不能超过 ": {
+    "en": "Message cannot exceed ",
+    "fa": "پیام نمی‌تواند بیش از "
+  },
+  " 个字符": {
+    "en": " characters",
+    "fa": " نویسه باشد"
+  },
+  "消息已发送给 Worker #": {
+    "en": "Message sent to Worker #",
+    "fa": "پیام به Worker #"
+  },
+  "，已立即继续执行": {
+    "en": ", and it resumed immediately",
+    "fa": " فرستاده شد و اجرا بی‌درنگ ادامه یافت"
+  },
+  "重连中": {
+    "en": "Reconnecting",
+    "fa": "در حال اتصال دوباره"
+  },
+  "· 输出": {
+    "en": "· out",
+    "fa": "· خروجی"
+  },
+  "·\n                  缓存读取": {
+    "en": "· cache read",
+    "fa": "· خواندن کش"
+  },
+  "· 缓存写入": {
+    "en": "· cache write",
+    "fa": "· نوشتن کش"
+  },
+  "加载更早的 Worker": {
+    "en": "Load earlier Workers",
+    "fa": "بارگذاری Workerهای قدیمی‌تر"
+  },
+  "当前配置：": {
+    "en": "Current config: ",
+    "fa": "پیکربندی فعلی: "
+  },
+  "· 只读历史": {
+    "en": "· read-only history",
+    "fa": "· تاریخچه فقط‌خواندنی"
+  },
+  "↑ 更早历史": {
+    "en": "↑ Earlier history",
+    "fa": "↑ تاریخچه قدیمی‌تر"
+  },
+  "· 缓存读取": {
+    "en": "· cache read",
+    "fa": "· خواندن کش"
+  },
+  "（已停止执行，规划者已收到通知；意图与产出保留，可在下方查看历史）": {
+    "en": "(Execution has stopped and the planner was notified. The intent and its output are kept; history is below.)",
+    "fa": "(اجرا متوقف شده و به برنامه‌ریز خبر داده شده. قصد و خروجی‌اش مانده است؛ تاریخچه پایین است.)"
+  },
+  "加载更早历史…": {
+    "en": "Loading earlier history…",
+    "fa": "در حال بارگذاری تاریخچه قدیمی‌تر…"
+  },
+  "加载活动流…": {
+    "en": "Loading activity…",
+    "fa": "در حال بارگذاری فعالیت…"
+  },
+  "加载失败：": {
+    "en": "Couldn’t load: ",
+    "fa": "بارگذاری ناموفق بود: "
+  },
+  "给 Worker #": {
+    "en": "Message Worker #",
+    "fa": "پیام به Worker #"
+  },
+  " 发消息": {
+    "en": " ",
+    "fa": " "
+  },
+  " 发消息，@ 引用记录，调整执行方向…": {
+    "en": ". @ a record to cite it and steer execution…",
+    "fa": ". با @ یک سابقه را ذکر کنید و جهت اجرا را تنظیم کنید…"
+  },
+  "删除 Worker #": {
+    "en": "Delete Worker #",
+    "fa": "حذف Worker #"
+  },
+  "的下游节点（级联到叶子，避免留下孤立数据）；共享节点、目标和任务根事实会保留。": {
+    "en": " downstream nodes (cascading to the leaves so nothing is left orphaned). Shared nodes, goals, and task-root facts stay.",
+    "fa": " گره‌های پایین‌دست (آبشاری تا برگ‌ها تا داده یتیم نماند). گره‌های مشترک، هدف‌ها و واقعیت‌های ریشه وظیفه می‌مانند."
+  },
+  "规划者会收到删除通知并据此重新规划。": {
+    "en": "The planner is notified of the deletion and replans from it.",
+    "fa": "به برنامه‌ریز حذف خبر داده می‌شود و بر همان اساس دوباره برنامه‌ریزی می‌کند."
+  },
+  "会把该意图置为「已删除」并记录删除原因，意图节点、执行记录、\n                    已登记的事实和漏洞": {
+    "en": "marks this intent as “Deleted” and records the reason. The intent node, run history, and registered facts and vulnerabilities",
+    "fa": "این قصد را «حذف‌شده» می‌کند و دلیل را ثبت می‌کند. گره قصد، سابقه اجرا، واقعیت‌های ثبت‌شده و آسیب‌پذیری‌ها"
+  },
+  "。规划者会收到「该意图由用户删除 + 原因」并据此重新规划。": {
+    "en": ". The planner is told “the user deleted this intent, plus the reason” and replans from that.",
+    "fa": ". برنامه‌ریز پیام «کاربر این قصد را حذف کرد + دلیل» را می‌گیرد و بر همان اساس دوباره برنامه‌ریزی می‌کند."
+  },
+  "删除原因（必填）": {
+    "en": "Reason for deletion (required)",
+    "fa": "دلیل حذف (الزامی)"
+  }
+}

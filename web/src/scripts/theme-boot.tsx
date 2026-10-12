@@ -102,6 +102,12 @@ export function ThemeBootScript() {
 
         root.style.colorScheme = resolvedMode === "dark" ? "dark" : "light";
 
+        var localeMatch = location.pathname.match(/^\\/(en|fa)(?=\\/|$)/);
+        var localeCookie = readCookie("artex_locale");
+        var locale = localeMatch ? localeMatch[1] : (localeCookie === "fa" || localeCookie === "en" ? localeCookie : "en");
+        root.lang = locale;
+        root.dir = locale === "fa" ? "rtl" : "ltr";
+
       } catch (e) {
         console.warn("ThemeBootScript error:", e);
       }

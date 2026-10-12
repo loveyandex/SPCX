@@ -1,0 +1,132 @@
+[
+  {
+    "en": "Input",
+    "kept": "ورودی",
+    "ignored": "ورودی Input"
+  },
+  {
+    "en": "Output",
+    "kept": "خروجی",
+    "ignored": "خروجی Output"
+  },
+  {
+    "en": "Tested",
+    "kept": "آزمون شد",
+    "ignored": "آزمون‌شده"
+  },
+  {
+    "en": "This action cannot be undone.",
+    "kept": "این عملیات قابل بازگشت نیست.",
+    "ignored": "این عمل قابل بازگشت نیست."
+  },
+  {
+    "en": "Resume",
+    "kept": "ادامه",
+    "ignored": "ازسرگیری"
+  },
+  {
+    "en": "Delete selected",
+    "kept": "حذف",
+    "ignored": "حذف انتخاب‌شده"
+  },
+  {
+    "en": "assets",
+    "kept": "دارایی دارد",
+    "ignored": "دارایی"
+  },
+  {
+    "en": "Resume",
+    "kept": "ادامه",
+    "ignored": "ازسرگیری"
+  },
+  {
+    "en": "Domain (exact)",
+    "kept": "دامنه (دقیق)",
+    "ignored": "دامنه (تطبیق دقیق)"
+  },
+  {
+    "en": "IP (exact)",
+    "kept": "IP (دقیق)",
+    "ignored": "IP (تطابق کامل)"
+  },
+  {
+    "en": "URL (exact)",
+    "kept": "URL (دقیق)",
+    "ignored": "URL (تطابق کامل)"
+  },
+  {
+    "en": "IP (fuzzy)",
+    "kept": "IP (تقریبی)",
+    "ignored": "IP (مبهم)"
+  },
+  {
+    "en": "URL (fuzzy)",
+    "kept": "URL (تقریبی)",
+    "ignored": "URL (مبهم)"
+  },
+  {
+    "en": "Restore failed: {0}",
+    "kept": "بازیابی ناموفق بود: {0}",
+    "ignored": "بازیابی نشد: {0}"
+  },
+  {
+    "en": "Digest",
+    "kept": "چکیده",
+    "ignored": "خلاصه"
+  },
+  {
+    "en": "Restore failed: ",
+    "kept": "بازیابی ناموفق بود: ",
+    "ignored": "بازیابی نشد: "
+  },
+  {
+    "en": "Restore failed: ",
+    "kept": "بازیابی ناموفق بود: ",
+    "ignored": "بازیابی نشد: "
+  },
+  {
+    "en": "Restore failed: ",
+    "kept": "بازیابی ناموفق بود: ",
+    "ignored": "بازیابی نشد: "
+  },
+  {
+    "en": "Restore failed: ",
+    "kept": "بازیابی ناموفق بود: ",
+    "ignored": "بازیابی نشد: "
+  },
+  {
+    "en": "Start a new session",
+    "kept": "نشست جدید را شروع کنید",
+    "ignored": "یک نشست جدید برای اجرا بسازید"
+  },
+  {
+    "en": "Start retest",
+    "kept": "بازآزمون را شروع کنید",
+    "ignored": "شروع آزمون مجدد"
+  },
+  {
+    "en": "Summary",
+    "kept": "خلاصه",
+    "ignored": "جمع‌بندی"
+  },
+  {
+    "en": "Upload failed: {0}",
+    "kept": "بارگذاری نشد: {0}",
+    "ignored": "بارگذاری ناموفق: {0}"
+  },
+  {
+    "en": "Download failed: {0}",
+    "kept": "دانلود ناموفق بود: {0}",
+    "ignored": "دانلود ناموفق: {0}"
+  },
+  {
+    "en": "Planner",
+    "kept": "برنامه‌ریز Planner",
+    "ignored": "برنامه‌ریز"
+  },
+  {
+    "en": "Exploring",
+    "kept": "در کاوش",
+    "ignored": "در حال کاوش"
+  }
+]

@@ -1,5 +1,6 @@
 "use client";
 
+import { t as tr } from "@/i18n/t";
 import { useEffect, useRef } from "react";
 
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
@@ -64,13 +65,13 @@ export function TablePagination({
             ))}
           </SelectContent>
         </Select>
-        <span>条/页</span>
+        <span>{tr("items/page")}</span>
         {total > 0 ? (
           <span className="tabular-nums">
-            {from}–{to} / 共 {total} 条
+            {from}–{to}  {tr("of")} {total}  {tr("items")}
           </span>
         ) : (
-          <span>共 0 条</span>
+          <span>{tr("0 items in total")}</span>
         )}
       </div>
 
@@ -83,7 +84,7 @@ export function TablePagination({
                 size="icon-sm"
                 disabled={safePage === 1}
                 onClick={() => onPageChange(safePage - 1)}
-                aria-label="上一页"
+                aria-label={tr("Previous page")}
               >
                 <ChevronLeftIcon className="size-4" />
               </Button>
@@ -112,7 +113,7 @@ export function TablePagination({
                 size="icon-sm"
                 disabled={safePage === totalPages}
                 onClick={() => onPageChange(safePage + 1)}
-                aria-label="下一页"
+                aria-label={tr("Next page")}
               >
                 <ChevronRightIcon className="size-4" />
               </Button>

@@ -1,0 +1,1042 @@
+{
+  "goal g3 → met（证据 fa6 已连入）；仍有 g1/g2/g4 未达成，任务继续": {
+    "en": "goal g3 → met (evidence fa6 is linked in); g1, g2, and g4 are still unmet, so the task continues",
+    "fa": "goal g3 → met (شواهد fa6 متصل شد)؛ g1 و g2 و g4 هنوز محقق نشده‌اند و وظیفه ادامه دارد"
+  },
+  "goal g4 → met；系统提示：g2 仍 open，非最后一个目标，任务未整体收官": {
+    "en": "goal g4 → met; system note: g2 is still open and is not the final goal, so the task is not fully complete",
+    "fa": "goal g4 → met؛ پیام سیستم: g2 هنوز open است و آخرین هدف نیست، پس وظیفه به‌طور کامل تمام نشده است"
+  },
+  "http 工具必须提供参数 JSON Schema（含 properties，不能留空）": {
+    "en": "The http tool must provide a parameter JSON Schema (including properties; it cannot be empty)",
+    "fa": "ابزار http باید JSON Schema پارامترها را داشته باشد (شامل properties؛ نمی‌تواند خالی بماند)"
+  },
+  "http://<主机>:8082/mcp": {
+    "en": "http://<host>:8082/mcp",
+    "fa": "http://<host>:8082/mcp"
+  },
+  "http://host:port 或 socks5://host:port（留空=直连）": {
+    "en": "http://host:port or socks5://host:port (empty = direct connection)",
+    "fa": "http://host:port یا socks5://host:port (خالی = اتصال مستقیم)"
+  },
+  "http（API 请求）": {
+    "en": "http (API request)",
+    "fa": "http (درخواست API)"
+  },
+  "intercept: mysqldump 命中破坏性规则，等待人工审批": {
+    "en": "intercept: mysqldump matched a destructive rule and is waiting for human approval",
+    "fa": "intercept: mysqldump با یک قاعده مخرب مطابقت کرد و در انتظار تأیید انسان است"
+  },
+  "items 子字段": {
+    "en": "items subfields",
+    "fa": "زیرفیلدهای items"
+  },
+  "key 需小写字母开头，仅含小写字母/数字/下划线": {
+    "en": "key must start with a lowercase letter and contain only lowercase letters, digits, and underscores",
+    "fa": "key باید با حرف کوچک شروع شود و فقط حرف کوچک، رقم و زیرخط داشته باشد"
+  },
+  "list_findings —— 核对 DC01 沦陷的确认证据": {
+    "en": "list_findings — review the confirming evidence that DC01 was compromised",
+    "fa": "list_findings — بررسی شواهد تأیید تسخیر DC01"
+  },
+  "max_tokens（默认）": {
+    "en": "max_tokens (default)",
+    "fa": "max_tokens (پیش‌فرض)"
+  },
+  "noa 上下文压缩": {
+    "en": "noa context compaction",
+    "fa": "فشرده‌سازی زمینه noa"
+  },
+  "node_detail(fa6) —— 确认双网卡与内网可达": {
+    "en": "node_detail(fa6) — confirm the dual NICs and internal reachability",
+    "fa": "node_detail(fa6) — تأیید دو کارت شبکه و دسترسی به شبکه داخلی"
+  },
+  "node_detail(faGit) —— 核对 workG 的源码还原产物": {
+    "en": "node_detail(faGit) — review the source-recovery output from workG",
+    "fa": "node_detail(faGit) — بررسی خروجی بازیابی سورس workG"
+  },
+  "payload 成功触发。": {
+    "en": "Payload triggered successfully.",
+    "fa": "payload با موفقیت فعال شد."
+  },
+  "planner 心跳（分钟）": {
+    "en": "Planner heartbeat (minutes)",
+    "fa": "ضربان planner (دقیقه)"
+  },
+  "q 参数注入 payload，响应回显 MSSQL 报错。": {
+    "en": "Injection payload on the q parameter; the response echoed an MSSQL error.",
+    "fa": "payload تزریق روی پارامتر q؛ پاسخ، خطای MSSQL را برگرداند."
+  },
+  "report_finding: Default Credentials (high) 已落库": {
+    "en": "report_finding: Default Credentials (high) has been saved",
+    "fa": "report_finding: Default Credentials (high) ذخیره شد"
+  },
+  "request_id 不能为空": {
+    "en": "request_id cannot be empty",
+    "fa": "request_id نمی‌تواند خالی باشد"
+  },
+  "request_id 已用于其他 Worker 消息": {
+    "en": "request_id is already used by another Worker message",
+    "fa": "request_id قبلاً برای پیام Worker دیگری استفاده شده است"
+  },
+  "script（Python 脚本）": {
+    "en": "script (Python script)",
+    "fa": "script (اسکریپت Python)"
+  },
+  "search 页 q 参数为 error-based 注入点(MSSQL)": {
+    "en": "The q parameter on the search page is an error-based injection point (MSSQL)",
+    "fa": "پارامتر q در صفحه search نقطه تزریق مبتنی بر خطاست (MSSQL)"
+  },
+  "search?q= 参数可注入，报错回显 MySQL 语法错误": {
+    "en": "The search?q= parameter is injectable; the error echoes a MySQL syntax error",
+    "fa": "پارامتر search?q= قابل تزریق است؛ خطا، خطای نحوی MySQL را نشان می‌دهد"
+  },
+  "shell 拿到了，下一步怎么打？": {
+    "en": "Shell obtained. What should we hit next?",
+    "fa": "shell گرفته شد. هدف بعدی چیست؟"
+  },
+  "shell 拿到了，接下来怎么打内网？": {
+    "en": "Shell obtained. How do we move into the internal network next?",
+    "fa": "shell گرفته شد. بعد چطور به شبکه داخلی برویم؟"
+  },
+  "shell(bash 声明) / command(命令) / script(Python) / http(API)，共 ${allCustomCount} 个，点击卡片编辑": {
+    "en": "shell (bash declaration) / command (command) / script (Python) / http (API), ${allCustomCount} in total. Click a card to edit",
+    "fa": "shell (اعلان bash) / command (دستور) / script (Python) / http (API)، مجموعاً ${allCustomCount} مورد. برای ویرایش روی کارت کلیک کنید"
+  },
+  "shell/command/script/http，${customTools.length} / ${allCustomCount} 个匹配，点击卡片编辑": {
+    "en": "shell/command/script/http, ${customTools.length} / ${allCustomCount} matches. Click a card to edit",
+    "fa": "shell/command/script/http، ${customTools.length} / ${allCustomCount} مورد مطابق. برای ویرایش روی کارت کلیک کنید"
+  },
+  "shell=bash 环境声明(只需名称+描述，告知模型可用 bash 调用)；command/script/http 需写执行规格。": {
+    "en": "shell = a bash environment declaration (only a name and description are needed, to tell the model bash can be called); command, script, and http need an execution spec.",
+    "fa": "shell = اعلان محیط bash (فقط نام و توضیح کافی است تا به مدل بگویید bash قابل فراخوانی است)؛ command و script و http باید مشخصات اجرا داشته باشند."
+  },
+  "shell（bash 环境声明）": {
+    "en": "shell (bash environment declaration)",
+    "fa": "shell (اعلان محیط bash)"
+  },
+  "shop Fastjson 反序列化 RCE，获得服务器命令执行": {
+    "en": "Shop Fastjson deserialization RCE, with command execution on the server",
+    "fa": "RCE ناشی از deserialization در Fastjson فروشگاه، همراه با اجرای فرمان روی سرور"
+  },
+  "shop 使用存在已知 RCE 的老版本组件": {
+    "en": "Shop uses an outdated component with a known RCE",
+    "fa": "shop از مؤلفه قدیمی با RCE شناخته‌شده استفاده می‌کند"
+  },
+  "shop 商城 Fastjson 反序列化远程命令执行": {
+    "en": "Shop Fastjson deserialization remote command execution",
+    "fa": "اجرای فرمان از راه دور با deserialization در Fastjson فروشگاه"
+  },
+  "shop 指纹命中 Fastjson 1.2.24（存在已知反序列化 RCE）": {
+    "en": "Shop fingerprint matched Fastjson 1.2.24 (known deserialization RCE)",
+    "fa": "اثرانگشت shop با Fastjson 1.2.24 مطابقت داشت (RCE شناخته‌شده deserialization)"
+  },
+  "shop.acme.com Fastjson 1.2.24 反序列化远程命令执行": {
+    "en": "shop.acme.com Fastjson 1.2.24 deserialization remote command execution",
+    "fa": "اجرای فرمان از راه دور با deserialization در Fastjson 1.2.24 روی shop.acme.com"
+  },
+  "shop.acme.com 组件指纹识别与 CVE 关联": {
+    "en": "Component fingerprinting and CVE correlation for shop.acme.com",
+    "fa": "شناسایی اثرانگشت مؤلفه‌ها و تطبیق CVE برای shop.acme.com"
+  },
+  "socks5://user:pass@host:1080 或 http://host:port（留空=直连）": {
+    "en": "socks5://user:pass@host:1080 or http://host:port (empty = direct connection)",
+    "fa": "socks5://user:pass@host:1080 یا http://host:port (خالی = اتصال مستقیم)"
+  },
+  "svc_deploy 是 Domain Admins 成员。": {
+    "en": "svc_deploy is a member of Domain Admins.",
+    "fa": "svc_deploy عضو Domain Admins است."
+  },
+  "task t-acme-web: 第 3 轮规划，生成意图 i-4": {
+    "en": "task t-acme-web: planning round 3, generated intent i-4",
+    "fa": "task t-acme-web: دور سوم برنامه‌ریزی، قصد i-4 ساخته شد"
+  },
+  "task_ids 数量必须为 1-100": {
+    "en": "The number of task_ids must be from 1 to 100",
+    "fa": "تعداد task_ids باید از ۱ تا ۱۰۰ باشد"
+  },
+  "upsert_asset × 6（子域+服务）": {
+    "en": "upsert_asset × 6 (subdomains + services)",
+    "fa": "upsert_asset × 6 (زیردامنه‌ها + سرویس‌ها)"
+  },
+  "www-data@dmz-web01，且第二网卡 10.10.10.x —— 已进入 DMZ 且贴内网。": {
+    "en": "www-data@dmz-web01, and a second NIC on 10.10.10.x — already inside the DMZ and next to the internal network.",
+    "fa": "www-data@dmz-web01 و کارت شبکه دوم روی 10.10.10.x — هم‌اکنون داخل DMZ و کنار شبکه داخلی."
+  },
+  "www.acme.com [200] Acme Corp\\nadmin.acme.com [200] Acme Admin 登录\\napi.acme.com [401]\\nshop.acme.com [200]\\nvpn.acme.com [200]": {
+    "en": "www.acme.com [200] Acme Corp\nadmin.acme.com [200] Acme Admin login\napi.acme.com [401]\nshop.acme.com [200]\nvpn.acme.com [200]",
+    "fa": "www.acme.com [200] Acme Corp\nadmin.acme.com [200] ورود Acme Admin\napi.acme.com [401]\nshop.acme.com [200]\nvpn.acme.com [200]"
+  },
+  "www.acme.com 暴露 .git 目录，可还原源码": {
+    "en": "www.acme.com exposes a .git directory; the source can be reconstructed",
+    "fa": "www.acme.com دایرکتوری .git را افشا کرده و سورس قابل بازسازی است"
+  },
+  "www.acme.com/search q 参数存在报错型 SQL 注入": {
+    "en": "The q parameter on www.acme.com/search has error-based SQL injection",
+    "fa": "پارامتر q در www.acme.com/search تزریق SQL مبتنی بر خطا دارد"
+  },
+  "www.acme.com/search 页 SQL 注入探测": {
+    "en": "SQL injection probe of the www.acme.com/search page",
+    "fa": "بررسی تزریق SQL در صفحه www.acme.com/search"
+  },
+  "{ \"order_id\":1002, \"user_id\":77, \"amount\":1299, \"phone\":\"138****6021\", \"address\":\"北京市朝阳区 ****\" }": {
+    "en": "{ \"order_id\":1002, \"user_id\":77, \"amount\":1299, \"phone\":\"138****6021\", \"address\":\"Chaoyang District, Beijing ****\" }",
+    "fa": "{ \"order_id\":1002, \"user_id\":77, \"amount\":1299, \"phone\":\"138****6021\", \"address\":\"منطقه چائویانگ، پکن ****\" }"
+  },
+  "{\"order_id\":1002,\"user_id\":77,\"amount\":1299.00,\"address\":\"北京市朝阳区 ****\",\"phone\":\"138****6021\"}": {
+    "en": "{\"order_id\":1002,\"user_id\":77,\"amount\":1299.00,\"address\":\"Chaoyang District, Beijing ****\",\"phone\":\"138****6021\"}",
+    "fa": "{\"order_id\":1002,\"user_id\":77,\"amount\":1299.00,\"address\":\"منطقه چائویانگ، پکن ****\",\"phone\":\"138****6021\"}"
+  },
+  "· 含推理": {
+    "en": "· Includes reasoning",
+    "fa": "· شامل استدلال"
+  },
+  "—（任务已删除）": {
+    "en": "— (task deleted)",
+    "fa": "— (وظیفه حذف شده)"
+  },
+  "… 搜索结果页 …": {
+    "en": "… search results page …",
+    "fa": "… صفحه نتایج جستجو …"
+  },
+  "↑↓ 选择 · Enter 确认 · Esc 关闭": {
+    "en": "↑↓ Select · Enter to confirm · Esc to close",
+    "fa": "↑↓ انتخاب · Enter تأیید · Esc بستن"
+  },
+  "✕ 失败": {
+    "en": "✕ Failed",
+    "fa": "✕ ناموفق"
+  },
+  "。开启后，才能在": {
+    "en": ". Once enabled, you can then, in",
+    "fa": ". پس از فعال‌سازی، می‌توانید در"
+  },
+  "【${x.label}】\\n${x.label === \"命令\" ? toolInputText(toolName, parts[i]) : parts[i]}": {
+    "en": "【${x.label}】\n${x.label === \"Command\" ? toolInputText(toolName, parts[i]) : parts[i]}",
+    "fa": "【${x.label}】\n${x.label === \"دستور\" ? toolInputText(toolName, parts[i]) : parts[i]}"
+  },
+  "【上传文件（绝对路径）】": {
+    "en": "【Upload file (absolute path)】",
+    "fa": "【بارگذاری فایل (مسیر مطلق)】"
+  },
+  "一句话说明这个 Agent 是干什么的": {
+    "en": "One sentence describing what this Agent does",
+    "fa": "در یک جمله بگویید این Agent چه کاری می‌کند"
+  },
+  "一年": {
+    "en": "One year",
+    "fa": "یک سال"
+  },
+  "一条操作约束，如『仅测当前端口，不扫其他端口』": {
+    "en": "One operational constraint, for example \"Only test the current port; do not scan other ports\"",
+    "fa": "یک محدودیت عملیاتی، مثلاً «فقط پورت فعلی آزمایش شود و پورت‌های دیگر اسکن نشود»"
+  },
+  "一次最多修改 100 个任务的分类": {
+    "en": "You can change the category of at most 100 tasks at a time",
+    "fa": "هر بار حداکثر دسته‌بندی ۱۰۰ وظیفه را می‌توان تغییر داد"
+  },
+  "一次最多控制 100 个任务": {
+    "en": "You can control at most 100 tasks at a time",
+    "fa": "هر بار حداکثر ۱۰۰ وظیفه را می‌توان کنترل کرد"
+  },
+  "上一页漏洞": {
+    "en": "Previous page of vulnerabilities",
+    "fa": "صفحه قبلی آسیب‌پذیری‌ها"
+  },
+  "上下文窗口(K)": {
+    "en": "Context window (K)",
+    "fa": "پنجره زمینه (K)"
+  },
+  "上传中…": {
+    "en": "Uploading…",
+    "fa": "در حال بارگذاری…"
+  },
+  "上传包含 SKILL.md 的 .zip 压缩包": {
+    "en": "Upload a .zip archive that contains SKILL.md",
+    "fa": "یک فایل فشرده .zip شامل SKILL.md بارگذاری کنید"
+  },
+  "上传压缩包": {
+    "en": "Upload archive",
+    "fa": "بارگذاری فایل فشرده"
+  },
+  "上传失败(${r.status})": {
+    "en": "Upload failed (${r.status})",
+    "fa": "بارگذاری ناموفق (${r.status})"
+  },
+  "上传失败: ${r.status}": {
+    "en": "Upload failed: ${r.status}",
+    "fa": "بارگذاری ناموفق: ${r.status}"
+  },
+  "上传失败: ${r.status} ${await r.text()}": {
+    "en": "Upload failed: ${r.status} ${await r.text()}",
+    "fa": "بارگذاری ناموفق: ${r.status} ${await r.text()}"
+  },
+  "上传失败：${(e as Error).message}": {
+    "en": "Upload failed: ${(e as Error).message}",
+    "fa": "بارگذاری ناموفق: ${(e as Error).message}"
+  },
+  "上传失败：${(err as Error).message}": {
+    "en": "Upload failed: ${(err as Error).message}",
+    "fa": "بارگذاری ناموفق: ${(err as Error).message}"
+  },
+  "上报一个安全发现并连到相关节点": {
+    "en": "Report a security finding and link it to the related nodes",
+    "fa": "یک یافته امنیتی ثبت کنید و آن را به گره‌های مرتبط وصل کنید"
+  },
+  "上游": {
+    "en": "Upstream",
+    "fa": "بالادست"
+  },
+  "上游 · 由此而来": {
+    "en": "Upstream · originated from this",
+    "fa": "بالادست · از این آمده"
+  },
+  "上移证据 ${b.id}": {
+    "en": "Move evidence ${b.id} up",
+    "fa": "انتقال شواهد ${b.id} به بالا"
+  },
+  "上移配置": {
+    "en": "Move configuration up",
+    "fa": "انتقال پیکربندی به بالا"
+  },
+  "上限发哪个键。max_tokens 是默认，绝大多数兼容网关只认它；OpenAI 官方推理模型（o 系列 / GPT-5）反过来只认 max_completion_tokens，收到 max_tokens 会直接报 unsupported_parameter。": {
+    "en": "Which key to send for the limit. max_tokens is the default, and most compatible gateways recognize only that. Official OpenAI reasoning models (o-series / GPT-5) accept only max_completion_tokens, and return unsupported_parameter if they receive max_tokens.",
+    "fa": "برای سقف کدام کلید فرستاده شود. max_tokens پیش‌فرض است و بیشتر درگاه‌های سازگار فقط همان را می‌شناسند. مدل‌های استدلالی رسمی OpenAI (سری o / GPT-5) فقط max_completion_tokens را می‌پذیرند و اگر max_tokens بگیرند unsupported_parameter برمی‌گردانند."
+  },
+  "上限字段名": {
+    "en": "Limit field name",
+    "fa": "نام فیلد سقف"
+  },
+  "下一页漏洞": {
+    "en": "Next page of vulnerabilities",
+    "fa": "صفحه بعدی آسیب‌پذیری‌ها"
+  },
+  "下游 · 由此产生": {
+    "en": "Downstream · produced from this",
+    "fa": "پایین‌دست · پدیدآمده از این"
+  },
+  "下移证据 ${b.id}": {
+    "en": "Move evidence ${b.id} down",
+    "fa": "انتقال شواهد ${b.id} به پایین"
+  },
+  "下移配置": {
+    "en": "Move configuration down",
+    "fa": "انتقال پیکربندی به پایین"
+  },
+  "下载": {
+    "en": "Download",
+    "fa": "دانلود"
+  },
+  "下载失败: ${r.status}": {
+    "en": "Download failed: ${r.status}",
+    "fa": "دانلود ناموفق: ${r.status}"
+  },
+  "下载失败：${(err as Error).message}": {
+    "en": "Download failed: ${(err as Error).message}",
+    "fa": "دانلود ناموفق: ${(err as Error).message}"
+  },
+  "不会": {
+    "en": "will not",
+    "fa": "نخواهد"
+  },
+  "不勾选则保留资产，仅取消归属关系": {
+    "en": "If unchecked, the assets stay and only the assignment is removed",
+    "fa": "اگر علامت نخورد، دارایی‌ها می‌مانند و فقط رابطه انتساب برداشته می‌شود"
+  },
+  "不发消息，直接继续执行": {
+    "en": "Do not send a message; continue execution",
+    "fa": "پیامی نفرستید و اجرا را ادامه دهید"
+  },
+  "不合并": {
+    "en": "Do not merge",
+    "fa": "ادغام نشود"
+  },
+  "不含": {
+    "en": "does not include",
+    "fa": "شامل نمی‌شود"
+  },
+  "不经过上面的出口代理": {
+    "en": "Do not go through the egress proxy above",
+    "fa": "از پروکسی خروجی بالا عبور نکند"
+  },
+  "不计入流量留痕": {
+    "en": "Not recorded in the traffic trace",
+    "fa": "در رد ترافیک ثبت نشود"
+  },
+  "不走": {
+    "en": "does not go through",
+    "fa": "از آن عبور نمی‌کند"
+  },
+  "不走这层": {
+    "en": "Skips this layer",
+    "fa": "از این لایه نمی‌گذرد"
+  },
+  "不限": {
+    "en": "Any",
+    "fa": "همه"
+  },
+  "与": {
+    "en": "and",
+    "fa": "و"
+  },
+  "且（两个条件都满足）": {
+    "en": "AND (both conditions must be met)",
+    "fa": "و (هر دو شرط باید برقرار باشند)"
+  },
+  "两套": {
+    "en": "two separate sets",
+    "fa": "دو مجموعه جدا"
+  },
+  "两次输入的密码不一致": {
+    "en": "The two passwords do not match",
+    "fa": "دو رمز واردشده یکسان نیستند"
+  },
+  "两次输入的新密码不一致": {
+    "en": "The two new passwords do not match",
+    "fa": "دو رمز جدید واردشده یکسان نیستند"
+  },
+  "严/高/中/低": {
+    "en": "Critical/High/Medium/Low",
+    "fa": "بحرانی/بالا/متوسط/پایین"
+  },
+  "严禁从事任何违反您所在国家或地区法律、法规及监管规定的行为。": {
+    "en": "Do not do anything that violates the laws, regulations, or regulatory requirements of your country or region.",
+    "fa": "هر کاری که خلاف قوانین، مقررات یا الزامات نظارتی کشور یا منطقه شما باشد ممنوع است."
+  },
+  "严禁将本软件用于任何实际的渗透测试、攻防对抗、红蓝演练或生产环境；": {
+    "en": "Do not use this software for any real penetration test, offensive or defensive engagement, red-team or blue-team exercise, or production environment;",
+    "fa": "استفاده از این نرم‌افزار برای آزمون نفوذ واقعی، رویارویی تهاجمی یا دفاعی، رزمایش تیم قرمز یا آبی، یا محیط تولید ممنوع است؛"
+  },
+  "严禁将本软件用于非法入侵、数据窃取、勒索、拒绝服务（DoS/DDoS）或任何破坏性、犯罪性活动；": {
+    "en": "Do not use this software for illegal intrusion, data theft, extortion, denial of service (DoS/DDoS), or any destructive or criminal activity;",
+    "fa": "استفاده از این نرم‌افزار برای نفوذ غیرقانونی، سرقت داده، باج‌گیری، منع سرویس (DoS/DDoS) یا هر فعالیت مخرب یا مجرمانه ممنوع است؛"
+  },
+  "严禁移除、篡改或规避本软件及其输出中的任何版权、许可或安全提示信息；": {
+    "en": "Do not remove, alter, or bypass any copyright, license, or safety notice in this software or its output;",
+    "fa": "حذف، تغییر یا دور زدن هر اطلاعیه حق نشر، مجوز یا هشدار ایمنی در این نرم‌افزار یا خروجی آن ممنوع است؛"
+  },
+  "严重 ${node.critical}": {
+    "en": "Critical ${node.critical}",
+    "fa": "بحرانی ${node.critical}"
+  },
+  "严重度": {
+    "en": "Severity",
+    "fa": "شدت"
+  },
+  "严重等级已改为「${statusMeta(\"severity\", next).label}」": {
+    "en": "Severity changed to \"${statusMeta(\"severity\", next).label}\"",
+    "fa": "شدت به «${statusMeta(\"severity\", next).label}» تغییر کرد"
+  },
+  "中危及以上": {
+    "en": "Medium and above",
+    "fa": "متوسط و بالاتر"
+  },
+  "串行·不合并：同 agent 一次跑一个；每条触发各自一个会话。": {
+    "en": "Serial · no merge: the same agent runs one at a time; each trigger gets its own session.",
+    "fa": "سری · بدون ادغام: هر agent در هر نوبت یکی را اجرا می‌کند؛ هر رخداد جلسه جداگانه خود را دارد."
+  },
+  "串行·全部合并：同 agent 一次跑一个；取队列时把当前排队的所有触发合并成一条会话。": {
+    "en": "Serial · merge all: the same agent runs one at a time; when taking from the queue, every currently queued trigger is merged into one session.",
+    "fa": "سری · ادغام همه: هر agent در هر نوبت یکی را اجرا می‌کند؛ هنگام برداشتن از صف، همه رخدادهای در صف در یک جلسه ادغام می‌شوند."
+  },
+  "串行·按任务合并：同 agent 一次跑一个；排队中同一任务的事件触发合并成一条会话。": {
+    "en": "Serial · merge by task: the same agent runs one at a time; queued triggers for the same task are merged into one session.",
+    "fa": "سری · ادغام بر اساس وظیفه: هر agent در هر نوبت یکی را اجرا می‌کند؛ رخدادهای در صفِ یک وظیفه در یک جلسه ادغام می‌شوند."
+  },
+  "串行（排队，一次一个）": {
+    "en": "Serial (queued, one at a time)",
+    "fa": "سری (صف، یکی در هر نوبت)"
+  },
+  "为该 Agent 开启后（点上方保存生效），可用 web_search 联网检索": {
+    "en": "After you enable this for the Agent (click Save above to apply), it can search the web with web_search",
+    "fa": "پس از فعال کردن این مورد برای Agent (برای اعمال، دکمه ذخیره بالا را بزنید) می‌تواند با web_search در وب جستجو کند"
+  },
+  "主 Agent · 会话 #${seg + 1}": {
+    "en": "Primary Agent · session #${seg + 1}",
+    "fa": "Agent اصلی · جلسه #${seg + 1}"
+  },
+  "主 Agent 正在运行，可输入 /btw 提问…": {
+    "en": "The primary Agent is running. Type /btw to ask a question…",
+    "fa": "Agent اصلی در حال اجراست. برای پرسیدن سؤال /btw را بنویسید…"
+  },
+  "主 Agent 首次运行后即可提问": {
+    "en": "You can ask questions after the primary Agent runs for the first time",
+    "fa": "پس از اولین اجرای Agent اصلی می‌توانید سؤال بپرسید"
+  },
+  "主域": {
+    "en": "Primary domain",
+    "fa": "دامنه اصلی"
+  },
+  "二次请求确认命令执行落地。": {
+    "en": "A second request confirmed that the command execution took effect.",
+    "fa": "درخواست دوم تأیید کرد که اجرای فرمان اثر کرده است."
+  },
+  "二进制文件，不支持在线预览/编辑。": {
+    "en": "Binary file. Online preview and editing are not supported.",
+    "fa": "فایل دودویی است. پیش‌نمایش و ویرایش آنلاین پشتیبانی نمی‌شود."
+  },
+  "交互式 Shell": {
+    "en": "Interactive Shell",
+    "fa": "Shell تعاملی"
+  },
+  "京ICP备2021xxxx号": {
+    "en": "Beijing ICP No. 2021xxxx",
+    "fa": "شماره ICP پکن 2021xxxx"
+  },
+  "人在环路对话，注入 hint / 高优意图": {
+    "en": "Human-in-the-loop chat; inject a hint or a high-priority intent",
+    "fa": "گفتگوی انسان در حلقه؛ تزریق hint یا قصد با اولویت بالا"
+  },
+  "人工允许执行": {
+    "en": "Execution allowed by a person",
+    "fa": "اجرا با اجازه انسان"
+  },
+  "人工加入": {
+    "en": "Added manually",
+    "fa": "افزوده‌شده به‌صورت دستی"
+  },
+  "人工审批（模型判为「转人工」时）": {
+    "en": "Human approval (when the model marks it as \"hand off to a person\")",
+    "fa": "تأیید انسان (وقتی مدل آن را «ارجاع به انسان» تشخیص دهد)"
+  },
+  "人工拒绝执行": {
+    "en": "Execution denied by a person",
+    "fa": "اجرا توسط انسان رد شد"
+  },
+  "仅 openai 格式可选。Anthropic 的字段名固定为 max_tokens。": {
+    "en": "Available only for the openai format. Anthropic's field name is fixed as max_tokens.",
+    "fa": "فقط برای قالب openai قابل انتخاب است. نام فیلد Anthropic ثابت و برابر max_tokens است."
+  },
+  "仅 openai 格式可选。Responses API 的字段名固定为 max_output_tokens。": {
+    "en": "Available only for the openai format. The Responses API field name is fixed as max_output_tokens.",
+    "fa": "فقط برای قالب openai قابل انتخاب است. نام فیلد Responses API ثابت و برابر max_output_tokens است."
+  },
+  "仅严重": {
+    "en": "Critical only",
+    "fa": "فقط بحرانی"
+  },
+  "仅保存最近的上下文，部分内容已截断。": {
+    "en": "Only the most recent context is kept. Some content has been truncated.",
+    "fa": "فقط تازه‌ترین زمینه نگه داشته می‌شود. بخشی از محتوا کوتاه شده است."
+  },
+  "仅对「汇总」模式的渠道生效。": {
+    "en": "Applies only to channels in \"summary\" mode.",
+    "fa": "فقط برای کانال‌های حالت «خلاصه» اعمال می‌شود."
+  },
+  "仅已暂停的 Worker 可以发送消息，请先暂停": {
+    "en": "Only a paused Worker can send messages. Pause it first.",
+    "fa": "فقط Worker متوقف‌شده می‌تواند پیام بفرستد. ابتدا آن را متوقف کنید."
+  },
+  "仅支持 DeepSeek 官方模型": {
+    "en": "Only official DeepSeek models are supported",
+    "fa": "فقط مدل‌های رسمی DeepSeek پشتیبانی می‌شوند"
+  },
+  "仅标量支持": {
+    "en": "Scalars only",
+    "fa": "فقط مقادیر اسکالر"
+  },
+  "仅由它支撑": {
+    "en": "supported only by it",
+    "fa": "فقط توسط آن پشتیبانی می‌شود"
+  },
+  "今日送达": {
+    "en": "Delivered today",
+    "fa": "تحویل امروز"
+  },
+  "仍可复现": {
+    "en": "Still reproducible",
+    "fa": "هنوز قابل بازتولید است"
+  },
+  "从 API 加载可用模型": {
+    "en": "Load available models from the API",
+    "fa": "بارگذاری مدل‌های موجود از API"
+  },
+  "从 GitHub 检查并安装新版本。更新会重启程序，正在运行的任务会被中断。": {
+    "en": "Check GitHub and install the new version. The update restarts the program, and running tasks are interrupted.",
+    "fa": "نسخه جدید را از GitHub بررسی و نصب کنید. به‌روزرسانی برنامه را دوباره راه می‌اندازد و وظیفه‌های در حال اجرا قطع می‌شوند."
+  },
+  "从 ScopeSentry 拉取资产并归并到公司范围；批量导入资产时使用。": {
+    "en": "Pull assets from ScopeSentry and merge them into the company scope. Used when importing assets in bulk.",
+    "fa": "دارایی‌ها را از ScopeSentry بگیرید و در محدوده شرکت ادغام کنید. هنگام وارد کردن گروهی دارایی‌ها به کار می‌رود."
+  },
+  "从外网突破 DMZ，建立内网立足点": {
+    "en": "Break out of the DMZ from the outside and establish an internal foothold",
+    "fa": "عبور از DMZ از بیرون و ایجاد جای پا در شبکه داخلی"
+  },
+  "从外部数据源同步资产入库": {
+    "en": "Sync assets from an external data source into the inventory",
+    "fa": "همگام‌سازی دارایی‌ها از منبع داده خارجی و ثبت آن‌ها"
+  },
+  "从未被任何 agent 加载": {
+    "en": "Never loaded by any agent",
+    "fa": "هرگز توسط هیچ agent بارگذاری نشده است"
+  },
+  "从未调用": {
+    "en": "Never called",
+    "fa": "هرگز فراخوانی نشده"
+  },
+  "从漏洞详情手动启动，保存独立复测结论": {
+    "en": "Start manually from the vulnerability details and save a separate retest conclusion",
+    "fa": "از جزئیات آسیب‌پذیری به‌صورت دستی شروع کنید و نتیجه بازآزمون جداگانه را ذخیره کنید"
+  },
+  "代理 URL（空=直连）": {
+    "en": "Proxy URL (empty = direct)",
+    "fa": "URL پروکسی (خالی = مستقیم)"
+  },
+  "代理（可选）": {
+    "en": "Proxy (optional)",
+    "fa": "پروکسی (اختیاری)"
+  },
+  "以及 range .Items 下的 .Name/.VulnClass/.Severity/.Summary/.Assets/.DetailURL/.StatusLabel。": {
+    "en": "and .Name/.VulnClass/.Severity/.Summary/.Assets/.DetailURL/.StatusLabel under range .Items.",
+    "fa": "و .Name/.VulnClass/.Severity/.Summary/.Assets/.DetailURL/.StatusLabel زیر range .Items."
+  },
+  "仪表盘": {
+    "en": "Dashboard",
+    "fa": "داشبورد"
+  },
+  "任务 #${archive.task_id}": {
+    "en": "Task #${archive.task_id}",
+    "fa": "وظیفه #${archive.task_id}"
+  },
+  "任务 #${c.task_id}": {
+    "en": "Task #${c.task_id}",
+    "fa": "وظیفه #${c.task_id}"
+  },
+  "任务 #${group.task_id}": {
+    "en": "Task #${group.task_id}",
+    "fa": "وظیفه #${group.task_id}"
+  },
+  "任务 #${id} 已暂停": {
+    "en": "Task #${id} paused",
+    "fa": "وظیفه #${id} متوقف شد"
+  },
+  "任务 #${id} 已继续${result.queued ? \"，已进入队列\" : \"\"}": {
+    "en": "Task #${id} resumed${result.queued ? \", added to the queue\" : \"\"}",
+    "fa": "وظیفه #${id} ادامه یافت${result.queued ? \"، به صف اضافه شد\" : \"\"}"
+  },
+  "任务 #${id}（已删除）": {
+    "en": "Task #${id} (deleted)",
+    "fa": "وظیفه #${id} (حذف‌شده)"
+  },
+  "任务 #${task.id} 名称": {
+    "en": "Task #${task.id} name",
+    "fa": "نام وظیفه #${task.id}"
+  },
+  "任务 #${task.id} 已取消置顶": {
+    "en": "Task #${task.id} unpinned",
+    "fa": "سنجاق وظیفه #${task.id} برداشته شد"
+  },
+  "任务 #${task.id} 已移至「${category?.name ?? \"未分类\"}」": {
+    "en": "Task #${task.id} moved to \"${category?.name ?? \"Uncategorized\"}\"",
+    "fa": "وظیفه #${task.id} به «${category?.name ?? \"بدون دسته\"}» منتقل شد"
+  },
+  "任务 #${task.id} 已置顶": {
+    "en": "Task #${task.id} pinned",
+    "fa": "وظیفه #${task.id} سنجاق شد"
+  },
+  "任务 #${task.id} 已进入归档队列": {
+    "en": "Task #${task.id} added to the archive queue",
+    "fa": "وظیفه #${task.id} به صف بایگانی اضافه شد"
+  },
+  "任务 #${task.id} 已重命名": {
+    "en": "Task #${task.id} renamed",
+    "fa": "نام وظیفه #${task.id} تغییر کرد"
+  },
+  "任务 ${id} 已被删除、归档或不存在": {
+    "en": "Task ${id} has been deleted, archived, or does not exist",
+    "fa": "وظیفه ${id} حذف شده، بایگانی شده یا وجود ندارد"
+  },
+  "任务 ${row.task_id}": {
+    "en": "Task ${row.task_id}",
+    "fa": "وظیفه ${row.task_id}"
+  },
+  "任务 ID": {
+    "en": "Task ID",
+    "fa": "شناسه وظیفه"
+  },
+  "任务 LLM 配置链": {
+    "en": "Task LLM configuration chain",
+    "fa": "زنجیره پیکربندی LLM وظیفه"
+  },
+  "任务 LLM 配置链额度已耗尽": {
+    "en": "The task LLM configuration chain quota is exhausted",
+    "fa": "سهمیه زنجیره پیکربندی LLM وظیفه تمام شده است"
+  },
+  "任务/资产留空=不限；填写后要求与漏洞有交集。": {
+    "en": "Leave task or asset blank for no limit; if filled in, it must overlap the vulnerability.",
+    "fa": "وظیفه یا دارایی را خالی بگذارید تا بدون محدودیت باشد؛ اگر پر شود باید با آسیب‌پذیری اشتراک داشته باشد."
+  },
+  "任务分类管理": {
+    "en": "Task categories",
+    "fa": "مدیریت دسته‌بندی وظایف"
+  },
+  "任务创建": {
+    "en": "Task creation",
+    "fa": "ایجاد وظیفه"
+  },
+  "任务创建时关联企业：${company?.name ?? ": {
+    "en": "Company linked when the task is created: ${company?.name ?? ",
+    "fa": "شرکت مرتبط هنگام ایجاد وظیفه: ${company?.name ?? "
+  },
+  "任务初始化": {
+    "en": "Task initialization",
+    "fa": "آماده‌سازی وظیفه"
+  },
+  "任务名": {
+    "en": "Task name",
+    "fa": "نام وظیفه"
+  },
+  "任务已创建": {
+    "en": "Task created",
+    "fa": "وظیفه ایجاد شد"
+  },
+  "任务已删除": {
+    "en": "Task deleted",
+    "fa": "وظیفه حذف شد"
+  },
+  "任务已删除（${details.join(\"，\")}）": {
+    "en": "Task deleted (${details.join(\", \")})",
+    "fa": "وظیفه حذف شد (${details.join(\"، \")})"
+  },
+  "任务已加入归档队列": {
+    "en": "Task added to the archive queue",
+    "fa": "وظیفه به صف بایگانی اضافه شد"
+  },
+  "任务已经在归档队列中": {
+    "en": "The task is already in the archive queue",
+    "fa": "وظیفه از قبل در صف بایگانی است"
+  },
+  "任务已经暂停": {
+    "en": "The task is already paused",
+    "fa": "وظیفه از قبل متوقف است"
+  },
+  "任务已结束，改动只影响后续的主 Agent 对话。": {
+    "en": "The task has ended. Changes affect only later conversations with the primary Agent.",
+    "fa": "وظیفه تمام شده است. تغییرات فقط روی گفتگوهای بعدی Agent اصلی اثر می‌گذارند."
+  },
+  "任务并发设置": {
+    "en": "Task concurrency settings",
+    "fa": "تنظیمات هم‌زمانی وظیفه"
+  },
+  "任务并发限制": {
+    "en": "Task concurrency limit",
+    "fa": "سقف هم‌زمانی وظیفه"
+  },
+  "任务总计": {
+    "en": "Task total",
+    "fa": "مجموع وظایف"
+  },
+  "任务或资产不存在": {
+    "en": "The task or asset does not exist",
+    "fa": "وظیفه یا دارایی وجود ندارد"
+  },
+  "任务描述（旧版）": {
+    "en": "Task description (legacy)",
+    "fa": "شرح وظیفه (قدیمی)"
+  },
+  "任务操作约束（旧版）": {
+    "en": "Task operation constraints (legacy)",
+    "fa": "محدودیت‌های عملیاتی وظیفه (قدیمی)"
+  },
+  "任务文件": {
+    "en": "Task files",
+    "fa": "فایل‌های وظیفه"
+  },
+  "任务未暂停": {
+    "en": "The task is not paused",
+    "fa": "وظیفه متوقف نیست"
+  },
+  "任务模板": {
+    "en": "Task template",
+    "fa": "قالب وظیفه"
+  },
+  "任务模板管理": {
+    "en": "Task templates",
+    "fa": "مدیریت قالب‌های وظیفه"
+  },
+  "任务状态已变化": {
+    "en": "Task status has changed",
+    "fa": "وضعیت وظیفه تغییر کرده است"
+  },
+  "任务目标（旧版）": {
+    "en": "Task objectives (legacy)",
+    "fa": "اهداف وظیفه (قدیمی)"
+  },
+  "任务级拦截 / 允许规则": {
+    "en": "Task-level block / allow rules",
+    "fa": "قواعد مسدودسازی / اجازه در سطح وظیفه"
+  },
+  "任务级资产拦截 / 允许规则（可选）": {
+    "en": "Task-level asset block / allow rules (optional)",
+    "fa": "قواعد مسدودسازی / اجازه دارایی در سطح وظیفه (اختیاری)"
+  },
+  "任务维度": {
+    "en": "Task dimension",
+    "fa": "بُعد وظیفه"
+  },
+  "任务被创建时发给 agent 的话（系统会附带任务编号与目标）": {
+    "en": "Text sent to the agent when a task is created (the system appends the task id and objectives)",
+    "fa": "متنی که هنگام ایجاد وظیفه به agent فرستاده می‌شود (سیستم شناسه وظیفه و اهداف را ضمیمه می‌کند)"
+  },
+  "任务被未归档任务 #${dependent.id} 直接继承，暂不能归档": {
+    "en": "The task is directly inherited by unarchived task #${dependent.id} and cannot be archived yet",
+    "fa": "این وظیفه مستقیماً توسط وظیفه بایگانی‌نشده #${dependent.id} به ارث رسیده و هنوز نمی‌شود آن را بایگانی کرد"
+  },
+  "任务超时": {
+    "en": "Task timeout",
+    "fa": "مهلت وظیفه"
+  },
+  "任务超时收尾": {
+    "en": "Task timeout wrap-up",
+    "fa": "جمع‌بندی مهلت وظیفه"
+  },
+  "任务超时收尾提示词正文": {
+    "en": "Task timeout wrap-up prompt body",
+    "fa": "متن پرامپت جمع‌بندی مهلت وظیفه"
+  },
+  "任务超时收尾配置已保存（下次运行生效）": {
+    "en": "Task timeout wrap-up settings saved (takes effect on the next run)",
+    "fa": "تنظیم جمع‌بندی مهلت وظیفه ذخیره شد (از اجرای بعدی اعمال می‌شود)"
+  },
+  "任务超时时发给 agent 的话（系统会附带任务编号与目标）": {
+    "en": "Text sent to the agent when a task times out (the system appends the task id and objectives)",
+    "fa": "متنی که هنگام پایان مهلت وظیفه به agent فرستاده می‌شود (سیستم شناسه وظیفه و اهداف را ضمیمه می‌کند)"
+  },
+  "任务超时（分钟，可选）": {
+    "en": "Task timeout (minutes, optional)",
+    "fa": "مهلت وظیفه (دقیقه، اختیاری)"
+  },
+  "任务超时，请立即收尾并落库当前结论。": {
+    "en": "The task has timed out. Wrap up now and save the current conclusions.",
+    "fa": "مهلت وظیفه تمام شد. همین حالا جمع‌بندی کنید و نتیجه‌های فعلی را ذخیره کنید."
+  },
+  "任务需要达成的目标": {
+    "en": "Objectives the task must achieve",
+    "fa": "اهدافی که وظیفه باید به آن‌ها برسد"
+  },
+  "企业 #${row.company_id}": {
+    "en": "Company #${row.company_id}",
+    "fa": "شرکت #${row.company_id}"
+  },
+  "企业关联": {
+    "en": "Company link",
+    "fa": "پیوند شرکت"
+  },
+  "企业名称": {
+    "en": "Company name",
+    "fa": "نام شرکت"
+  },
+  "企业名称不能为空": {
+    "en": "Company name cannot be empty",
+    "fa": "نام شرکت نمی‌تواند خالی باشد"
+  },
+  "企业已存在": {
+    "en": "Company already exists",
+    "fa": "شرکت از قبل وجود دارد"
+  },
+  "企业已存在，请换个名称": {
+    "en": "That company already exists. Use a different name.",
+    "fa": "این شرکت از قبل وجود دارد. نام دیگری بگذارید."
+  },
+  "企业微信": {
+    "en": "WeCom",
+    "fa": "وی‌چت سازمانی"
+  },
+  "企业范围包含无效规则，未覆盖原有范围": {
+    "en": "The company scope contains invalid rules and did not replace the existing scope",
+    "fa": "محدوده شرکت قاعده نامعتبر دارد و محدوده قبلی را جایگزین نکرد"
+  },
+  "优先级（数字越大越先匹配）": {
+    "en": "Priority (a higher number matches first)",
+    "fa": "اولویت (عدد بزرگ‌تر زودتر منطبق می‌شود)"
+  },
+  "会物理移除该意图，以及": {
+    "en": "will permanently remove this intent, along with",
+    "fa": "این قصد را برای همیشه حذف می‌کند، به‌همراه"
+  },
+  "会话": {
+    "en": "Session",
+    "fa": "جلسه"
+  },
+  "会话中未找到对应工具调用": {
+    "en": "The matching tool call was not found in the session",
+    "fa": "فراخوانی ابزار متناظر در جلسه پیدا نشد"
+  },
+  "会话中未找到对应工具调用，记录可能已删除": {
+    "en": "The matching tool call was not found in the session. The record may have been deleted.",
+    "fa": "فراخوانی ابزار متناظر در جلسه پیدا نشد. ممکن است رکورد حذف شده باشد."
+  },
+  "会话列表": {
+    "en": "Sessions",
+    "fa": "فهرست جلسه‌ها"
+  },
+  "会话已删除": {
+    "en": "Session deleted",
+    "fa": "جلسه حذف شد"
+  },
+  "会话当前轮输入（审计片段）": {
+    "en": "Current-turn session input (audit excerpt)",
+    "fa": "ورودی نوبت جاری جلسه (گزیده حسابرسی)"
+  },
+  "传输方式": {
+    "en": "Transport",
+    "fa": "روش انتقال"
+  },
+  "低危及以上": {
+    "en": "Low and above",
+    "fa": "پایین و بالاتر"
+  },
+  "你是 ARTEX 的「${a.name}」。\\n目标：{{.Goal}}\\n资产概览：{{.AssetSummary}}\\n路线提示：{{.RouteHint}}\\n请基于以上信息推进探索，并通过工具把结果写回图。": {
+    "en": "You are ARTEX's \"${a.name}\".\nGoal: {{.Goal}}\nAsset overview: {{.AssetSummary}}\nRoute hint: {{.RouteHint}}\nContinue the exploration from the information above, and write the results back to the graph through tools.",
+    "fa": "شما «${a.name}» در ARTEX هستید.\nهدف: {{.Goal}}\nنمای دارایی‌ها: {{.AssetSummary}}\nراهنمای مسیر: {{.RouteHint}}\nبر پایه اطلاعات بالا اکتشاف را پیش ببرید و نتیجه‌ها را با ابزارها به گراف برگردانید."
+  },
+  "你是 ARTEX 的规划者(v2)……": {
+    "en": "You are ARTEX's planner (v2)……",
+    "fa": "شما برنامه‌ریز ARTEX هستید (v2)……"
+  },
+  "你是 ARTEX 的规划者……": {
+    "en": "You are ARTEX's planner……",
+    "fa": "شما برنامه‌ریز ARTEX هستید……"
+  },
+  "例如：OpenAI 生产": {
+    "en": "For example: OpenAI production",
+    "fa": "مثلاً: محیط تولید OpenAI"
+  },
+  "例如：使用原测试账号验证原接口；修复版本为 v2。": {
+    "en": "For example: verify the original endpoint with the original test account; the fixed version is v2.",
+    "fa": "مثلاً: نقطه انتهایی اصلی را با حساب آزمایشی اصلی بررسی کنید؛ نسخه اصلاح‌شده v2 است."
+  },
+  "例如：外网评估": {
+    "en": "For example: external assessment",
+    "fa": "مثلاً: ارزیابی خارجی"
+  },
+  "例如：外部 Web 渗透": {
+    "en": "For example: external web penetration test",
+    "fa": "مثلاً: آزمون نفوذ وب خارجی"
+  },
+  "侦察机器人（自定义）": {
+    "en": "Recon bot (custom)",
+    "fa": "ربات شناسایی (سفارشی)"
+  },
+  "保存中...": {
+    "en": "Saving...",
+    "fa": "در حال ذخیره..."
+  },
+  "保存失败：${(err as Error).message}": {
+    "en": "Save failed: ${(err as Error).message}",
+    "fa": "ذخیره ناموفق: ${(err as Error).message}"
+  },
+  "保存失败：${msg}": {
+    "en": "Save failed: ${msg}",
+    "fa": "ذخیره ناموفق: ${msg}"
+  },
+  "保存工具绑定失败：": {
+    "en": "Failed to save tool bindings:",
+    "fa": "ذخیره اتصال ابزارها ناموفق بود:"
+  },
+  "保存并重置": {
+    "en": "Save and reset",
+    "fa": "ذخیره و بازنشانی"
+  },
+  "保存策略失败：": {
+    "en": "Failed to save the policy:",
+    "fa": "ذخیره سیاست ناموفق بود:"
+  },
+  "保存配置": {
+    "en": "Save configuration",
+    "fa": "ذخیره پیکربندی"
+  },
+  "保留数据，可追溯": {
+    "en": "Keep the data so it stays traceable",
+    "fa": "داده‌ها بماند تا قابل پیگیری باشد"
+  },
+  "信息泄露": {
+    "en": "Information disclosure",
+    "fa": "افشای اطلاعات"
+  },
+  "修复部署完成后，可发起复测并比较新旧证据。": {
+    "en": "After the fix is deployed, you can start a retest and compare the old and new evidence.",
+    "fa": "پس از استقرار اصلاح، می‌توانید بازآزمون را شروع کنید و شواهد قدیم و جدید را مقایسه کنید."
+  },
+  "修改中…": {
+    "en": "Updating…",
+    "fa": "در حال ویرایش…"
+  },
+  "修改分类失败：${(error as Error).message}": {
+    "en": "Failed to change category: ${(error as Error).message}",
+    "fa": "تغییر دسته‌بندی ناموفق: ${(error as Error).message}"
+  },
+  "修改后点击保存；激活配置保存后对全部 Agent 立即生效。": {
+    "en": "Click Save after editing. Once an active configuration is saved, it applies to every Agent immediately.",
+    "fa": "پس از ویرایش ذخیره را بزنید. پیکربندی فعال بلافاصله پس از ذخیره روی همه Agentها اعمال می‌شود."
+  },
+  "修改失败：${(err as Error).message}": {
+    "en": "Update failed: ${(err as Error).message}",
+    "fa": "ویرایش ناموفق: ${(err as Error).message}"
+  },
+  "修改密码": {
+    "en": "Change password",
+    "fa": "تغییر رمز عبور"
+  },
+  "修改时间": {
+    "en": "Modified at",
+    "fa": "زمان تغییر"
+  },
+  "倒序": {
+    "en": "Descending",
+    "fa": "نزولی"
+  },
+  "停止失败：": {
+    "en": "Failed to stop:",
+    "fa": "توقف ناموفق بود:"
+  },
+  "停止旁路回答": {
+    "en": "Stop side answer",
+    "fa": "توقف پاسخ جانبی"
+  },
+  "停止本次运行": {
+    "en": "Stop this run",
+    "fa": "توقف این اجرا"
+  },
+  "停滞": {
+    "en": "Stalled",
+    "fa": "راکد"
+  },
+  "允许 — 直接放行，跳过后续规则": {
+    "en": "Allow — pass through immediately and skip the later rules",
+    "fa": "مجاز — عبور مستقیم و رد شدن از قاعده‌های بعدی"
+  },
+  "先在上方选择任务": {
+    "en": "Select a task above first",
+    "fa": "ابتدا یک وظیفه را در بالا انتخاب کنید"
+  },
+  "先在左侧选择目标或输入 host": {
+    "en": "Select a target on the left, or enter a host",
+    "fa": "ابتدا هدف را سمت چپ انتخاب کنید یا host را وارد کنید"
+  },
+  "入": {
+    "en": "In",
+    "fa": "ورودی"
+  },
+  "全局录制代理 · 所有 HTTP 往来": {
+    "en": "Global recording proxy · all HTTP traffic",
+    "fa": "پروکسی ضبط سراسری · همه ترافیک HTTP"
+  },
+  "全局设置": {
+    "en": "Global settings",
+    "fa": "تنظیمات سراسری"
+  },
+  "全局运行时开关": {
+    "en": "Global runtime switches",
+    "fa": "کلیدهای سراسری زمان اجرا"
+  },
+  "全局配置": {
+    "en": "Global configuration",
+    "fa": "پیکربندی سراسری"
+  },
+  "全等匹配：目标需与此内容完全一致": {
+    "en": "Exact match: the target must be identical to this content",
+    "fa": "تطابق کامل: هدف باید دقیقاً با این محتوا یکی باشد"
+  }
+}

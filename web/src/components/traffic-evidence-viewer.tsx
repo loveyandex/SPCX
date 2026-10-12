@@ -1,5 +1,6 @@
 "use client";
 
+import { t as tr } from "@/i18n/t";
 import * as React from "react";
 
 import { toast } from "sonner";
@@ -71,9 +72,9 @@ export function TrafficEvidenceViewer({
     >
       <DialogContent className="max-h-[90vh] overflow-y-auto sm:max-w-4xl">
         <DialogHeader>
-          <DialogTitle>流量证据 #{bindingId}</DialogTitle>
+          <DialogTitle>{tr("Traffic evidence #")}{bindingId}</DialogTitle>
           <DialogDescription className="break-all">
-            {detail?.binding.snapshot.url ?? "查看绑定时保存的请求与响应"}
+            {detail?.binding.snapshot.url ?? tr("View the request and response saved when it was bound")}
           </DialogDescription>
         </DialogHeader>
         {error ? (
@@ -83,14 +84,15 @@ export function TrafficEvidenceViewer({
         ) : detail ? (
           <Tabs defaultValue="request">
             <TabsList>
-              <TabsTrigger value="request">请求 Request</TabsTrigger>
-              <TabsTrigger value="response">响应 Response</TabsTrigger>
+              <TabsTrigger value="request">{tr("Request")}</TabsTrigger>
+              <TabsTrigger value="response">{tr("Response")}</TabsTrigger>
             </TabsList>
             {(["request", "response"] as const).map((side) => (
               <TabsContent key={side} value={side}>
                 <div className="flex flex-wrap items-center justify-between gap-2">
                   <span className="text-xs text-muted-foreground">
-                    正文 {detail[side].total.toLocaleString()} 字节{detail[side].truncated ? " · 当前为预览" : ""}
+                    
+                    {tr("Body")} {detail[side].total.toLocaleString()}  {tr("bytes")}{detail[side].truncated ? tr(" · Preview only") : ""}
                   </span>
                   <Button
                     variant="outline"
@@ -101,7 +103,8 @@ export function TrafficEvidenceViewer({
                         .catch((e: Error) => toast.error(e.message))
                     }
                   >
-                    下载完整{side === "request" ? "请求" : "响应"}正文
+                    
+                    {tr("Download full content")}{side === "request" ? tr("Request") : tr("Response")}{tr("Body")}
                   </Button>
                 </div>
                 <HttpCodeBlock
@@ -109,7 +112,8 @@ export function TrafficEvidenceViewer({
                 />
                 {detail[side].truncated && !detail[side].binary ? (
                   <Button variant="outline" size="sm" disabled={busy} onClick={() => void more(side)}>
-                    加载更多正文
+                    
+                    {tr("Load more of the body")}
                   </Button>
                 ) : null}
               </TabsContent>
@@ -152,8 +156,8 @@ export function CapturedTrafficViewer({ id, onClose }: { id: string | null; onCl
     >
       <DialogContent className="max-h-[90vh] overflow-y-auto sm:max-w-4xl">
         <DialogHeader>
-          <DialogTitle>预览流量</DialogTitle>
-          <DialogDescription>流量 ID：{id}。绑定时会保存完整正文。</DialogDescription>
+          <DialogTitle>{tr("Preview traffic")}</DialogTitle>
+          <DialogDescription>{tr("Traffic ID: ")}{id}{tr(". Binding saves the full body.")}</DialogDescription>
         </DialogHeader>
         {error ? (
           <Alert variant="destructive">
@@ -162,8 +166,8 @@ export function CapturedTrafficViewer({ id, onClose }: { id: string | null; onCl
         ) : detail ? (
           <Tabs defaultValue="request">
             <TabsList>
-              <TabsTrigger value="request">请求 Request</TabsTrigger>
-              <TabsTrigger value="response">响应 Response</TabsTrigger>
+              <TabsTrigger value="request">{tr("Request")}</TabsTrigger>
+              <TabsTrigger value="response">{tr("Response")}</TabsTrigger>
             </TabsList>
             <TabsContent value="request">
               <HttpCodeBlock raw={detail.req} />

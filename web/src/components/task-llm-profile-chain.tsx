@@ -1,5 +1,6 @@
 "use client";
 
+import { t as tr } from "@/i18n/t";
 import * as React from "react";
 
 import { ArrowDownIcon, ArrowUpIcon, XIcon } from "lucide-react";
@@ -32,15 +33,16 @@ interface TaskLLMProfileChainProps {
 }
 
 function ProfileRoleBadge({ index, currentIndex }: { index: number; currentIndex: number }) {
-  if (index === currentIndex) return <Badge variant="default">当前</Badge>;
+  if (index === currentIndex) return <Badge variant="default">{tr("Current")}</Badge>;
   if (index < currentIndex) {
     return (
-      <Badge variant="outline" title="当前游标之前的配置不会被自动故障转移选中">
-        已跳过
+      <Badge variant="outline" title={tr("Configurations before the current cursor are not selected by automatic failover")}>
+        
+        {tr("Skipped")}
       </Badge>
     );
   }
-  return <Badge variant="secondary">备用 {index - currentIndex}</Badge>;
+  return <Badge variant="secondary">{tr("Fallback")} {index - currentIndex}</Badge>;
 }
 
 export function TaskLLMProfileChain({
@@ -64,7 +66,7 @@ export function TaskLLMProfileChain({
   const profileLabel = React.useCallback(
     (id: string) => {
       const profile = profilesByID.get(id);
-      return profile ? `${profile.name} ${profile.model}` : `配置 #${id}`;
+      return profile ? `${profile.name} ${profile.model}` : tr("Profile #{0}", { "0": id });
     },
     [profilesByID],
   );
@@ -108,12 +110,12 @@ export function TaskLLMProfileChain({
           </ComboboxValue>
           <ComboboxChipsInput
             id={inputId}
-            placeholder={profiles.length > 0 ? "搜索并添加 LLM 配置" : "暂无可用 LLM 配置"}
+            placeholder={profiles.length > 0 ? tr("Search and add an LLM configuration") : tr("No LLM configurations available")}
             disabled={disabled ? true : profilesUnavailable}
           />
         </ComboboxChips>
         <ComboboxContent portalContainer={portalContainer}>
-          <ComboboxEmpty>没有匹配的 LLM 配置</ComboboxEmpty>
+          <ComboboxEmpty>{tr("No matching LLM configuration")}</ComboboxEmpty>
           <ComboboxList>
             {(id) => {
               const profile = profilesByID.get(id);
@@ -122,8 +124,8 @@ export function TaskLLMProfileChain({
                   <div className="flex min-w-0 flex-1 flex-col">
                     <span className="flex min-w-0 items-center gap-2">
                       <span className="truncate">
-                        {profile?.name ?? `配置 #${id}`}
-                        {profile?.is_default ? "（激活）" : ""}
+                        {profile?.name ?? tr("Profile #{0}", { "0": id })}
+                        {profile?.is_default ? tr("(active)") : ""}
                       </span>
                     </span>
                     {profile && <span className="truncate text-muted-foreground text-xs">{profile.model}</span>}
@@ -136,7 +138,7 @@ export function TaskLLMProfileChain({
       </Combobox>
 
       {value.length === 0 ? (
-        <p className="text-muted-foreground text-xs">未指定配置时，任务跟随 Agent 或全局激活配置。</p>
+        <p className="text-muted-foreground text-xs">{tr("When no configuration is specified, the task follows the Agent or the globally active configuration.")}</p>
       ) : (
         <div className="flex flex-col divide-y rounded-lg border">
           {value.map((id, index) => {
@@ -148,9 +150,9 @@ export function TaskLLMProfileChain({
               >
                 <span className="w-5 shrink-0 text-center text-muted-foreground text-xs tabular-nums">{index + 1}</span>
                 <div className="min-w-0 sm:flex-1">
-                  <p className="truncate font-medium text-sm">{profile?.name ?? `配置 #${id}`}</p>
+                  <p className="truncate font-medium text-sm">{profile?.name ?? tr("Profile #{0}", { "0": id })}</p>
                   <div className="flex min-w-0 items-center gap-2">
-                    <p className="truncate text-muted-foreground text-xs">{profile?.model ?? "配置已不可用"}</p>
+                    <p className="truncate text-muted-foreground text-xs">{profile?.model ?? tr("Configuration is no longer available")}</p>
                   </div>
                 </div>
                 <ProfileRoleBadge index={index} currentIndex={currentIndex} />
@@ -159,7 +161,7 @@ export function TaskLLMProfileChain({
                     type="button"
                     variant="ghost"
                     size="icon-sm"
-                    aria-label="上移配置"
+                    aria-label={tr("Move configuration up")}
                     onClick={() => move(index, -1)}
                     disabled={disabled ? true : index === 0}
                   >
@@ -169,7 +171,7 @@ export function TaskLLMProfileChain({
                     type="button"
                     variant="ghost"
                     size="icon-sm"
-                    aria-label="下移配置"
+                    aria-label={tr("Move configuration down")}
                     onClick={() => move(index, 1)}
                     disabled={disabled ? true : index === value.length - 1}
                   >
@@ -179,7 +181,7 @@ export function TaskLLMProfileChain({
                     type="button"
                     variant="ghost"
                     size="icon-sm"
-                    aria-label="移除配置"
+                    aria-label={tr("Remove configuration")}
                     onClick={() => remove(id)}
                     disabled={disabled}
                   >
@@ -194,7 +196,7 @@ export function TaskLLMProfileChain({
 
       {onActiveProfileChange && value.length > 0 && (
         <div className="flex flex-col items-stretch gap-2 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
-          <span className="font-medium text-sm">当前配置</span>
+          <span className="font-medium text-sm">{tr("Current configuration")}</span>
           <Select
             value={activeProfileId && value.includes(activeProfileId) ? activeProfileId : value[0]}
             onValueChange={onActiveProfileChange}
@@ -209,7 +211,7 @@ export function TaskLLMProfileChain({
                   const profile = profilesByID.get(id);
                   return (
                     <SelectItem key={id} value={id} disabled={!profile}>
-                      {profile?.name ?? `配置 #${id}`}
+                      {profile?.name ?? tr("Profile #{0}", { "0": id })}
                     </SelectItem>
                   );
                 })}
